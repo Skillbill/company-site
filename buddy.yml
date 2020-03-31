@@ -15,4 +15,5 @@
       env_key: "test_rsa"
       login: "root"
       host: "188.166.39.199"
+      port: "22"
 
