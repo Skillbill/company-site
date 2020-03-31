@@ -4,6 +4,8 @@
   actions:
     - action: "Install and build"
       type: "BUILD"
+      docker_image_name: "library/node"
+      docker_image_tag: "6"
       execute_commands:
         - "npm install"
         - "npm run build"
