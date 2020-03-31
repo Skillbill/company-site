@@ -9,3 +9,10 @@
       execute_commands:
         - "npm install"
         - "npm run build"
+    - action: "Publish"
+      type: "DIGITAL_OCEAN"
+      authentication_mode: "ENV_KEY"
+      env_key: "test_rsa"
+      login: "root"
+      host: "188.166.39.199"
+
