@@ -27,10 +27,10 @@
     authentication_mode: "ENV_KEY"
   - action: "Send CD notification"
     type: "SLACK"
-    content: "[#$BUDDY_EXECUTION_ID] $BUDDY_PIPELINE_NAME execution by <$BUDDY_INVOKER_URL|$BUDDY_INVOKER_NAME>\r\n"
+    content: "[#$BUDDY_EXECUTION_ID] $BUDDY_PIPELINE_NAME execution\r\n"
     channel: "C0TNK5J4T"
     channel_name: "continuous-delivery"
     attachments:
     - "{\"fallback\":\"$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID\",\"color\":\"good\",\"fields\":[{\"title\":\"Successful execution\",\"value\":\"<$BUDDY_EXECUTION_URL|Execution #$BUDDY_EXECUTION_ID $BUDDY_EXECUTION_COMMENT>\",\"short\":true},{\"title\":\"Pipeline\",\"value\":\"<$BUDDY_PIPELINE_URL|$BUDDY_PIPELINE_NAME>\",\"short\":true},{\"title\":\"Branch\",\"value\":\"$BUDDY_EXECUTION_BRANCH\",\"short\":true},{\"title\":\"Project\",\"value\":\"<$BUDDY_PROJECT_URL|$BUDDY_PROJECT_NAME>\",\"short\":true}]}"
     trigger_condition: "ALWAYS"
-    integration_hash: "5e844e9c422f5a7e06370851"
+    integration_hash: "${SLACK_CD_INTEGRATION_HASH}"
