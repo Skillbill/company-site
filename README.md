@@ -3,23 +3,9 @@ company-site
 
 [production company site](https://www.skillbill.it)
 
-# Developoment
+## Prod Server
 
-```
-> docker run --rm --name some-nginx -p 8080:80 -v `pwd`/source:/usr/share/nginx/html:ro nginx:1.17.8
-> google-chrome http://localhost:8080
-```
-
-# Deploy
-
-```
-> rsync -avh source/* root@37.139.16.181:/var/www/html/
-
-```
-
-## PROD SERVER
-
-DIGITAL OCEAN UBUNTU 18.04 - docker - docker-compose - https
+DIGITAL OCEAN UBUNTU 18.04 - https
 
 ```shell
 apt-get update
@@ -33,6 +19,7 @@ vi /etc/nginx/conf.d/intranet2.skillbill.net.conf
 nginx -t && nginx -s reload
 certbot --nginx -d intranet2.skillbill.net
 crontab -e
+````
 
 ### HTTPS CONF - version 1
 
@@ -45,14 +32,13 @@ server {
 }
 ```
 
-
-### ADD RENEW CERT
+### Add renew cert
 ```
 0 12 * * * /usr/bin/certbot renew --quiet
 ```
 
 
-## Develop
+### Develop
 
     > npm install
     > npm install -g gatsby-cli
