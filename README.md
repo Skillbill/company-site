@@ -3,23 +3,9 @@ company-site
 
 [production company site](https://www.skillbill.it)
 
-# Developoment
-
-```
-> docker run --rm --name some-nginx -p 8080:80 -v `pwd`/source:/usr/share/nginx/html:ro nginx:1.17.8
-> google-chrome http://localhost:8080
-```
-
-# Deploy
-
-```
-> rsync -avh source/* root@37.139.16.181:/var/www/html/
-
-```
-
 ## PROD SERVER
 
-DIGITAL OCEAN UBUNTU 18.04 - docker - docker-compose - https
+DIGITAL OCEAN UBUNTU 18.04 - https
 
 ```shell
 apt-get update
