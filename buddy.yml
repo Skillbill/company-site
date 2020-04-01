@@ -33,4 +33,4 @@
     attachments:
     - "{\"fallback\":\"$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID\",\"color\":\"good\",\"fields\":[{\"title\":\"Successful execution\",\"value\":\"<$BUDDY_EXECUTION_URL|Execution #$BUDDY_EXECUTION_ID $BUDDY_EXECUTION_COMMENT>\",\"short\":true},{\"title\":\"Pipeline\",\"value\":\"<$BUDDY_PIPELINE_URL|$BUDDY_PIPELINE_NAME>\",\"short\":true},{\"title\":\"Branch\",\"value\":\"$BUDDY_EXECUTION_BRANCH\",\"short\":true},{\"title\":\"Project\",\"value\":\"<$BUDDY_PROJECT_URL|$BUDDY_PROJECT_NAME>\",\"short\":true}]}"
     trigger_condition: "ALWAYS"
-    integration_hash: "${SLACK_CD_INTEGRATION_HASH}"
+    integration_hash: "secure!Pa+iH6fuKFHlzV5Qc9eYExuM5YeSHt3ydUayWXrDnxPkw1l35muGL/FbrbJ7LV+JwkBrokNm7VGynIKd7CVE0BlieQGMfk3EWLeXuiSrKoU=.jwOOYmC9eQVD2jAVtq+3gQ=="
