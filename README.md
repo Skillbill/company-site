@@ -3,7 +3,7 @@ company-site
 
 [production company site](https://www.skillbill.it)
 
-## PROD SERVER
+## Prod Server
 
 DIGITAL OCEAN UBUNTU 18.04 - https
 
@@ -19,6 +19,7 @@ vi /etc/nginx/conf.d/intranet2.skillbill.net.conf
 nginx -t && nginx -s reload
 certbot --nginx -d intranet2.skillbill.net
 crontab -e
+````
 
 ### HTTPS CONF - version 1
 
@@ -31,14 +32,13 @@ server {
 }
 ```
 
-
-### ADD RENEW CERT
+### Add renew cert
 ```
 0 12 * * * /usr/bin/certbot renew --quiet
 ```
 
 
-## Develop
+### Develop
 
     > npm install
     > npm install -g gatsby-cli
