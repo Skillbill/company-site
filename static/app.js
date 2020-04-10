@@ -3,7 +3,7 @@
 
   function loadPage(page) {
     main.innerHTML = '<div class="spinner"></div>';
-    document.documentElement.scrollTop = 50;
+    document.documentElement.scrollTop = window.innerWidth < 700 ? 50 : 0;
 
     return fetch(`partials/${page.file}.html`)
       .then(res => res.text())
