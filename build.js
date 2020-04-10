@@ -34,6 +34,7 @@ const build = () => {
 
   // copy static files
   execSync(`cp -r ${__dirname}/${STATIC_DIR}/* ${DIST_DIR_PATH}`);
+  execSync(`cp -r ${__dirname}/pages.json ${DIST_DIR_PATH}`);
 
   // copy partials html files
   execSync(`mkdir -p ${DIST_DIR_PATH}/partials`);

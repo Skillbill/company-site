@@ -17,7 +17,6 @@
   margin: 0;
   box-sizing: border-box;
   line-height: 1.4rem;
-  scroll-behavior: smooth;
 }
 
 :root {
@@ -201,7 +200,7 @@ button[disabled] {
 
 main {
   max-width: 100ch;
-  min-height: calc(100vh - 6rem);
+  min-height: calc(100vh);
   margin: 1rem auto;
   padding: 1rem;
 }
@@ -242,7 +241,8 @@ header h1 a small {
   transition: all 0.2s ease;
 }
 
-header h1:hover a small {
+header h1:hover a small,
+header h1 a.active small {
   opacity: 1;
   transform: translateX(6rem) translateY(-0.7rem) rotate(0);
 }
@@ -317,7 +317,10 @@ header .header-wrapper {
 
 footer {
   background-color: var(--dark-gray);
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   padding: 0.5rem;
   box-shadow: 0 0 0.5rem #c0c0c0;
   display: flex;
@@ -552,6 +555,7 @@ body.stats .statistics {
   gap: 1rem;
   margin: 2rem 0;
   list-style: none;
+  padding: 0;
 }
 
 body.stats .statistics li {
