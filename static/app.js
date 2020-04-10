@@ -4,7 +4,6 @@
   function loadPage(page) {
     main.innerHTML = '<div class="spinner"></div>';
     document.documentElement.scrollTop = 0;
-    document.body.classList.add('on-top');
 
     return fetch(`partials/${page.file}.html`)
       .then(res => res.text())
