@@ -37,9 +37,11 @@ server {
 0 12 * * * /usr/bin/certbot renew --quiet
 ```
 
+### Develop
+    > npm install
 
 ### Develop
+    > npm run dev
 
-    > npm install
-    > npm install -g gatsby-cli
-    > gatsby develop
+### Build
+    > npm run build

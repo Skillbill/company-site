@@ -1,0 +1,42 @@
+[
+  {
+    "file": "index",
+    "data": {
+      "class": "index",
+      "title": "Skillbill - Skill Matters - Milan, Italy",
+      "description": "Skillbill is a software house with strong technological capabilities focused on the development of: Digital TV and multiscreen solutions for Set-top-box, Mobile applications, Web and Smart TV - Design, develop and management for Cloud based solution (Amazon Web Services, Microsoft Azure) in Video Streaming product for large scale OTT deployments - Highly interactive web applications / mobile apps - IoT and Smart Building applications"
+    }
+  },
+  {
+    "file": "people",
+    "data": {
+      "class": "people",
+      "title": "Skillbill - People",
+      "description": "The people at Skillbill"
+    }
+  },
+  {
+    "file": "stats",
+    "data": {
+      "class": "stats",
+      "title": "Skillbill - Stats",
+      "description": "Some company statistics"
+    }
+  },
+  {
+    "file": "clients",
+    "data": {
+      "class": "clients",
+      "title": "Skillbill - Clients",
+      "description": "Skillbill clients"
+    }
+  },
+  {
+    "file": "contact",
+    "data": {
+      "class": "contact",
+      "title": "Skillbill - Contacts",
+      "description": "Constact Skillbill"
+    }
+  }
+]
