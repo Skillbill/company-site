@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'CartoGothicStdBook';
+  src: url('fonts/CartoGothicStd-Bold-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 *, *::before, *::after {
   padding: 0;
   margin: 0;
@@ -249,6 +256,13 @@ header h1 a {
   flex-direction: row;
   align-items: center;
   color: var(--dark-blue);
+  align-items: stretch;
+}
+
+header h1 a span {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 header h1 img {
