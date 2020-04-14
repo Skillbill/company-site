@@ -52,7 +52,6 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "QlassikBoldRegular", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: var(--dark-blue);
   margin-bottom: 0.5rem;
