@@ -1,17 +1,30 @@
 {
-  "name": "company-site",
-  "version": "2.0.0",
-  "description": "Skillbill website",
-  "main": "build.js",
-  "private": true,
-  "scripts": {
-    "build-watch": "node build.js --watch",
-    "build": "node build.js",
-    "http-server": "http-server dist -p 8080 -c-1",
-    "dev": "npm-run-all --parallel build-watch http-server"
-  },
-  "devDependencies": {
-    "http-server": "^0.12.1",
-    "npm-run-all": "^4.1.5"
-  }
+    "title": "Company Site",
+    "name": "company-site",
+    "version": "2.0.0",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch",
+        "build": "gulp"
+    },
+    "description": "Skillbill WebSite",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "^4.1.1",
+        "gulp": "4.0.2",
+        "merge-stream": "2.0.0"
+    }
 }
