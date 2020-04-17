@@ -18,7 +18,7 @@
   - action: "Upload files"
     type: "SFTP"
     input_type: "BUILD_ARTIFACTS"
-    local_path: "dist/"
+    local_path: "."
     remote_path: "/var/www/html/"
     login: "root"
     host: "${SERVER_NAME}"
