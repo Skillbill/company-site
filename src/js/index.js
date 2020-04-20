@@ -27,3 +27,22 @@
   });
 
 })(jQuery); // End of use strict
+
+
+const shufflePeople = function people() {
+  function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  const profiles = document.querySelector('.profiles'); 
+  const people = document.querySelectorAll('.profiles > div');
+  shuffle(new Array(people.length).fill(0).map((_, i) => i)).forEach(index => {
+    profiles.appendChild(people[index]);
+  });
+}
+
+shufflePeople();  
