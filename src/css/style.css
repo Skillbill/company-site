@@ -67,6 +67,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+strong.rotated {
+  display: inline-block;
+  font-size: 180%;
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 0 0.3rem;
+  transform: rotate(-3deg) scale(1.05);
+  margin-bottom: .5rem;
+}
+
 .navbar a:focus {
   outline: none;
 }
@@ -180,6 +190,10 @@ section {
   padding: 150px 0;
 }
 
+#home .vision > * {
+  margin-bottom: 1.75rem;
+}
+
 /* ul.tags */
 ul.tags {
   width: 100%;
@@ -267,14 +281,7 @@ ul.tags li span {
 }
 
 #stats .statistics li strong {
-  display: inline-block;
   font-weight: normal;
-  font-size: 180%;
-  background-color: var(--orange);
-  color: var(--white);
-  padding: 0 0.3rem;
-  transform: rotate(-3deg) scale(1.05);
-  margin-bottom: .5rem;
 }
 
 /* People Section */
