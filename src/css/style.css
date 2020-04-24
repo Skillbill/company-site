@@ -35,19 +35,21 @@ textarea:focus {
   border-color: var(--orange);
 }
 
-nav.navbar ul li a:focus {
-  text-decoration: underline;
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* Base Elements */
 
 b {
   color: var(--orange);
 }
 
-/* Base Elements */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: var(--dark-blue);
+  margin-bottom: 0.5rem;
+}
 
 a {
   color: var(--blue);
@@ -61,12 +63,6 @@ a:focus {
   outline: 0.2rem solid var(--orange);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  color: var(--dark-blue);
-  margin-bottom: 0.5rem;
-}
-
 strong.rotated {
   display: inline-block;
   font-size: 180%;
@@ -77,8 +73,14 @@ strong.rotated {
   margin-bottom: .5rem;
 }
 
-.navbar a:focus {
+.navbar a.navbar-brand:focus {
   outline: none;
+}
+
+.navbar ul li a:focus,
+.navbar a:focus h1 {
+  outline: none;
+  text-decoration: underline;
 }
 
 .navbar .logo {
@@ -187,7 +189,7 @@ header > div {
 
 
 section {
-  padding: 150px 0;
+  padding: 3rem 0;
 }
 
 #home .vision > * {
