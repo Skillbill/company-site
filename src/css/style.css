@@ -195,7 +195,7 @@ header picture {
 
 header picture::after {
   content: "";
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.05);
   position: absolute;
   display: block;
   top: 0;
