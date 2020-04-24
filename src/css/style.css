@@ -124,7 +124,7 @@ nav.fixed-top .navbar-nav {
 }
 
 .navbar ul li a:focus,
-.navbar a:focus h1 {
+.navbar a:focus strong {
   outline: none;
   text-decoration: underline;
 }
@@ -162,11 +162,14 @@ nav.fixed-top .navbar-nav {
   font-weight: 700;
 }
 
-.navbar .logo-text > h1 {
+.navbar .logo-text > strong {
+  display: block;
   font-size: 1.4rem;
+  color: var(--dark-blue);
 }
 
-.navbar .logo-text > p {
+.navbar .logo-text > span {
+  display: block;
   color: var(--orange);
   font-size: 14px;
 }
