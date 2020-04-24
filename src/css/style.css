@@ -311,8 +311,12 @@ ul.tags li span {
 }
 
 #customers .customers-images a:hover img,
-#customers .customers-imagesù a:focus img {
+#customers .customers-images a:focus img {
   filter: grayscale(0%);
+}
+
+#customers .customers-images span {
+  color: var(--dark-blue);
 }
 
 @media (max-width: 480px) {
