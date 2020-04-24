@@ -6,15 +6,6 @@
   trigger_condition: "ALWAYS"
   target_site_url: "http://test.company-site.skillbill.net"
   actions:
-  - action: "Install and build"
-    type: "BUILD"
-    docker_image_name: "library/node"
-    docker_image_tag: "12"
-    execute_commands:
-    - "npm install"
-    - "npm run build"
-    trigger_condition: "ALWAYS"
-    shell: "SH"
   - action: "Upload files"
     type: "SFTP"
     input_type: "BUILD_ARTIFACTS"

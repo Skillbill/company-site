@@ -15,6 +15,30 @@
   background-color: var(--white);
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--orange);
+}
+
+nav.navbar ul li a:focus {
+  text-decoration: underline;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -81,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .logo-text > h1 {
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .navbar .logo-text > p {
