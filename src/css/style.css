@@ -248,10 +248,6 @@ section {
   scroll-margin: 3rem;
 }
 
-#home .vision > * {
-  margin-bottom: 1.75rem;
-}
-
 /* ul.tags */
 ul.tags {
   width: 100%;
@@ -323,6 +319,17 @@ ul.tags li span {
   #customers a {
     width: 100%;
   } 
+}
+
+
+/* vision */
+.vision > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 3rem;
+  margin: 2rem 0;
+  list-style: none;
+  padding: 0;  
 }
 
 
