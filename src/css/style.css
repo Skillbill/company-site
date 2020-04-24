@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  transition: all 0.3s ease;
+}
+
 :root {
   --dark-blue: #003363;
   --blue: #0063c2;
@@ -257,7 +261,6 @@ ul.tags li {
   margin-right: 0.2rem;
   background-color: var(--dark-blue);
   border-radius: 0.4rem;
-  transition: filter 0.3s ease;
 }
 
 ul.tags li:hover {
@@ -288,7 +291,6 @@ ul.tags li span {
   text-decoration: none;
   padding: 1rem;
   box-shadow: 0 0 0.5rem #c0c0c0;
-  transition: transform 0.2s ease;
   margin: 1rem;
 }
 
@@ -296,7 +298,6 @@ ul.tags li span {
   max-width: 100%;
   object-fit: cover;
   filter: grayscale(100%);
-  transition: filter 0.2s ease;
 }
 
 #clients .clients-images a:hover {
@@ -346,7 +347,6 @@ ul.tags li span {
   align-items: flex-start;
   padding: 1rem;
   box-shadow: 0 0 0.5rem #c0c0c0;
-  transition: transform 0.2s ease;
 }
 
 #people .profiles > div > * {
@@ -356,11 +356,10 @@ ul.tags li span {
 #people .profiles img {
   width: 100%;
   object-fit: cover;
-  transition: transform 0.2s ease;
 }
 
 #people .profiles > div:hover img {
-  transform: scale(1.13);
+  transform: scale(1.1);
 }
 
 /* Contact Section */
