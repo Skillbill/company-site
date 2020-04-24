@@ -238,16 +238,18 @@ header > div {
 }
 
 #learn-more-button:hover {
-  text-decoration: none;
+  transform: scale(1.1);
 }
 
 #learn-more-button {
+  display: inline-block;
   background: white;
   padding: .5rem 1rem;
   font-weight: 700;
   font-size: 2rem;
   color: var(--orange);
   text-shadow: 0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2);
+  text-decoration: none;
 }
 
 section {
@@ -276,7 +278,7 @@ ul.tags li {
 }
 
 ul.tags li:hover {
-  filter: brightness(110%);
+  background-color: var(--orange);
 }
 
 ul.tags li a,
