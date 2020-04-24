@@ -1,6 +1,5 @@
 *, *::before, *::after {
   transition: all 0.3s ease;
-  scroll-behavior: smooth;
 }
 
 :root {
