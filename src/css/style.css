@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: var(--dark-blue);
   margin-bottom: 0.5rem;
+  filter: drop-shadow(0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2));
 }
 
 a {
@@ -75,6 +76,7 @@ strong.rotated {
   padding: 0 0.3rem;
   transform: rotate(-3deg) scale(1.05);
   margin-bottom: .5rem;
+  filter: drop-shadow(0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2));
 }
 
 @media (min-width: 1200px) {
@@ -97,14 +99,16 @@ nav.navbar.absolute .navbar-brand {
   display: none;
 }
 
-nav.navbar.absolute .navbar-collapse {
+nav.navbar.absolute .container {
   background-image: url('../images/logo_skillbill_80.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 2.2rem;
 }
 
-.navbar-light.absolute .navbar-nav .nav-link {
-  color: var(--orange);
+@media (min-width:992px) {
+  nav.navbar.absolute .container {
+    background-size: contain;
+  }
 }
 
 nav.absolute .navbar-nav,
@@ -122,7 +126,7 @@ nav.fixed-top .navbar-nav {
 }
 
 .navbar ul li a:focus,
-.navbar a:focus h1 {
+.navbar a:focus strong {
   outline: none;
   text-decoration: underline;
 }
@@ -160,15 +164,21 @@ nav.fixed-top .navbar-nav {
   font-weight: 700;
 }
 
-.navbar .logo-text > h1 {
+.navbar .logo-text > strong {
+  display: block;
   font-size: 1.4rem;
+  color: var(--dark-blue);
 }
 
-.navbar .logo-text > p {
+.navbar .logo-text > span {
+  display: block;
   color: var(--orange);
   font-size: 14px;
 }
 
+.navbar .navbar-toggler {
+  margin: auto 0 auto auto;
+}
 
 header {
   height: 100vh;
@@ -181,6 +191,17 @@ header picture {
   position: absolute;
   top: 0;
   z-index: 0;
+}
+
+header picture::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.05);
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 header picture img {
@@ -196,7 +217,7 @@ header *{
 }
 
 header > div {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: transparent;
   position: relative;
   width: 100%;
   height: 100%;
@@ -207,6 +228,7 @@ header > div {
   display: flex;
   margin-bottom: 1rem;
   align-items: center;
+  filter: drop-shadow(0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2));
 }
 
 .skillbill .logo-text {
@@ -220,7 +242,7 @@ header > div {
   font-size: 3rem;
 }
 
-.skillbill p {
+.skillbill span {
   color: var(--orange);
   margin-bottom: 0;
   font-weight: 700;
@@ -236,14 +258,12 @@ header > div {
   font-weight: 700;
   font-size: 2rem;
   color: var(--orange);
+  text-shadow: 0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
 section {
   padding: 3rem 0;
-}
-
-#home .vision > * {
-  margin-bottom: 1.75rem;
+  scroll-margin: 3rem;
 }
 
 /* ul.tags */
@@ -309,8 +329,29 @@ ul.tags li span {
 }
 
 #customers .customers-images a:hover img,
-#customers .customers-imagesù a:focus img {
+#customers .customers-images a:focus img {
   filter: grayscale(0%);
+}
+
+#customers .customers-images span {
+  color: var(--dark-blue);
+}
+
+@media (max-width: 480px) {
+  #customers a {
+    width: 100%;
+  } 
+}
+
+
+/* vision */
+.vision > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 3rem;
+  margin: 2rem 0;
+  list-style: none;
+  padding: 0;  
 }
 
 

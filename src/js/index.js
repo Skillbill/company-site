@@ -10,7 +10,7 @@
         $('html, body').animate({
           scrollTop: (target.offset().top - 56)
         }, 1000, "easeInOutExpo");
-        return false;
+        return true;
       }
     }
   });
