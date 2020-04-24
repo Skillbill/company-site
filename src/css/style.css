@@ -319,6 +319,12 @@ ul.tags li span {
   filter: grayscale(0%);
 }
 
+@media (max-width: 480px) {
+  #customers a {
+    width: 100%;
+  } 
+}
+
 
 /* Stats Section */
 #stats .statistics {
