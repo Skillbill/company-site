@@ -103,10 +103,6 @@ nav.navbar.absolute .navbar-collapse {
   background-size: contain;
 }
 
-.navbar-light.absolute .navbar-nav .nav-link {
-  color: var(--orange);
-}
-
 nav.absolute .navbar-nav,
 nav.fixed-top .navbar-nav {
   margin-left: auto;
