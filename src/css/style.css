@@ -193,17 +193,6 @@ header picture {
   z-index: 0;
 }
 
-header picture::after {
-  content: "";
-  background: rgba(0, 0, 0, 0.05);
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
 header picture img {
   width: 100%;
   height: 100%;
@@ -274,24 +263,28 @@ ul.tags {
   align-items: flex-start;
   list-style: none;
   padding-left: 0;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
 ul.tags li {
   padding: 0.2rem 0.5rem;
   margin-right: 0.2rem;
-  background-color: var(--dark-blue);
+  margin-top: 0.2rem;
+  background-color: var(--light-gray);
   border-radius: 0.4rem;
 }
 
 ul.tags li:hover {
-  filter: brightness(150%);
+  filter: brightness(110%);
 }
 
 ul.tags li a,
 ul.tags li span {
   display: block;
-  color: var(--white);
+  color: var(--dark-blue);
   text-decoration: none;
+  font-size: 0.8rem;
 }
 
 /* Clients Section */
@@ -377,20 +370,36 @@ ul.tags li span {
 /* People Section */
 #people .profiles {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
 }
 
 #people .profiles > div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
   box-shadow: 0 0 0.5rem #c0c0c0;
 }
 
-#people .profiles > div > * {
+@media (max-width: 480px) {
+  #people .profiles > div {
+    grid-template-columns: 1fr;
+  }
+
+  #people .profiles {
+    grid-template-columns: 1fr;
+  }
+}
+
+#people .profiles > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#people .profiles > div > div > * {
   margin: 0.5rem 0;
 }
 
@@ -399,8 +408,8 @@ ul.tags li span {
   object-fit: cover;
 }
 
-#people .profiles > div:hover img {
-  transform: scale(1.1);
+#people .profiles p {
+  margin: 0;
 }
 
 /* Contact Section */
