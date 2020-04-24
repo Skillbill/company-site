@@ -98,10 +98,16 @@ nav.navbar.absolute .navbar-brand {
   display: none;
 }
 
-nav.navbar.absolute .navbar-collapse {
+nav.navbar.absolute .container {
   background-image: url('../images/logo_skillbill_80.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 2.2rem;
+}
+
+@media (min-width:992px) {
+  nav.navbar.absolute .container {
+    background-size: contain;
+  }
 }
 
 nav.absolute .navbar-nav,
@@ -166,6 +172,9 @@ nav.fixed-top .navbar-nav {
   font-size: 14px;
 }
 
+.navbar .navbar-toggler {
+  margin: auto 0 auto auto;
+}
 
 header {
   height: 100vh;
