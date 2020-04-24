@@ -86,21 +86,24 @@ nav.navbar.absolute {
   left: 0;
   right: 0;
   z-index: 2;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
 
 nav.navbar.absolute .navbar-brand {
   display: none;
 }
 
+nav.navbar.absolute .navbar-collapse {
+  background-image: url('../images/logo_skillbill_80.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .navbar-light.absolute .navbar-nav .nav-link {
   color: var(--orange);
 }
 
-nav.absolute .navbar-nav {
-  margin-left: 0;
-  margin-right: auto;
-}
-
+nav.absolute .navbar-nav,
 nav.fixed-top .navbar-nav {
   margin-left: auto;
   margin-right: 0;
