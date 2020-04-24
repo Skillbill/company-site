@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Skillbill WebSite
 
 ## Usage
@@ -12,7 +11,3 @@
 ## For Build
 
 - `npm run build`
-=======
-SKILLBILL COMPANY SITE
-======================
->>>>>>> 4baf1a2d429488a3dc3eb58039392b555d417277
