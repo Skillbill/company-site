@@ -6,7 +6,8 @@
 
 ## For Development
 
-- `npm start` 
+- `npm install`
+- `npm start`
 
 ## For Build
 
