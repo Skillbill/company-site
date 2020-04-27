@@ -37,7 +37,7 @@
     local_path: "src/"
     remote_path: "/var/www/html/"
     login: "root"
-    host: "${SERVER_NAME}"
+    host: "www.skillbill.it"
     port: "22"
     env_key: "prod_rsa"
     authentication_mode: "ENV_KEY"
