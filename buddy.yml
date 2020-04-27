@@ -39,7 +39,7 @@
     login: "root"
     host: "${SERVER_NAME}"
     port: "22"
-    env_key: "test_rsa"
+    env_key: "prod_rsa"
     authentication_mode: "ENV_KEY"
   - action: "Send CD notification"
     type: "SLACK"
