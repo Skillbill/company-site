@@ -380,8 +380,35 @@ ul.tags li span {
 #people .profiles > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  grid-template-rows: auto 1fr;
   box-shadow: 0 0 0.5rem #c0c0c0;
+}
+
+#people .profiles > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#people .profiles > div > div:last-child > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+#people .profiles img {
+  width: 100%;
+  object-fit: cover;
+
+}
+
+#people .profiles p {
+  margin: 0;
+}
+
+#people .profiles h5 {
+  grid-column: 1 / 3;
+  padding: 1rem 1rem 0 1rem;
+  margin: 0;
 }
 
 @media (max-width: 480px) {
@@ -392,26 +419,10 @@ ul.tags li span {
   #people .profiles {
     grid-template-columns: 1fr;
   }
-}
 
-#people .profiles > div > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-#people .profiles > div > div > * {
-  margin: 0.5rem 0;
-}
-
-#people .profiles img {
-  width: 100%;
-  object-fit: cover;
-}
-
-#people .profiles p {
-  margin: 0;
+  #people .profiles h5 {
+    grid-column: 1 / 2;
+  }
 }
 
 /* Contact Section */
