@@ -9,6 +9,4 @@
 - `npm install`
 - `npm start`
 
-## For Build
 
-- `npm run build`
