@@ -1,4 +1,4 @@
-(function($) {
+/*(function($) {
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
@@ -27,6 +27,37 @@
   });
 
 })(jQuery); // End of use strict
+
+*/
+
+const anchors = Array.from(document.querySelectorAll(".navbar a"))
+
+anchors.forEach((anchor) => {
+  anchor.addEventListener("click", () => {
+    const elementSelector = document.querySelector(anchor.getAttribute("href"))
+
+    elementSelector.scrollIntoView()
+  })
+})
+
+var activeNavLinks = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      console.log(entry.target.id)
+      const sectionId = entry.target.id;
+      
+      Array.from(document.querySelectorAll(".navbar a")).forEach(a => {
+        a.classList.remove("active")
+      })
+
+      document.querySelector(`a[href="#${sectionId}"]`).classList.add("active")
+    }
+  })
+}, { rootMargin: "-30% 0%"})
+
+Array.from(document.querySelectorAll("section")).forEach(section => {
+  activeNavLinks.observe(section)
+})
 
 
 const shufflePeople = function people() {
