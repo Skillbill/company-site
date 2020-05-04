@@ -30,6 +30,22 @@
 
 */
 
+const buttonNavBar = document.querySelector("button.navbar-toggler")
+
+buttonNavBar.addEventListener("click", () => {
+  const expanded = buttonNavBar.getAttribute("aria-expanded")
+  const navBarMobile = document.querySelector(".navbar-collapse")
+  
+  if (expanded === "false") {
+    buttonNavBar.setAttribute("aria-expanded", true)
+
+    navBarMobile.classList.add("show")
+  } else {
+    buttonNavBar.setAttribute("aria-expanded", false)
+    navBarMobile.classList.remove("show")
+  }
+})
+
 const anchors = Array.from(document.querySelectorAll(".navbar a"))
 
 anchors.forEach((anchor) => {
@@ -37,6 +53,9 @@ anchors.forEach((anchor) => {
     const elementSelector = document.querySelector(anchor.getAttribute("href"))
 
     elementSelector.scrollIntoView()
+
+    document.querySelector(".navbar-collapse").classList.remove("show")
+    document.querySelector(".navbar-toggler").setAttribute("aria-expanded", false)
   })
 })
 

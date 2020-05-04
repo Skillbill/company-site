@@ -96,6 +96,20 @@ nav.navbar.absolute {
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
 
+.navbar-collapse.show {
+  animation: showNavBar .3s ease;
+  transform-origin: top;
+}
+
+@keyframes showNavBar {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
+
 nav.navbar.absolute .navbar-brand {
   display: none;
 }
