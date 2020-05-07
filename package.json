@@ -1,30 +1,15 @@
 {
-    "title": "Company Site",
-    "name": "company-site",
-    "version": "2.0.0",
-    "scripts": {
-        "start": "node_modules/.bin/gulp watch",
-        "build": "gulp"
-    },
-    "description": "Skillbill WebSite",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "license": "MIT",
-    "dependencies": {
-        "bootstrap": "4.3.1",
-        "jquery": "3.4.1",
-        "jquery.easing": "^1.4.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "^4.1.1",
-        "gulp": "4.0.2",
-        "merge-stream": "2.0.0"
-    }
+  "title": "Company Site",
+  "name": "company-site",
+  "version": "2.0.0",
+  "scripts": {
+    "start": "node_modules/.bin/gulp watch"
+  },
+  "description": "Skillbill WebSite",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "gulp": "4.0.2"
+  }
 }
