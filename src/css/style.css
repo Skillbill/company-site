@@ -117,7 +117,7 @@ nav.navbar.absolute .navbar-brand {
 }
 
 nav.navbar.absolute .container {
-  background-image: url('../images/logo_skillbill_80.png');
+  background-image: url('../images/logo_skillbill.svg');
   background-repeat: no-repeat;
   background-size: 2.2rem;
 }
@@ -230,11 +230,17 @@ header > div {
   display: flex;
   align-items: center;
 }
+
 .skillbill {
   display: flex;
   margin-bottom: 1rem;
   align-items: center;
   filter: drop-shadow(0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2));
+}
+
+.skillbill img {
+  height: 4.5rem;
+  width: 4.5rem;
 }
 
 .skillbill .logo-text {
