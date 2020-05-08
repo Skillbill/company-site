@@ -293,7 +293,6 @@ ul.tags {
 }
 
 ul.tags li {
-  padding: 0.2rem 0.5rem;
   margin-right: 0.2rem;
   margin-top: 0.2rem;
   background-color: var(--light-gray);
@@ -304,12 +303,16 @@ ul.tags li:hover {
   background-color: var(--orange);
 }
 
-ul.tags li a,
-ul.tags li span {
-  display: block;
+ul.tags li > a,
+ul.tags li > span {
   color: var(--dark-blue);
   text-decoration: none;
   font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 /* Clients Section */
@@ -455,7 +458,42 @@ ul.tags li span {
   border: 0;
 }
 
+/* Socials Section */
+#socials ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
 
+#socials ul a {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  font-size: 80%;
+  color: var(--dark-blue);
+}
+
+#socials ul a img {
+  height: 4rem;
+  width: 4rem;
+}
+
+#socials ul a:hover img {
+  transform: scale(1.1) translateY(-0.3rem);
+}
+
+@media (max-width: 480px) {
+  #socials ul {
+    flex-direction: column;
+  }
+}
+
+/* animations */
 .fade-in{
   animation: fade-in-animation .5s;
 }
