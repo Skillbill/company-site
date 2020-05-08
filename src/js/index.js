@@ -36,7 +36,10 @@ var activeNavLinks = new IntersectionObserver(entries => {
         a.classList.remove("active")
       })
 
-      document.querySelector(`a[href="#${sectionId}"]`).classList.add("active")
+      const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
+      if(sectionLink) {
+        sectionLink.classList.add("active");
+      }
     }
   })
 }, { rootMargin: "-30% 0%"})
