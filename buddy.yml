@@ -1,6 +1,6 @@
 - pipeline: "publish on test"
   trigger_mode: "ON_EVERY_PUSH"
-  ref_name: "master"
+  ref_name: "test"
   ref_type: "BRANCH"
   fetch_all_refs: true
   trigger_condition: "ALWAYS"
