@@ -507,3 +507,11 @@ ul.tags li > span {
     opacity: 1;
   }
 }
+
+.container header img{
+  width: 100%;
+}
+
+.landing {
+  margin: 2rem 0 0 0;
+}
