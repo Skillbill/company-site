@@ -1,13 +1,30 @@
 # Skillbill WebSite
 
-## Usage
+## Development
 
-### Basic Usage
+we use [Jekyll](https://jekyllrb.com/) .
 
-## For Development
+### Ruby
 
-- `npm install`
-- `npm start`
+[rvm](http://rvm.io/)
+
+```
+rvm autolibs packages
+rvm install 2.4.0
+//cd project folder
+rvm use 2.4.0
+```
+
+### Jekyll and Bundler:
+
+```
+gem install jekyll bundler
+```
+### start dev server
+
+```
+bundle exec jekyll serve --trace --watch
+```
 
 
 ## PROD
