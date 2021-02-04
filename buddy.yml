@@ -10,7 +10,7 @@
     type: "BUILD"
     working_directory: "/srv/jekyll"
     docker_image_name: "jekyll/jekyll"
-    docker_image_tag: "3.4"
+    docker_image_tag: "4.2.0"
     execute_commands:
     - "chown -R jekyll:jekyll $WORKING_DIR"
     - "jekyll build"
