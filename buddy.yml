@@ -43,10 +43,22 @@
   ref_type: "WILDCARD"
   target_site_url: "https://www.skillbill.it"
   actions:
+  - action: "Execute: jekyll build"
+    type: "BUILD"
+    working_directory: "/srv/jekyll"
+    docker_image_name: "jekyll/jekyll"
+    docker_image_tag: "4.2.0"
+    execute_commands:
+    - "chown -R jekyll:jekyll $WORKING_DIR"
+    - "jekyll build"
+    volume_mappings:
+    - "/:/srv/jekyll"
+    trigger_condition: "ALWAYS"
+    shell: "BASH"
   - action: "Upload files"
     type: "SFTP"
     input_type: "BUILD_ARTIFACTS"
-    local_path: "src/"
+    local_path: "_site/"
     remote_path: "/var/www/html/"
     login: "root"
     host: "www.skillbill.it"
