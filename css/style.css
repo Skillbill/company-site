@@ -72,6 +72,10 @@ a:focus {
   outline: 0.2rem solid var(--orange);
 }
 
+nav a:focus {
+  outline: none;
+}
+
 strong.rotated {
   display: inline-block;
   font-size: 180%;
@@ -117,10 +121,8 @@ nav.navbar.absolute .navbar-brand {
   display: none;
 }
 
-nav.navbar.absolute .container {
-  background-image: url('../images/logo_skillbill.svg');
-  background-repeat: no-repeat;
-  background-size: 2.2rem;
+.hidden {
+  display: none;
 }
 
 @media (min-width:992px) {
