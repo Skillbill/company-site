@@ -37,7 +37,7 @@ bundle exec jekyll serve --trace --watch
 
 ```
 sub_filter XXXGTAGXXX "XXXXXXXXX";
-sub_filter_once on;
+sub_filter_once off;
 
 ```
 
