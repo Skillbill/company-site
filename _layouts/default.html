@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include google-tag-manager.html %}
+  {% include meta.html %}
+  <title>{{ page.title }}</title>
+  {% include static-res.html %}
+</head>
+
+<body id="page-top">
+  {% include navbar.html %}
+
+  <header class="text-white">
+    <picture>
+      <source  srcset="images/vs-white.webp" type="image/webp">
+      <img src="images/vs-white.png" alt="background" type="image/png"/>
+    </picture>
+    <div class="">
+      <div class="container">
+        <div class="skillbill">
+          <img src="images/logo_skillbill.svg" alt="Skillbill logo">
+          <div class="logo-text">
+            <h1>Skillbill</h1>
+            <span>skill matters</span>
+          </div>
+        </div>
+        <a id="learn-more-button"  class="js-scroll-trigger" href="#home">Discover us</a>
+      </div>
+    </div>
+  </header>
+  <main>
+
+  {{ content }}    
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Skillbill 2021</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
