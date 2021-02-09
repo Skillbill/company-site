@@ -73,6 +73,7 @@ var logo_home = document.querySelector(".navbar-brand-home")
 
 var navObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
+    
     if (entry.isIntersecting) {
       if (!navbar.classList.contains("absolute")) {
         navbar.classList.remove("fixed-top")
@@ -83,6 +84,7 @@ var navObserver = new IntersectionObserver(entries => {
         logo_home.classList.remove("hidden")
       }
     } else {
+      console.log("nasconde logo senza scritta");
       navbar.classList.add("fade-in")
       navbar.classList.add("fixed-top")
       navbar.classList.add("shadow-sm")
@@ -93,4 +95,15 @@ var navObserver = new IntersectionObserver(entries => {
   })
 }, { rootMargin: "-40% 0%" })
 
-navObserver.observe(document.querySelector("header"))
+//navObserver.observe(document.querySelector("div.container"))
+
+let options = {
+  root: document.querySelector('nav'),
+  rootMargin: "-40% 0%"
+}
+
+let observer = new IntersectionObserver(() => {
+  console.log("tutta la section");
+}, options);
+
+observer.observe(document.querySelector('div.container'))

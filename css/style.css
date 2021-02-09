@@ -201,11 +201,14 @@ nav.fixed-top .navbar-nav {
 }
 
 header {
-  height: 100vh;
   position: relative;
 }
 
-header.no-image {
+header.big {
+  height: 100vh;
+}
+
+#spacer {
   height: 5vh;
   position: relative;
 }

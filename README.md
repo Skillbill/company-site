@@ -25,7 +25,7 @@ Your terminal must have set ON the "Run command as login shell" as [described he
 ```
 //cd project folder
 rvm use 2.4.0
-bundle exec jekyll serve --trace --watch
+bundle exec jekyll serve --trace --watch --livereload
 ```
 
 
