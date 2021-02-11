@@ -3,7 +3,7 @@
 backend:
   name: github
   repo: Skillbill/company-site
-  site_domain: location.hostnam
+  site_domain: location.hostname
 media_folder: 'images'
 collections:
   - name: 'blog'
