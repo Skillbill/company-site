@@ -3,8 +3,10 @@
 backend:
   name: github
   repo: Skillbill/company-site
-  auth_type: implicit
-  app_id: 6065479b0e2d7a4207f4
+  api_root: https://api.github.com
+  site_domain: location.hostname
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 media_folder: 'images'
 collections:
   - name: 'blog'
