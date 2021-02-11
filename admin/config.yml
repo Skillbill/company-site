@@ -4,6 +4,7 @@ backend:
   name: github
   repo: Skillbill/company-site
   auth_type: implicit
+  app_id: 6065479b0e2d7a4207f4
 media_folder: 'images'
 collections:
   - name: 'blog'
