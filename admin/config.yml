@@ -3,7 +3,7 @@
 backend:
   name: github
   repo: Skillbill/company-site
-  site_domain: location.hostname
+  auth_type: implicit
 media_folder: 'images'
 collections:
   - name: 'blog'
