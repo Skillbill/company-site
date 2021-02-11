@@ -3,7 +3,7 @@
 backend:
   name: github
   repo: Skillbill/company-site
-  base_url: http://test.company-site.skillbill.net/
+  site_domain: cms.netlify.com
 media_folder: 'images'
 collections:
   - name: 'blog'
