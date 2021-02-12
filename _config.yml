@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-baseurl: ''
+baseurl: 
 url: https://www.skillbill.it
 theme: minima
 plugins:
