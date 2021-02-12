@@ -1,7 +1,9 @@
 ---
-title: Vivone
+title: Novità Java 16
 date: 2021-02-12 16:37:00 Z
 layout: default
 ---
 
-evviva !
+Tra le novità annunciate per Jdk 16 emerge la prima release per Alpine, una delle distribuzioni maggiormente usate in ambito microservice. Fino a ora si poteva usare Alpine come immagine base su cui installare una JVM standard, perdendo in parte la caratteristica fondamentale della distribuzione, un footprint ridotto al minimo, virtù molto apprezzata per i microservizi. Superare questo limite dovrebbe fornire una spinta importante per la larga adozione della futura versione 17 di Java, (la prossima Long Time Support di Java) che consoliderà le nuove feature incluse nella release 16.
+
+[Java 16](https://www.loicmathieu.fr/wordpress/en/informatique/java-16-quoi-de-neuf/?fbclid=IwAR3r2QW984zS1oNa8hIg1ZWMjge35iJCtP9gV7rmqf6Yx9n8yBCMsima-ak)
