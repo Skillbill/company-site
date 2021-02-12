@@ -3,10 +3,7 @@
 backend:
   name: github
   repo: Skillbill/company-site
-  api_root: https://api.github.com
   site_domain: cms.netlify.com
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
 media_folder: 'images'
 collections:
   - name: 'blog'
