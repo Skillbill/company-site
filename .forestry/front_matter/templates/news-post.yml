@@ -5,3 +5,5 @@ fields:
 - type: text
   name: layout
   label: layout
+pages:
+- _posts/2021-02-12-prova.md
