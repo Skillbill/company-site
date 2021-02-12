@@ -1,6 +1,15 @@
-baseurl: ""
-url: "https://www.skillbill.it" 
-
+---
+title: Company Site
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+baseurl: ''
+url: https://www.skillbill.it
 theme: minima
 plugins:
-  - jekyll-feed
+- jekyll-feed
