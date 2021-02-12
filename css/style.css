@@ -529,3 +529,7 @@ ul.tags li > span {
 .landing header{
   height: auto;
 }
+
+section img {
+  width: 100%;
+}
