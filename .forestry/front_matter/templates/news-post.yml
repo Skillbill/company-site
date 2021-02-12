@@ -10,4 +10,5 @@ fields:
     required: true
   default: default
 pages:
+- _posts/2021-02-12-prova-2.md
 - _posts/2021-02-12-prova.md
