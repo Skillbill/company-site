@@ -5,5 +5,9 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  config:
+    required: true
+  default: default
 pages:
 - _posts/2021-02-12-prova.md
