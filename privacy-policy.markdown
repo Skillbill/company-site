@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 date: 2021-03-04 16:47:00 Z
-layout: default
+layout: page
 ---
 
 
