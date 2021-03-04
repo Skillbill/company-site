@@ -38,9 +38,11 @@
     trigger_condition: "ALWAYS"
     integration_hash: "secure!hsfeY1zmx5OWr28nxVEllrt2roWyLHzQJEyL2WfMO3U=.WxCZ9vMWN35cljvC67xGWA=="
 - pipeline: "update production"
-  trigger_mode: "MANUAL"
-  ref_name: "refs/tags/*"
-  ref_type: "WILDCARD"
+  trigger_mode: "ON_EVERY_PUSH"
+  ref_name: "master"
+  ref_type: "BRANCH"
+  fetch_all_refs: true
+  trigger_condition: "ALWAYS"
   target_site_url: "https://www.skillbill.it"
   actions:
   - action: "Execute: jekyll build"
