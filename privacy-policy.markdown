@@ -4,7 +4,6 @@ date: 2021-03-04 16:47:00 Z
 layout: page
 ---
 
-
 Welcome to [https://www.skillbill.it/](https://www.skillbill.it/). We understand that privacy online is important to users of our Site. This statement governs our privacy policies with respect to those users of the Site.
 
 ### General Data Protection Regulation n. 679/2016
