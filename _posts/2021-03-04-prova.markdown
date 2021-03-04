@@ -1,7 +1,6 @@
 ---
 title: Prova
 date: 2021-03-04 15:48:00 Z
-Field name: 
 layout: post
 ---
 
