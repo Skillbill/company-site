@@ -10,6 +10,8 @@ image: "/uploads/311zqBz-awL._SY355_.jpg"
 layout: post
 ---
 
+## Java to Kotiln
+
 New programming languages almost always bring important benefits over the old ones. However, adopting a new language involves rewriting old code. Kotlin overcomes this obstacle by integrating seamlessly with Java, allowing it to be used gradually, without throwing away legacy code.
 
 This article explains how to do it.
