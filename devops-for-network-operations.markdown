@@ -1,7 +1,7 @@
 ---
 title: DevOps for Network Operations
 date: 2021-03-17 18:45:00 Z
-layout: page
+layout: default
 ---
 
 ![Screenshot_2021-03-17_19-51-34.png](/uploads/Screenshot_2021-03-17_19-51-34.png)
