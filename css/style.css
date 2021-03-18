@@ -112,6 +112,39 @@ nav.navbar.absolute {
   transform-origin: top;
 }
 
+.nav-link-submenu {
+  display: none;
+}
+
+ul.nav-submenu{
+  padding: 0;
+}
+
+.nav-submenu li{
+  list-style: none;
+}
+
+@media (min-width:992px){
+  .nav-submenu {
+    display: none;
+    position: absolute;
+    top: 85%;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .nav-link-submenu{
+    display: block;
+  }
+  
+  .nav-submenu:hover {
+    display: block;
+  }
+  
+  .nav-link-submenu:hover+.nav-submenu, .nav-link-submenu:focus+.nav-submenu{
+    display: block;
+  }
+}
+
 @keyframes showNavBar {
   0% {
     transform: scaleY(0);
