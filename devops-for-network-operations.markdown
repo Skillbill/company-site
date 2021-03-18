@@ -4,7 +4,7 @@ date: 2021-03-17 18:45:00 Z
 layout: page
 ---
 
-![Screenshot_2021-03-17_19-51-34.png](/uploads/Screenshot_2021-03-17_19-51-34.png)
+![DevOps.png](/uploads/DevOps.png?v=1)
 
 ## From Consulting to Training
 
@@ -25,8 +25,11 @@ We are the perfect partner for the customer team, our software engineers, and at
 We are very proactive offering technical tools to be effective, where:
 
 * code versioning
+
 * activity tracking
+
 * release automation
+
 * cloud solutions
 
 are the most notable examples.
@@ -36,13 +39,21 @@ The activities organization, inspired and driven by agile methodologies, is prop
 Following an example course:
 
 * Code versioning
+
 * Git / Github
+
 * Agile SCRUM
+
 * Activity tracking and tools
+
 * Python for network admins
+
 * Core principle of Docker/Container
+
 * Basic AWS
+
 * Infrastructure as Code
+
 * CI / CD pipelines
 
 ## Success stories
