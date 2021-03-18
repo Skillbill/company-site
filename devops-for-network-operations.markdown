@@ -58,4 +58,4 @@ Following an example course:
 
 ## Success stories
 
-Although  this initiative started just during in 2018, it has been immediately successful within two large Telcos of the italian market, Fastweb Spa and Sky Italia. In both cases it got enthusiastic feedbacks and reached goals even beyond customer expectations, with both satisfaction for the management and for the team members, who have seen their roles and their competences growed up and changed their workday, now with much fewer repetitive tasks and much more filled of fun resulting from doing things better and faster
+Although  this initiative started just during in 2018, it has been immediately successful within two large Telcos of the italian market, **Fastweb Spa** and **Sky Italia**. In both cases it got enthusiastic feedbacks and reached goals even beyond customer expectations, with both satisfaction for the management and for the team members, who have seen their roles and their competences growed up and changed their workday, now with much fewer repetitive tasks and much more filled of fun resulting from doing things better and faster
