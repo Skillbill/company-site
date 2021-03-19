@@ -12,42 +12,7 @@ buttonNavBar.addEventListener("click", () => {
     buttonNavBar.setAttribute("aria-expanded", false)
     navBarMobile.classList.remove("show")
   }
-})
-
-const anchors = Array.from(document.querySelectorAll(".navbar a"))
-
-anchors.forEach((anchor) => {
-  anchor.addEventListener("click", () => {
-    const elementSelector = document.querySelector(anchor.getAttribute("href"))
-
-    elementSelector.scrollIntoView()
-
-    document.querySelector(".navbar-collapse").classList.remove("show")
-    document.querySelector(".navbar-toggler").setAttribute("aria-expanded", false)
-  })
-})
-
-var activeNavLinks = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const sectionId = entry.target.id;
-
-      Array.from(document.querySelectorAll(".navbar a")).forEach(a => {
-        a.classList.remove("active")
-      })
-
-      const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
-      if (sectionLink) {
-        sectionLink.classList.add("active");
-      }
-    }
-  })
-}, { rootMargin: "-30% 0%" })
-
-Array.from(document.querySelectorAll("section")).forEach(section => {
-  activeNavLinks.observe(section)
-})
-
+});
 
 const shufflePeople = function people() {
   function shuffle(a) {

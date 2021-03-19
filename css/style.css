@@ -124,6 +124,10 @@ ul.nav-submenu{
   list-style: none;
 }
 
+.nav-item:focus-within ul.nav-submenu {
+  display: block;
+}
+
 @media (min-width:992px){
   .nav-submenu {
     display: none;
