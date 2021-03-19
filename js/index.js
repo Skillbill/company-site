@@ -1,3 +1,19 @@
+const buttonNavBar = document.querySelector("button.navbar-toggler")
+
+buttonNavBar.addEventListener("click", () => {
+  const expanded = buttonNavBar.getAttribute("aria-expanded")
+  const navBarMobile = document.querySelector(".navbar-collapse")
+
+  if (expanded === "false") {
+    buttonNavBar.setAttribute("aria-expanded", true)
+
+    navBarMobile.classList.add("show")
+  } else {
+    buttonNavBar.setAttribute("aria-expanded", false)
+    navBarMobile.classList.remove("show")
+  }
+});
+
 const shufflePeople = function people() {
   function shuffle(a) {
     for (let i = a.length - 1; i > 0; i--) {
