@@ -45,6 +45,13 @@ textarea:focus {
 body {
   font-family: 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 /* Base Elements */
@@ -65,11 +72,15 @@ a {
 }
 
 a.footer {
-  color: white;
+  color: var(--white);
 }
 
 a:hover {
   color: var(--dark-blue);
+}
+
+a.footer:hover {
+  color: var(--orange);
 }
 
 a:focus {
@@ -122,6 +133,10 @@ ul.nav-submenu{
 
 .nav-submenu li{
   list-style: none;
+}
+
+.nav-item:focus-within ul.nav-submenu {
+  display: block;
 }
 
 @media (min-width:992px){
@@ -567,9 +582,58 @@ ul.tags li > span {
   height: auto;
 }
 
-section img {
+section img:not(.inline) {
   width: 100%;
 }
+
+section img.inline {
+  float: left;
+  object-fit: contain;
+  margin: 10px 10px 10px 0;
+}
+
+section img.inline.right {
+  float: right;
+  margin: 10px 0 10px 10px;
+}
+
+section .highlight {
+  padding: 0.5rem;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+section .highlight .mi,
+section .highlight .m {
+  color: rgb(217, 219, 95);
+}
+
+section .highlight .k,
+section .highlight .kd,
+section .highlight .kc,
+section .highlight .nt {
+  color: rgb(95, 145, 219);
+}
+
+section .highlight .s,
+section .highlight .s1,
+section .highlight .s2,
+section .highlight .sx {
+  color: rgb(136, 255, 0);
+}
+
+section .highlight .nb,
+section .highlight .nl,
+section .highlight .nc {
+  color: rgb(146, 255, 230);
+}
+
+section .highlight .c1,
+section .highlight .cm {
+  color: rgb(80, 133, 21);
+}
+
 
 .post{
   width: 75%;
