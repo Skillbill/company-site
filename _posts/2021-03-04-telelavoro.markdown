@@ -1,6 +1,9 @@
 ---
 title: telelavoro
 date: 2021-03-04 16:13:00 Z
+tags:
+- telelavoro
+- remote working
 description: la-meta-description
 image: "/uploads/remote-working.png"
 layout: post

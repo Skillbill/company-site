@@ -6,7 +6,7 @@ tags:
 Field name:
 - 
 description: questa è la meta description
-image: "/uploads/311zqBz-awL._SY355_.jpg"
+image: "/uploads/javaloveskotlin.jpg"
 layout: post
 ---
 
