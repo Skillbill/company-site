@@ -7,7 +7,7 @@ tags:
 - Python
 description: The Zen of python (written by Tim peters). It's a set of statements that
   serves as guiding principles for best practices to follow in python.
-image: "/uploads/Python%20academy.png"
+image: "/uploads/Python%20academy-742a5d.png"
 layout: post
 ---
 
