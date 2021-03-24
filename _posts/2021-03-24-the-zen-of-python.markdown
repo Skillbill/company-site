@@ -17,4 +17,5 @@ The lists wrote by [Tim Peters](https://en.wikipedia.org/wiki/Tim_Peters_(softwa
 We all at Skillbill really think that those rules have to be kept in mind regardless the programming language you are actually using. However some pythonist here believe that using following those rules with python is easier and funnier.
 
 ![bxphpjcu1xv41.png](/uploads/bxphpjcu1xv41.png)
+\
 *Infographic by Nagaraj Bhat*
