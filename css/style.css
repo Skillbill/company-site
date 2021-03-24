@@ -570,3 +570,30 @@ ul.tags li > span {
 section img {
   width: 100%;
 }
+
+.post{
+  width: 75%;
+}
+
+.post>div {
+  display: flex;
+}
+
+.post-preview {
+  width: 200px;
+  height: 200px;
+  float: right;
+  vertical-align: middle;
+}
+
+.post-title {
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.post-excerpt{
+  text-align: justify;
+  text-justify: inter-character;
+  width: 70%;
+}

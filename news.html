@@ -1,0 +1,29 @@
+---
+title: Skillbill | News
+description: 'Skillbill is a software house with strong technological capabilities
+focused on the development of: Digital TV and multiscreen solutions for Set-top-box,
+Mobile applications, Web and Smart TV - Design, develop and management for Cloud
+based solution (Amazon Web Services, Microsoft Azure) in Video Streaming product
+for large scale OTT deployments - Highly interactive web applications / mobile apps
+- IoT and Smart Building applications'
+layout: default
+---
+
+<section id="news">
+  <div class="container">
+    <h2>Recent</h2>
+    <ul>
+      {% for post in site.posts %}
+      <li class="post">
+        <div>
+          <div>
+            <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+            <p class="post-excerpt">{{ post.excerpt }}</p>
+          </div>
+          <img class="post-preview" src="{{ post.image }}">
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
