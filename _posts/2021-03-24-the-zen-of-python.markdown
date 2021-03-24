@@ -8,6 +8,7 @@ tags:
 description: The "Zen of python" (written by Tim peters). It's a set of statements
   that serves as guiding principles for best practices to follow in python.
 image: "/uploads/Python%20academy.png"
+layout: post
 ---
 
 Zen of python reflects the main ideas backing the authors of Python, how their language should be used for and what the developers should deeply understand in order to fully embrace the "pythonist" principles.
