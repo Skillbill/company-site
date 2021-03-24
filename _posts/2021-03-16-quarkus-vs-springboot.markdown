@@ -5,6 +5,7 @@ description: Can the stability of SpringBoot be challenged by the speed promised
   new frameworks?
 image: "/uploads/SpringBoot%20vs%20Quarkus.png"
 layout: post
+excerpt: To develop REST APIs in Java in a micro-services architecture, is it better, from...
 ---
 
 ![SpringBoot vs Quarkus.png](/uploads/SpringBoot%20vs%20Quarkus.png)

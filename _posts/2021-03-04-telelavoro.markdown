@@ -7,6 +7,7 @@ tags:
 description: la-meta-description
 image: "/uploads/remote-working.png"
 layout: post
+excerpt: Altro post di prova...
 ---
 
 #CIAO!!!
