@@ -4,6 +4,7 @@ date: 2021-03-16 17:18:00 Z
 description: Can the stability of SpringBoot be challenged by the speed promised by
   new frameworks?
 image: "/uploads/SpringBoot%20vs%20Quarkus.png"
+layout: post
 ---
 
 ![SpringBoot vs Quarkus.png](/uploads/SpringBoot%20vs%20Quarkus.png)
