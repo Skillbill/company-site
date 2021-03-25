@@ -6,6 +6,23 @@
 <meta property="og:description" content="{{ page.description }}">
 <meta property="og:title" content="{{ page.title}}">
 <meta property="og:image" content="{{ page.image }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Skillbill.it">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:title" content="{{ page.title}}">
+<meta name="twitter:creator:id" content="@it_skillbill">
 
 <meta name="description" content="{{ page.description }}" />
 <meta name="keywords" content="software house, technology, development, set-top-box, mobile, web, design, cloud, iot, tv, smart tv, digital TV, OTT">
+
+{%if layout.type == 'post' %}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{page.date | date: '%Y-%m-%d' }}">
+  {%if page.tags and page.tags.size > 0%}
+    {% for tag in page.tags %}
+     <meta property="article:tag" content="{{tag}}">
+    {% endfor %}
+  {% endif %}
+{% endif %}
