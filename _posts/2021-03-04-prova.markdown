@@ -28,55 +28,55 @@ Vestibulum mattis ullamcorper velit sed. Odio morbi quis commodo odio. Accumsan 
 ### Code
 
 ###### JS
+~~~
+let x = 1;
 
-    let x = 1;
-    
-    // loop
-    /* yes */
-    while(true) {
-      x++:
-    }
-    
-    const buttonNavBar = document.querySelector("button.navbar-toggler")
+// loop
+/* yes */
+while(true) {
+    x++:
+}
 
+const buttonNavBar = document.querySelector("button.navbar-toggler")
+~~~
 {: .language-javascript}
 
 ###### Java
-
-    public class HelloWorldApp {
-        public static void main(String[] args) {
-            System.out.println("Hello World!"); // Prints the string to the console.
-        }
+~~~
+public class HelloWorldApp {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // Prints the string to the console.
     }
-
+}
+~~~
 {: .language-java}
 
 ###### CSS
-
-    body {
-       overflow: hidden;
-       background-color: #000000;
-       background-image: url(images/bg.gif);
-       background-repeat: no-repeat;
-       background-position: left top;
-    }
-
+~~~
+body {
+    overflow: hidden;
+    background-color: #000000;
+    background-image: url(images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+~~~
 {: .language-css}
 
 ###### Python
+~~~
+print('Hello, world!')
 
-    print('Hello, world!')
-    
-    # Comment
-    n = int(input('Type a number, and its factorial will be printed: '))
-    
-    if n < 0:
-        raise ValueError('You must enter a non negative integer')
-    
-    fact = 1
-    for i in range(2, n + 1):
-        fact *= i
-    
-    print(fact)
+# Comment
+n = int(input('Type a number, and its factorial will be printed: '))
 
+if n < 0:
+    raise ValueError('You must enter a non negative integer')
+
+fact = 1
+for i in range(2, n + 1):
+    fact *= i
+
+print(fact)
+~~~
 {: .language-python}
