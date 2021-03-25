@@ -1,12 +1,13 @@
 ---
 title: Prova Post
 date: 2021-03-04 15:48:00 Z
-layout: post
-image: /uploads/java-16.png
-description: Questo è un esempio di come dovrebbe essere un post
+published: false
 tags:
 - java
 - programming
+image: "/uploads/java-16.png"
+description: Questo è un esempio di come dovrebbe essere un post
+layout: post
 ---
 
 ![java-16.png](/uploads/java-16.png){: .inline width="300" height="100" alt="image description"} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ornare lectus sit amet est. Sed faucibus turpis in eu. Id nibh tortor id aliquet lectus proin nibh nisl. Tincidunt augue interdum velit euismod in pellentesque. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Libero enim sed faucibus turpis in eu mi *bibendum*. Nisl rhoncus mattis rhoncus urna. Nunc sed velit dignissim sodales ut eu sem. Ullamcorper eget nulla facilisi etiam dignissim. Congue mauris rhoncus aenean vel elit. Hac habitasse platea dictumst quisque sagittis purus. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Nullam eget felis eget nunc lobortis mattis aliquam faucibus.
@@ -15,7 +16,7 @@ tags:
 
 ## Sotto Titolo 2
 
-Urna id volutpat lacus laoreet non. _Sit amet risus nullam eget felis eget nunc._ __Sed pulvinar proin gravida hendrerit lectus a.__ Tristique senectus et netus et malesuada. Diam sollicitudin tempor id eu. Iaculis nunc sed augue lacus viverra. Fames ac turpis egestas sed tempus. Nisi scelerisque eu ultrices vitae auctor. Porttitor leo a diam sollicitudin tempor id eu nisl. Tincidunt vitae semper quis lectus nulla at volutpat diam. Tellus elementum sagittis vitae et leo duis ut diam quam.
+Urna id volutpat lacus laoreet non. *Sit amet risus nullam eget felis eget nunc.* **Sed pulvinar proin gravida hendrerit lectus a.** Tristique senectus et netus et malesuada. Diam sollicitudin tempor id eu. Iaculis nunc sed augue lacus viverra. Fames ac turpis egestas sed tempus. Nisi scelerisque eu ultrices vitae auctor. Porttitor leo a diam sollicitudin tempor id eu nisl. Tincidunt vitae semper quis lectus nulla at volutpat diam. Tellus elementum sagittis vitae et leo duis ut diam quam.
 ![java-16.png](/uploads/java-16.png){: .inline .right width="200" height="150" alt="image description"}
 Non blandit massa enim nec dui nunc mattis enim. Est ultricies integer quis auctor elit sed. Sed sed risus pretium quam vulputate dignissim suspendisse. Fermentum et sollicitudin ac orci phasellus egestas. Nunc congue nisi vitae suscipit tellus. Eu tincidunt tortor aliquam nulla facilisi. Dui vivamus arcu felis bibendum. Sed nisi lacus sed viverra. Molestie at elementum eu facilisis sed odio morbi. Felis bibendum ut tristique et egestas quis. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Nibh ipsum consequat nisl vel pretium. Quisque id diam vel quam elementum pulvinar etiam non. At urna condimentum mattis pellentesque id nibh tortor. A cras semper auctor neque vitae tempus quam. In massa tempor nec feugiat nisl pretium fusce id velit. Pharetra vel turpis nunc eget.
 
@@ -28,55 +29,55 @@ Vestibulum mattis ullamcorper velit sed. Odio morbi quis commodo odio. Accumsan 
 ### Code
 
 ###### JS
-~~~
-let x = 1;
 
-// loop
-/* yes */
-while(true) {
-  x++:
-}
+    let x = 1;
+    
+    // loop
+    /* yes */
+    while(true) {
+      x++:
+    }
+    
+    const buttonNavBar = document.querySelector("button.navbar-toggler")
 
-const buttonNavBar = document.querySelector("button.navbar-toggler")
-~~~
 {: .language-javascript}
 
 ###### Java
-~~~
-public class HelloWorldApp {
-    public static void main(String[] args) {
-        System.out.println("Hello World!"); // Prints the string to the console.
+
+    public class HelloWorldApp {
+        public static void main(String[] args) {
+            System.out.println("Hello World!"); // Prints the string to the console.
+        }
     }
-}
-~~~
+
 {: .language-java}
 
 ###### CSS
-~~~
-body {
-   overflow: hidden;
-   background-color: #000000;
-   background-image: url(images/bg.gif);
-   background-repeat: no-repeat;
-   background-position: left top;
-}
-~~~
+
+    body {
+       overflow: hidden;
+       background-color: #000000;
+       background-image: url(images/bg.gif);
+       background-repeat: no-repeat;
+       background-position: left top;
+    }
+
 {: .language-css}
 
 ###### Python
-~~~
-print('Hello, world!')
 
-# Comment
-n = int(input('Type a number, and its factorial will be printed: '))
+    print('Hello, world!')
+    
+    # Comment
+    n = int(input('Type a number, and its factorial will be printed: '))
+    
+    if n < 0:
+        raise ValueError('You must enter a non negative integer')
+    
+    fact = 1
+    for i in range(2, n + 1):
+        fact *= i
+    
+    print(fact)
 
-if n < 0:
-    raise ValueError('You must enter a non negative integer')
-
-fact = 1
-for i in range(2, n + 1):
-    fact *= i
-
-print(fact)
-~~~
 {: .language-python}
