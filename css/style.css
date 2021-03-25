@@ -1,5 +1,6 @@
 *, *::before, *::after {
-  transition: all 0.3s ease;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -71,20 +72,16 @@ a {
   color: var(--blue);
 }
 
-a.footer {
-  color: var(--white);
-}
-
 a:hover {
   color: var(--dark-blue);
 }
 
-a.footer:hover {
-  color: var(--orange);
-}
-
 a:focus {
   outline: 0.2rem solid var(--orange);
+}
+
+ul {
+  margin-left: 40px;
 }
 
 nav a:focus {
@@ -129,6 +126,7 @@ nav.navbar.absolute {
 
 ul.nav-submenu{
   padding: 0;
+  margin: 0;
 }
 
 .nav-submenu li{
@@ -265,7 +263,7 @@ header.big {
   position: relative;
 }
 
-header picture {
+.home-header picture {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -273,7 +271,7 @@ header picture {
   z-index: 0;
 }
 
-header picture img {
+.home-header picture img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -281,11 +279,11 @@ header picture img {
   filter: blur(2px);
 }
 
-header *{
+.home-header * {
   color: var(--white);
 }
 
-header > div {
+.home-header > div {
   background-color: transparent;
   position: relative;
   width: 100%;
@@ -294,30 +292,38 @@ header > div {
   align-items: center;
 }
 
-.skillbill {
+footer a {
+  color: var(--white);
+}
+
+footer a:hover {
+  color: var(--orange);
+}
+
+.home-header .skillbill {
   display: flex;
   margin-bottom: 1rem;
   align-items: center;
   filter: drop-shadow(0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2));
 }
 
-.skillbill img {
+.home-header .skillbill img {
   height: 4.5rem;
   width: 4.5rem;
 }
 
-.skillbill .logo-text {
+.home-header .skillbill .logo-text {
   margin-left: 1rem;
 }
 
-.skillbill h1 {
+.home-header .skillbill h1 {
   color: var(--dark-blue);
   line-height: 2.5rem;
   margin-bottom: 0;
   font-size: 3rem;
 }
 
-.skillbill span {
+.home-header .skillbill span {
   color: var(--orange);
   margin-bottom: 0;
   font-weight: 700;
@@ -336,6 +342,7 @@ header > div {
   color: var(--orange);
   text-shadow: 0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 section {
@@ -360,6 +367,7 @@ ul.tags li {
   margin-top: 0.2rem;
   background-color: var(--light-gray);
   border-radius: 0.4rem;
+  transition: all 0.3s ease;
 }
 
 ul.tags li:hover {
@@ -396,6 +404,7 @@ ul.tags li > span {
   padding: 1rem;
   box-shadow: 0 0 0.5rem #c0c0c0;
   margin: 1rem;
+  transition: all 0.3s ease;
 }
 
 #customers .customers-images a img {
@@ -597,6 +606,42 @@ section#post img.inline.right {
   margin: 10px 0 10px 10px;
 }
 
+section#post .post-header {
+  font-size: 0.8rem;
+  color: rgb(71, 71, 71);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+section#post .post-header img {
+  width: auto;
+}
+
+section#post .post-date {
+  margin-right: 10px;
+}
+
+section#post .post-reading-time {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+section#post ul.tags {
+  width: auto;
+}
+
+section#post .post-reading-time img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+
 section#post .highlight {
   padding: 0.5rem;
   background-color: var(--dark-gray);
@@ -635,39 +680,64 @@ section#post .highlight .cm {
   color: rgb(80, 133, 21);
 }
 
+section#news h1 {
+  margin-bottom: 1.5rem;
+}
+
 section#news ul{
   list-style: none;
   padding-left: 0;
 }
 
-section#news .post{
+section#news .post {
+  display: flex;
   margin-bottom: 2rem;
 }
 
-section#news .post>div {
-  display: flex;
-}
-
-section#news .post-text{
-  width: 70%;
+section#news .post-body {
   margin-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-section#news .post-text img{
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+section#news .post-description {
+  margin: 0;
+  flex: 1;
+  max-width: 80ch;
 }
 
 section#news .post-preview {
   width: 200px;
   height: 150px;
-  float: right;
-  vertical-align: middle;
+  object-fit: contain;
+  background-color: rgba(172, 132, 132, 0.1);
+  box-shadow: 5px 5px 5px rgba(181, 177, 175, 0.35);
+}
+
+section#news .post-header {
+  font-size: 0.8rem;
+  color: rgb(71, 71, 71);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
 }
 
 section#news .post-date {
-  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
+section#news .post-reading-time {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+section#news .post-reading-time img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 5px;
 }
 
 section#news .post-title {
@@ -676,19 +746,13 @@ section#news .post-title {
   font-size: 1.5rem;
 }
 
-section#news .post-tags{
-  margin-top: 0.2rem;
-}
-
-section#news .post-tags>span {
-  background-color: var(--dark-blue);
-  color: var(--white);
-  font-size: 0.8rem;
-  padding: 5px;
-  border-radius: 5px;
-}
-
 section#news .pagination {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.2rem;
+}
+
+section#news .pagination > * {
+  padding: 0.3rem;
 }

@@ -4,13 +4,14 @@ date: 2021-03-04 15:48:00 Z
 layout: post
 image: /uploads/java-16.png
 description: Questo è un esempio di come dovrebbe essere un post
+tags:
+- java
+- programming
 ---
 
-![java-16.png](/uploads/java-16.png){: alt="image description"}
-
-# Titolo Sensazionale
-
 ![java-16.png](/uploads/java-16.png){: .inline width="300" height="100" alt="image description"} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ornare lectus sit amet est. Sed faucibus turpis in eu. Id nibh tortor id aliquet lectus proin nibh nisl. Tincidunt augue interdum velit euismod in pellentesque. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Libero enim sed faucibus turpis in eu mi *bibendum*. Nisl rhoncus mattis rhoncus urna. Nunc sed velit dignissim sodales ut eu sem. Ullamcorper eget nulla facilisi etiam dignissim. Congue mauris rhoncus aenean vel elit. Hac habitasse platea dictumst quisque sagittis purus. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Nullam eget felis eget nunc lobortis mattis aliquam faucibus.
+
+![java-16.png](/uploads/java-16.png){: alt="image description"}
 
 ## Sotto Titolo 2
 

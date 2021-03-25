@@ -1,7 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
-<g><path d="M500,986.9c-270.6,0-490-218-490-486.9C10,231.1,229.4,13.1,500,13.1c270.6,0,490,218,490,486.9C990,768.9,770.6,986.9,500,986.9z M500,104.4c-219.9,0-398.1,177.1-398.1,395.6c0,218.5,178.2,395.6,398.1,395.6S898.1,718.5,898.1,500C898.1,281.5,719.8,104.4,500,104.4z M699,545.7h-91.9h-61.2h-46l0,0c-25.4,0-45.9-20.4-45.9-45.7V226.1c0-25.2,20.5-45.7,45.9-45.7c25.4,0,46,20.4,46,45.7v228.3h61.2H699c25.4,0,45.9,20.4,45.9,45.6C745,525.2,724.4,545.7,699,545.7z"/></g>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1000 1000"
+   enable-background="new 0 0 1000 1000"
+   xml:space="preserve"
+   id="svg8"
+   sodipodi:docname="reading_time.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><defs
+   id="defs12" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1016"
+   id="namedview10"
+   showgrid="false"
+   inkscape:zoom="0.472"
+   inkscape:cx="607.73626"
+   inkscape:cy="220.10022"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg8" />
+<metadata
+   id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon <rdf:RDF><cc:Work
+     rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata>
+<g
+   id="g6"
+   transform="matrix(0.69949844,0,0,0.69949844,144.95417,144.46199)"><path
+     d="M 500,986.9 C 229.4,986.9 10,768.9 10,500 10,231.1 229.4,13.1 500,13.1 c 270.6,0 490,218 490,486.9 0,268.9 -219.4,486.9 -490,486.9 z m 0,-882.5 C 280.1,104.4 101.9,281.5 101.9,500 101.9,718.5 280.1,895.6 500,895.6 719.9,895.6 898.1,718.5 898.1,500 898.1,281.5 719.8,104.4 500,104.4 Z m 199,441.3 h -91.9 -61.2 -46 v 0 C 474.5,545.7 454,525.3 454,500 V 226.1 c 0,-25.2 20.5,-45.7 45.9,-45.7 25.4,0 46,20.4 46,45.7 v 228.3 h 61.2 91.9 c 25.4,0 45.9,20.4 45.9,45.6 0.1,25.2 -20.5,45.7 -45.9,45.7 z"
+     id="path4"
+     inkscape:connector-curvature="0" /></g>
 </svg>

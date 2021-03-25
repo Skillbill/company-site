@@ -5,6 +5,25 @@ type: post
 
 <section id="post">
   <div class="container">
-    {{ content }}
+    <div class="post-header">
+      <span class="post-date">{{ page.date | date: "%-d %B %Y"}}</span>
+      <span class="post-reading-time">
+        <img src="/images/reading_time.svg">
+        <span>
+          {{ page.content | split: " " | size | divided_by: 200.0 | ceil }} min
+        </span>
+      </span>
+      {%if page.tags and page.tags.size > 0%}
+      <ul class="tags">
+        {% for tag in page.tags %}
+        <li><span>{{tag}}</span></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    <h1>{{ page.title }}</h1>
+    <div class="content">
+      {{ content }}
+    </div>
   </div>
 </section>

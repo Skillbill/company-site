@@ -4,7 +4,6 @@ date: 2021-02-12 16:37:00 Z
 layout: post
 image: /uploads/java-16.png
 description: Tra le novità annunciate per Jdk 16 emerge la prima release per Alpine, una delle distribuzioni maggiormente...
-reading_time: 2 min
 tags:
 - Java 16
 - Alpine
