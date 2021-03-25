@@ -687,6 +687,7 @@ section#news h1 {
 section#news ul{
   list-style: none;
   padding-left: 0;
+  margin-left: 0;
 }
 
 section#news .post {
@@ -707,7 +708,7 @@ section#news .post-description {
 }
 
 section#news .post-preview {
-  width: 200px;
+  width: 250px;
   height: 150px;
   object-fit: contain;
   background-color: rgba(172, 132, 132, 0.1);
@@ -755,4 +756,24 @@ section#news .pagination {
 
 section#news .pagination > * {
   padding: 0.3rem;
+}
+
+@media (max-width: 575px) {
+  section#news .post {
+    flex-direction: column;
+  }
+
+  section#news .post-preview {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  section#news .post {
+    margin-bottom: 4rem;
+  }
+
+  section#news .post-body {
+    margin-left: 0;
+  }
 }
