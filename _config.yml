@@ -11,5 +11,8 @@ collections:
 baseurl: 
 url: https://www.skillbill.it
 theme: minima
+paginate: 3
+paginate_path: "/news/:num/"
 plugins:
 - jekyll-feed
+- jekyll-paginate

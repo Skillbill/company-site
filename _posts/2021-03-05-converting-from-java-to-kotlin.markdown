@@ -8,7 +8,6 @@ Field name:
 description: questa è la meta description
 image: "/uploads/javaloveskotlin.jpg"
 layout: post
-excerpt: New programming languages almost always bring important benefits...
 ---
 
 ## Java to Kotiln

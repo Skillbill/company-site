@@ -634,8 +634,12 @@ section#post .highlight .cm {
   color: rgb(80, 133, 21);
 }
 
-section#news .post{
+section#news ul{
   list-style: none;
+  padding-left: 0;
+}
+
+section#news .post{
   margin-bottom: 2rem;
 }
 
@@ -643,11 +647,26 @@ section#news .post>div {
   display: flex;
 }
 
+section#news .post-text{
+  width: 70%;
+  margin-left: 1.5rem;
+}
+
+section#news .post-text img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
 section#news .post-preview {
   width: 200px;
-  height: 200px;
+  height: 150px;
   float: right;
   vertical-align: middle;
+}
+
+section#news .post-date {
+  font-size: 0.9rem;
 }
 
 section#news .post-title {
@@ -656,8 +675,19 @@ section#news .post-title {
   font-size: 1.5rem;
 }
 
-section#news .post-excerpt{
-  text-align: justify;
-  text-justify: inter-character;
-  width: 70%;
+section#news .post-tags{
+  margin-top: 0.2rem;
+}
+
+section#news .post-tags>span {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-size: 0.8rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+section#news .pagination {
+  text-align: center;
+  font-size: 1.2rem;
 }

@@ -3,7 +3,7 @@ title: Prova Post
 date: 2021-03-04 15:48:00 Z
 layout: post
 image: /uploads/java-16.png
-excerpt: Questo è un esempio di come dovrebbe essere un post
+description: Questo è un esempio di come dovrebbe essere un post
 ---
 
 ![java-16.png](/uploads/java-16.png){: alt="image description"}
