@@ -606,6 +606,33 @@ section#post img.inline.right {
   margin: 10px 0 10px 10px;
 }
 
+
+
+section#post figure:not(.inline) {
+  width: 100%;
+}
+
+section#post figure.inline {
+  float: left;
+  object-fit: contain;
+  margin: 10px 10px 10px 0;
+}
+
+section#post figure figcaption {
+  font-size: 0.8rem;
+  text-align: center;
+  color: gray;
+}
+
+section#post figure.inline img{
+  object-fit: contain;
+}
+
+section#post figure.inline.right {
+  float: right;
+  margin: 10px 0 10px 10px;
+}
+
 section#post .post-header {
   font-size: 0.8rem;
   color: rgb(71, 71, 71);
