@@ -642,6 +642,26 @@ section#post .post-reading-time img {
   margin-right: 5px;
 }
 
+section#post .share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+section#post .share > a {
+  margin: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease-out;
+}
+
+section#post .share > a:hover {
+  transform: scale(1.1);
+}
+
 section#post .highlight {
   padding: 0.5rem;
   background-color: var(--dark-gray);
