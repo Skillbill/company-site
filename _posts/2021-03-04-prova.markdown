@@ -1,7 +1,6 @@
 ---
 title: Prova Post
 date: 2021-03-04 15:48:00 Z
-published: false
 tags:
 - java
 - programming
