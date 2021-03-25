@@ -708,8 +708,8 @@ section#news .post-description {
 }
 
 section#news .post-preview {
-  width: 250px;
-  height: 150px;
+  width: 256px;
+  height: 144px;
   object-fit: contain;
   background-color: rgba(172, 132, 132, 0.1);
   box-shadow: 5px 5px 5px rgba(181, 177, 175, 0.35);
@@ -775,5 +775,13 @@ section#news .pagination > * {
 
   section#news .post-body {
     margin-left: 0;
+  }
+
+  section#post .post-header {
+    flex-wrap: wrap;
+  }
+
+  section#post img {
+    width: 100%;
   }
 }
