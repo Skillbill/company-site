@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% include google-tag-manager.html %}
   {% include meta.html %}
   <title>{{ page.title }}</title>
@@ -36,17 +35,6 @@
 
 
   <script src="/js/index.js?ver=7"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
 
 </body>
 
