@@ -686,10 +686,6 @@ section#post .post-header .tags li {
   margin-top: 0;
 }
 
-section#post .post-header > * {
-  margin-right: 10px;
-}
-
 section#post .post-reading-time {
   display: inline-flex;
   flex-direction: row;
@@ -813,8 +809,23 @@ section#news .post-header {
   width: 100%;
 }
 
-section#news .post-header > *  {
-  margin-right: 10px;
+section#news .post-header > *,
+section#post .post-header > * {
+  padding-right: 10px;
+  margin-right: 6px;
+  position: relative;
+}
+
+section#news .post-header > *:not(:last-child)::after ,
+section#post .post-header > *:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  right: 0;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--orange);
 }
 
 section#news .post-reading-time {
