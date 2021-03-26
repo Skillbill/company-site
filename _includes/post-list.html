@@ -7,6 +7,13 @@
     <div class="post-body">
       <div class="post-header">
         <span class="post-date">{{ post.date | date: "%-d %B %Y"}}</span>
+        <span>in
+          {% assign size = post.categories.size | minus: 1%}
+          {% for category in post.categories limit: size %}
+          <a href="/category/{{category | slugify}}">{{category}}</a>,
+          {% endfor %}
+          <a href="/category/{{post.categories | last | slugify}}">{{post.categories | last}}</a>
+        </span>
         <span class="post-reading-time">
           <img src="/images/reading_time.svg">
           <span>{{ post.content | split: " " | size | divided_by: 200.0 | ceil }} min</span>
@@ -35,13 +42,13 @@
   {% endif %}
 
   {% if paginator.page_trail %}
-    {% for trail in paginator.page_trail %}
-      {% if paginator.page == trail.num %}
-      <a>{{ trail.num }}</a>
-      {% else %}
-      <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
-      {% endif %}
-    {% endfor %}
+  {% for trail in paginator.page_trail %}
+  {% if paginator.page == trail.num %}
+  <a>{{ trail.num }}</a>
+  {% else %}
+  <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+  {% endif %}
+  {% endfor %}
   {% endif %}
 
   {% if paginator.next_page %}

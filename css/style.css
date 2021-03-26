@@ -297,6 +297,13 @@ header.big {
   align-items: center;
 }
 
+footer {
+  display: flex;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+}
+
 footer a {
   color: var(--white);
 }
@@ -304,6 +311,20 @@ footer a {
 footer a:hover {
   color: var(--orange);
 }
+
+footer ul {
+  margin: 2rem 0 2rem 0;
+  list-style: none;
+}
+
+footer li:first-child {
+  margin-bottom: 1rem;
+}
+
+footer li:last-child {
+  margin-top: 1rem;
+}
+
 
 .home-header .skillbill {
   display: flex;
@@ -687,12 +708,18 @@ section#post .post-reading-time img {
 
 section#post .share {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2rem;
 }
 
-section#post .share > a {
+section#post .share .links {
+  margin-top: 10px;
+  display: flex;
+}
+
+section#post .share .links > a {
   margin: 0.5rem;
   height: 2rem;
   width: 2rem;
@@ -701,7 +728,7 @@ section#post .share > a {
   transition: all 0.2s ease-out;
 }
 
-section#post .share > a:hover {
+section#post .share .links > a:hover {
   transform: scale(1.1);
 }
 
