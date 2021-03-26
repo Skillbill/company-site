@@ -591,7 +591,7 @@ ul.tags li > span {
   height: auto;
 }
 
-section#post .content figure img {
+figure img {
   object-fit: contain;
   border: 1px solid rgba(230, 230, 230, 0.68);
   border-bottom: none;
@@ -599,28 +599,28 @@ section#post .content figure img {
   background-color: rgba(172, 132, 132, 0.1);
 }
 
-section#post .content figure:not(.inline),
-section#post .content figure:not(.inline) img {
+figure:not(.inline),
+figure:not(.inline) img {
   width: 100%;
 }
 
-section#post .content figure {
+figure {
   margin-bottom: 10px;
   box-shadow: 5px 5px 5px rgba(181, 177, 175, 0.25);
 }
 
-section#post .content figure.inline {
+figure.inline {
   float: left;
   margin: 10px 10px 10px 0;
   width: min-content;
 }
 
-section#post .content figure.inline.right {
+figure.inline.right {
   float: right;
   margin: 10px 0 10px 10px;
 }
 
-section#post .content figure figcaption {
+figure figcaption {
   position: relative;
   font-size: 0.8rem;
   color: var(--white);
@@ -630,7 +630,7 @@ section#post .content figure figcaption {
   border-top: none;
 }
 
-section#post .content figure.right figcaption {
+figure.right figcaption {
   text-align: right;
 }
 
@@ -829,9 +829,8 @@ section#news .pagination > * {
     flex-wrap: wrap;
   }
 
-  section#post .content figure.inline img,
-  section#post .content img.inline,
-  section#post .content figure.inline {
+  figure.inline img,
+  figure.inline {
     width: 100%;
   }
 }

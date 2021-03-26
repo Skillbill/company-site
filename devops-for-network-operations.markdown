@@ -4,7 +4,7 @@ date: 2021-03-17 18:45:00 Z
 layout: page
 ---
 
-![DevOps.png](/uploads/DevOps.png?v=1)
+{% include image.html url="/uploads/DevOps.png?v=1" width="200" alt="" %}
 
 ## From Consulting to Training
 
