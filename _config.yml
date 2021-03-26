@@ -12,10 +12,10 @@ url: https://www.skillbill.it
 theme: minima
 pagination:
   enabled: true
-  collection: 'posts'
+  collection: posts
   per_page: 3
-  permalink: '/page/:num/'
-  category: 'posts'
+  permalink: "/page/:num/"
+  category: posts
   sort_reverse: true
   trail:
     before: 2
@@ -23,12 +23,12 @@ pagination:
 autopages:
   enabled: true
   tags:
-    layouts: 
-      - 'autopage_tags.html'
-    title: 'Posts tagged with :tag'
-    permalink: '/tag/:tag'
+    layouts:
+    - autopage_tags.html
+    title: Posts tagged with :tag
+    permalink: "/tag/:tag"
     slugify:
-      mode: 'default'  
+      mode: default
       case: true
 plugins:
 - jekyll-feed
