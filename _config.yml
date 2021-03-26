@@ -8,12 +8,19 @@ collections:
   uploads:
     title: Uploads
     output: true
-baseurl: 
 url: https://www.skillbill.it
 theme: minima
-paginate: 3
-paginate_path: "/news/:num/"
+pagination:
+  enabled: true
+  collection: 'posts'
+  per_page: 3
+  permalink: '/page/:num/'
+  category: 'posts'
+  tag: ''
+  trail:
+    before: 2
+    after: 2
 plugins:
 - jekyll-feed
-- jekyll-paginate
+- jekyll-paginate-v2
 show_drafts: true
