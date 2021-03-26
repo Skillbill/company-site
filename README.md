@@ -43,3 +43,25 @@ sub_filter_once off;
 ```
 
 
+## Markdown
+
+Image:
+```
+{% include image.html url="/uploads/java-16.png" width="200" alt="image description" caption="image caption"  %}{: .inline .right }
+```
+
+Code:
+```
+~~~
+let x = 1;
+
+// loop
+/* yes */
+while(true) {
+    x++:
+}
+
+const buttonNavBar = document.querySelector("button.navbar-toggler")
+~~~
+{: .language-javascript}
+```

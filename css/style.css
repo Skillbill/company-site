@@ -591,46 +591,47 @@ ul.tags li > span {
   height: auto;
 }
 
-section#post img:not(.inline) {
+section#post .content figure img {
+  object-fit: contain;
+  border: 1px solid rgba(230, 230, 230, 0.68);
+  border-bottom: none;
+  box-shadow: 5px 5px 5px rgba(181, 177, 175, 0.25);
+  background-color: rgba(172, 132, 132, 0.1);
+}
+
+section#post .content figure:not(.inline),
+section#post .content figure:not(.inline) img {
   width: 100%;
 }
 
-section#post img.inline {
-  float: left;
-  object-fit: contain;
-  margin: 10px 10px 10px 0;
+section#post .content figure {
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px rgba(181, 177, 175, 0.25);
 }
 
-section#post img.inline.right {
+section#post .content figure.inline {
+  float: left;
+  margin: 10px 10px 10px 0;
+  width: min-content;
+}
+
+section#post .content figure.inline.right {
   float: right;
   margin: 10px 0 10px 10px;
 }
 
-
-
-section#post figure:not(.inline) {
-  width: 100%;
-}
-
-section#post figure.inline {
-  float: left;
-  object-fit: contain;
-  margin: 10px 10px 10px 0;
-}
-
-section#post figure figcaption {
+section#post .content figure figcaption {
+  position: relative;
   font-size: 0.8rem;
-  text-align: center;
-  color: gray;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  padding: 4px;
+  border: 1px solid rgba(230, 230, 230, 0.68);
+  border-top: none;
 }
 
-section#post figure.inline img{
-  object-fit: contain;
-}
-
-section#post figure.inline.right {
-  float: right;
-  margin: 10px 0 10px 10px;
+section#post .content figure.right figcaption {
+  text-align: right;
 }
 
 section#post .post-header {
@@ -828,7 +829,9 @@ section#news .pagination > * {
     flex-wrap: wrap;
   }
 
-  section#post img {
+  section#post .content figure.inline img,
+  section#post .content img.inline,
+  section#post .content figure.inline {
     width: 100%;
   }
 }
