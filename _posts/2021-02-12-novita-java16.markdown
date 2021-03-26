@@ -2,7 +2,7 @@
 title: Novità Java 16
 date: 2021-02-12 16:37:00 Z
 tags:
-- Java 16
+- java
 - Alpine
 image: "/uploads/java-16.png"
 description: Tra le novità annunciate per Jdk 16 emerge la prima release per Alpine,
