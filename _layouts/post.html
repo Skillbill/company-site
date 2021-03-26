@@ -16,7 +16,7 @@ type: post
       {%if page.tags and page.tags.size > 0%}
       <ul class="tags">
         {% for tag in page.tags %}
-        <li><span>{{tag}}</span></li>
+        <li><a href="/tag/{{tag | slugify}}">{{tag}}</a></li>
         {% endfor %}
       </ul>
       {% endif %}
