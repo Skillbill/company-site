@@ -84,3 +84,9 @@ for i in range(2, n + 1):
 print(fact)
 ~~~
 {: .language-python}
+
+##### Test
+~~~
+let x = 1;
+~~~
+{: .language-javascript}
