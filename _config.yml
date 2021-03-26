@@ -12,10 +12,10 @@ url: https://www.skillbill.it
 theme: minima
 pagination:
   enabled: true
-  collection: 'posts'
+  collection: posts
   per_page: 3
-  permalink: '/page/:num/'
-  category: 'posts'
+  permalink: "/page/:num/"
+  category: posts
   tag: ''
   trail:
     before: 2
