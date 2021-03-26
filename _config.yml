@@ -23,8 +23,8 @@ pagination:
 autopages:
   enabled: true
   categories:
-    layouts: 
-      - 'autopage_categories.html'
+    layouts:
+    - autopage_categories.html
   tags:
     layouts:
     - autopage_tags.html
