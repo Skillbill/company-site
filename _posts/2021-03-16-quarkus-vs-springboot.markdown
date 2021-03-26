@@ -9,8 +9,7 @@ excerpt: To develop REST APIs in Java in a micro-services architecture, is it be
   from...
 ---
 
-![SpringBoot vs Quarkus.png](/uploads/SpringBoot%20vs%20Quarkus.png)
-Photo credit: [Daily Code Buffer](http://www.dailycodebuffer.com/quarkus-vs-spring-boot-performance/)
+{% include image.html url="/uploads/SpringBoot%20vs%20Quarkus.png" alt="SpringBoot vs Quarkus" caption="Photo credit: <a href='http://www.dailycodebuffer.com/quarkus-vs-spring-boot-performance/'>Daily Code Buffer</a>" %}
 
 To develop REST APIs in Java in a micro-services architecture, is it better, from the point of view of resource consumption, to use SpringBoot or Quarkus?
 Spring Framework is a stable and resilient tool, but it uses exaggerated memory and computational resources. Will new technologies like Quarkus be able to maintain the same quality while using fewer resources?

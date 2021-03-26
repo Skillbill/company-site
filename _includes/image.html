@@ -1,6 +1,6 @@
 <figure class="image">
-  <img height="{{include.height}}" width="{{include.width}}" src="{{ include.url }}" alt="{{ include.alt }}">
+  <img style="--height: {{include.height}}; --width: {{include.width}};" src="{{ include.url }}" alt="{{ include.alt }}">
   {% if include.caption %}
-  <figcaption>{{ include.caption }}</figcaption>
+  <figcaption style="--width: {{include.width}};">{{ include.caption }}</figcaption>
   {% endif %}
 </figure>

@@ -45,9 +45,14 @@ sub_filter_once off;
 
 ## Markdown
 
-Image:
+Full Image:
 ```
-{% include image.html url="/uploads/java-16.png" width="200" alt="image description" caption="image caption"  %}{: .inline .right }
+{% include image.html url="/uploads/java-16.png" alt="image description" caption="image caption"  %}
+```
+
+Inline image:
+```
+{% include image.html url="/uploads/java-16.png" width="300" alt="image description" caption="image caption"  %}{: .inline .right }
 ```
 
 Code:

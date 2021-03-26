@@ -80,6 +80,11 @@ a:focus {
   outline: 0.2rem solid var(--orange);
 }
 
+img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
 ul {
   margin-left: 40px;
 }
@@ -409,7 +414,6 @@ ul.tags li > span {
 
 #customers .customers-images a img {
   max-width: 100%;
-  object-fit: cover;
   filter: grayscale(100%);
 }
 
@@ -495,8 +499,6 @@ ul.tags li > span {
 
 #people .profiles img {
   width: 100%;
-  object-fit: cover;
-
 }
 
 #people .profiles p {
@@ -592,11 +594,12 @@ ul.tags li > span {
 }
 
 figure img {
-  object-fit: contain;
   border: 1px solid rgba(230, 230, 230, 0.68);
   border-bottom: none;
   box-shadow: 5px 5px 5px rgba(181, 177, 175, 0.25);
   background-color: rgba(172, 132, 132, 0.1);
+  height: calc(var(--height) * 1px);
+  width: calc(var(--width) * 1px);
 }
 
 figure:not(.inline),
@@ -612,7 +615,7 @@ figure {
 figure.inline {
   float: left;
   margin: 10px 10px 10px 0;
-  width: min-content;
+  width: max-content;
 }
 
 figure.inline.right {
@@ -628,6 +631,15 @@ figure figcaption {
   padding: 4px;
   border: 1px solid rgba(230, 230, 230, 0.68);
   border-top: none;
+  width: calc(var(--width) * 1px);
+}
+
+figure figcaption a {
+  color: var(--orange);
+}
+
+figure figcaption a:hover {
+  color: var(--white);
 }
 
 figure.right figcaption {
@@ -670,7 +682,6 @@ section#post ul.tags {
 section#post .post-reading-time img {
   width: 20px;
   height: 20px;
-  object-fit: contain;
   margin-right: 5px;
 }
 
@@ -762,7 +773,6 @@ section#news .post-description {
 section#news .post-preview {
   width: 256px;
   height: 144px;
-  object-fit: contain;
   background-color: rgba(172, 132, 132, 0.1);
   box-shadow: 5px 5px 5px rgba(181, 177, 175, 0.35);
 }
@@ -789,7 +799,6 @@ section#news .post-reading-time {
 section#news .post-reading-time img {
   width: 20px;
   height: 20px;
-  object-fit: contain;
   margin-right: 5px;
 }
 
@@ -830,7 +839,12 @@ section#news .pagination > * {
   }
 
   figure.inline img,
-  figure.inline {
+  figure.inline,
+  figure figcaption {
     width: 100%;
+  }
+
+  figure.right figcaption {
+    text-align: left;
   }
 }
