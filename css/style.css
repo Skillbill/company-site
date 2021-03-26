@@ -648,6 +648,10 @@ section#post .post-header img {
   width: auto;
 }
 
+section#post .post-header .tags li {
+  margin-top: 0;
+}
+
 section#post .post-date {
   margin-right: 10px;
 }
