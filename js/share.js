@@ -1,5 +1,5 @@
 {
-  const container = document.querySelector('.share');
+  const container = document.querySelector('.share .links');
   const title = document.querySelector('h1').textContent.trim();
   const url = location.href;
 

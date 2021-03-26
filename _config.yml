@@ -22,6 +22,9 @@ pagination:
     after: 2
 autopages:
   enabled: true
+  categories:
+    layouts:
+    - autopage_categories.html
   tags:
     layouts:
     - autopage_tags.html
