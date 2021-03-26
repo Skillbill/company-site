@@ -85,7 +85,7 @@ img {
   max-width: 100%;
 }
 
-ul {
+ul, ol {
   margin-left: 40px;
 }
 
