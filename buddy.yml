@@ -13,6 +13,7 @@
     docker_image_tag: "4.2.0"
     execute_commands:
     - "chown -R jekyll:jekyll $WORKING_DIR"
+    - "bundle install"
     - "jekyll build"
     volume_mappings:
     - "/:/srv/jekyll"
