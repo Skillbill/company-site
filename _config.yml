@@ -38,4 +38,3 @@ plugins:
 - jekyll-paginate-v2
 show_drafts: true
 highlighter: rouge
-
