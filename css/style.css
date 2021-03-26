@@ -638,6 +638,7 @@ section#post .post-header {
   font-size: 0.8rem;
   color: rgb(71, 71, 71);
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   width: 100%;
@@ -652,7 +653,7 @@ section#post .post-header .tags li {
   margin-top: 0;
 }
 
-section#post .post-date {
+section#post .post-header > * {
   margin-right: 10px;
 }
 
@@ -660,7 +661,6 @@ section#post .post-reading-time {
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 20px;
 }
 
 section#post ul.tags {
@@ -776,7 +776,7 @@ section#news .post-header {
   width: 100%;
 }
 
-section#news .post-date {
+section#news .post-header > *  {
   margin-right: 10px;
 }
 
@@ -827,10 +827,6 @@ section#news .pagination > * {
 
   section#news .post-body {
     margin-left: 0;
-  }
-
-  section#post .post-header {
-    flex-wrap: wrap;
   }
 
   figure.inline img,
