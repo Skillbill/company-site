@@ -32,7 +32,7 @@ Integer enim neque volutpat ac tincidunt vitae semper. Purus non enim praesent e
 ### Code
 
 ###### JS
-~~~
+{% highlight javascript %}
 let x = 1;
 
 // loop
@@ -42,21 +42,17 @@ while(true) {
 }
 
 const buttonNavBar = document.querySelector("button.navbar-toggler")
-~~~
-{: .language-javascript}
-
+{% endhighlight %}
 ###### Java
-~~~
+{% highlight java %}
 public class HelloWorldApp {
     public static void main(String[] args) {
         System.out.println("Hello World!"); // Prints the string to the console.
     }
 }
-~~~
-{: .language-java}
-
+{% endhighlight %}
 ###### CSS
-~~~
+{% highlight css %}
 body {
     overflow: hidden;
     background-color: #000000;
@@ -64,11 +60,9 @@ body {
     background-repeat: no-repeat;
     background-position: left top;
 }
-~~~
-{: .language-css}
-
+{% endhighlight %}
 ###### Python
-~~~
+{% highlight python %}
 print('Hello, world!')
 
 # Comment
@@ -82,5 +76,4 @@ for i in range(2, n + 1):
     fact *= i
 
 print(fact)
-~~~
-{: .language-python}
+{% endhighlight %}

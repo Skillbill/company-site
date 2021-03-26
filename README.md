@@ -57,7 +57,7 @@ Inline image:
 
 Code:
 ```
-~~~
+{% highlight javascript %}
 let x = 1;
 
 // loop
@@ -67,6 +67,5 @@ while(true) {
 }
 
 const buttonNavBar = document.querySelector("button.navbar-toggler")
-~~~
-{: .language-javascript}
+{% endhighlight %}
 ```

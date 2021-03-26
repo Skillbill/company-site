@@ -75,6 +75,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-paginate-v2
   minima (~> 2.5)
+  rouge
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
