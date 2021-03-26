@@ -36,6 +36,6 @@ autopages:
 plugins:
 - jekyll-feed
 - jekyll-paginate-v2
+- rouge
 show_drafts: true
 highlighter: rouge
-
