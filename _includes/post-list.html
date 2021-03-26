@@ -7,6 +7,7 @@
     <div class="post-body">
       <div class="post-header">
         <span class="post-date">{{ post.date | date: "%-d %B %Y"}}</span>
+        {%if post.categories.size > 0%}
         <span>in
           {% assign size = post.categories.size | minus: 1%}
           {% for category in post.categories limit: size %}
@@ -14,6 +15,7 @@
           {% endfor %}
           <a href="/category/{{post.categories | last | slugify}}">{{post.categories | last}}</a>
         </span>
+        {% endif %}
         <span class="post-reading-time">
           <img src="/images/reading_time.svg">
           <span>{{ post.content | split: " " | size | divided_by: 200.0 | ceil }} min</span>

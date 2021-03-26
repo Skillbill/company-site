@@ -7,6 +7,7 @@ type: post
   <div class="container">
     <div class="post-header">
       <span class="post-date">{{ page.date | date: "%-d %B %Y"}}</span>
+      {%if page.categories.size > 0%}
       <span>in
         {% assign size = page.categories.size | minus: 1%}
         {% for category in page.categories limit: size %}
@@ -14,6 +15,7 @@ type: post
         {% endfor %}
         <a href="/category/{{page.categories | last | slugify}}">{{page.categories | last}}</a>
       </span>
+      {%endif%}
       <span class="post-reading-time">
         <img src="/images/reading_time.svg">
         <span>
