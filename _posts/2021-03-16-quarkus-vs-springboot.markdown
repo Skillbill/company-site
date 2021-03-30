@@ -1,12 +1,14 @@
 ---
 title: Quarkus vs SpringBoot
 date: 2021-03-16 17:18:00 Z
+categories:
+- News
 description: Can the stability of SpringBoot be challenged by the speed promised by
   new frameworks?
 image: "/uploads/SpringBoot%20vs%20Quarkus.png"
-layout: post
 excerpt: To develop REST APIs in Java in a micro-services architecture, is it better,
   from...
+layout: post
 ---
 
 {% include image.html url="/uploads/SpringBoot%20vs%20Quarkus.png" alt="SpringBoot vs Quarkus" caption="Photo credit: <a href='http://www.dailycodebuffer.com/quarkus-vs-spring-boot-performance/'>Daily Code Buffer</a>" %}
