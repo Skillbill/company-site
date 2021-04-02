@@ -1,5 +1,5 @@
 ---
-title: Streaming time
+title: Video streaming time
 date: 2021-04-02 13:09:00 Z
 categories:
 - news
