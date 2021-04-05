@@ -6,6 +6,8 @@ categories:
 tags:
 - streaming
 image: "/uploads/kelly-sikkema-MsddXGPfQlA-unsplash%20(1).jpg"
+description: The offer of live video platforms has become a crowded market, discover
+  with us through Dacast's guide, the most suitable solution for your business.
 layout: post
 ---
 
