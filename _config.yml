@@ -1,6 +1,6 @@
 ---
 title: Company Site
-timezone: UTC
+timezone: Europe/Rome
 collections:
   posts:
     title: Posts
