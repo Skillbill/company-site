@@ -11,9 +11,9 @@ type: post
       <span>in
         {% assign size = page.categories.size | minus: 1%}
         {% for category in page.categories limit: size %}
-        <a href="/category/{{category | slugify}}">{{category}}</a>,
+        <a href="/category/{{category | slugify}}">{{category | downcase}}</a>,
         {% endfor %}
-        <a href="/category/{{page.categories | last | slugify}}">{{page.categories | last}}</a>
+        <a href="/category/{{page.categories | last | slugify}}">{{page.categories | last | downcase}}</a>
       </span>
       {%endif%}
       <span class="post-reading-time">
@@ -25,7 +25,7 @@ type: post
       {%if page.tags and page.tags.size > 0%}
       <ul class="tags">
         {% for tag in page.tags %}
-        <li><a href="/tag/{{tag | slugify}}">{{tag}}</a></li>
+        <li><a href="/tag/{{tag | slugify}}">{{tag | downcase}}</a></li>
         {% endfor %}
       </ul>
       {% endif %}

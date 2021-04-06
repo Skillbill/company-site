@@ -4,7 +4,7 @@ layout: default
 
 <section id="news">
   <div class="container">
-    <h1>Category: {{page.autopages.display_name}}</h1>
+    <h1>Category: {{page.autopages.display_name | downcase}}</h1>
     {% include post-list.html %}
   </div>
 </section>
