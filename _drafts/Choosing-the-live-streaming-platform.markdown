@@ -1,6 +1,6 @@
 ---
-title: Video streaming time
-date: 2021-04-02 13:09:00 Z
+title: Choosing the live streaming platform
+date: 2021-04-06 13:09:00 Z
 categories:
 - news
 tags:
