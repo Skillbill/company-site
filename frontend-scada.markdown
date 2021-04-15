@@ -8,6 +8,8 @@ layout: page
 
 <a href="https://commons.wikimedia.org/wiki/File:SCADA_Systems_Layout.png">deramsey</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
+# Frontend-Scada
+
 Usually SCADA systems are very large vertical products with legacy implementations because they have been developed over many years. We played a different role this trend helping our clients with Research and Development activities needed in their new challenges.
 
 Skillbill worked on two railways SCADA projects: a Centralized Traffic Control (CTC) system for an Italian railway section and the Generic Application for Subway Network Control.
