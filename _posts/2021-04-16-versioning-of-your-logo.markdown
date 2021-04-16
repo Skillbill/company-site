@@ -7,9 +7,9 @@ tags:
 - javascript
 - funny
 hidden: true
-layout: post
 image: "/uploads/logo.png"
-description: Little story of a programmer answering Marketing
+description: Little story of a programmer answering Marketing.
+layout: post
 ---
 
 Some weeks ago the Marketing guy asked me our logo in a vectorial format. We had some versions of it every of them different from each other (and yes a version with colors swapped for a mistake !).
