@@ -1,11 +1,10 @@
 ---
 title: Prova Post
-date: 2021-03-04 15:48:00 Z
-published: true
-hidden: true
+date: 2021-03-04 16:48:00 +01:00
 tags:
 - java
 - programming
+hidden: true
 image: "/uploads/java-16.png"
 description: Questo è un esempio di come dovrebbe essere un post
 layout: post
