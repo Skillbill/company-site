@@ -6,7 +6,7 @@ categories:
 tags:
 - javascript
 - funny
-hidden: true
+hidden: false
 image: "/uploads/Logo%20Skillbill.png"
 description: Little story of a programmer answering Marketing.
 layout: post
