@@ -1,0 +1,15 @@
+---
+title: Versioning of your Logo
+date: 2021-04-16 11:18:00 +02:00
+published: false
+categories:
+- javascript
+hidden: true
+---
+
+Some weeks ago the Marketing guy asked me our logo in a vectorial format. We had some versions of it every of them different from each other (and yes a version with colors swapped for a mistake !).
+As a developer, like everyone here in Skillbill, I decided to produce the image writing a program. I said that the reason was to have a new version of the logo versioned and more easy to manage... the true reason is that I love coding and graphical libraries/tools to do it (never heard about [OpenScad](http://openscad.org/) ?!).
+I created the logo in JS and with the [Paper.js library](http://paperjs.org/).
+Why not make an animation as well? :)
+![logo-animated.gif](/uploads/logo-animated.gif)
+The project is open and located [here](https://github.com/Skillbill/company-logo)
