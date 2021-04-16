@@ -1,7 +1,8 @@
 ---
 title: Prova Post
 date: 2021-03-04 15:48:00 Z
-published: false
+published: true
+hidden: true
 tags:
 - java
 - programming
@@ -16,14 +17,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Sotto Titolo 2
 
 Urna id volutpat lacus laoreet non. _Sit amet risus nullam eget felis eget nunc._ __Sed pulvinar proin gravida hendrerit lectus a.__ Tristique senectus et netus et malesuada. Diam sollicitudin tempor id eu. Iaculis nunc sed augue lacus viverra. Fames ac turpis egestas sed tempus. Nisi scelerisque eu ultrices vitae auctor. Porttitor leo a diam sollicitudin tempor id eu nisl. Tincidunt vitae semper quis lectus nulla at volutpat diam. Tellus elementum sagittis vitae et leo duis ut diam quam.
-{% include image.html url="/uploads/java-16.png" width="300" caption="Caption. Nunc congue nisi vitae suscipit tellus" alt="image description" %}{: .inline .right }
+{% include image.html url="/uploads/java-16.png" width="300" caption="Image 1" alt="image description" %}{: .inline .right }
 Non blandit massa enim nec dui nunc mattis enim. Est ultricies integer quis auctor elit sed. Sed sed risus pretium quam vulputate dignissim suspendisse. Fermentum et sollicitudin ac orci phasellus egestas. Nunc congue nisi vitae suscipit tellus. Eu tincidunt tortor aliquam nulla facilisi. Dui vivamus arcu felis bibendum. Sed nisi lacus sed viverra. Molestie at elementum eu facilisis sed odio morbi. Felis bibendum ut tristique et egestas quis. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Nibh ipsum consequat nisl vel pretium. Quisque id diam vel quam elementum pulvinar etiam non. At urna condimentum mattis pellentesque id nibh tortor. A cras semper auctor neque vitae tempus quam. In massa tempor nec feugiat nisl pretium fusce id velit. Pharetra vel turpis nunc eget.
 
 ### Sotto Titolo 3
 
-{% include image.html url="/uploads/javaloveskotlin.jpg" caption="Caption. Nunc congue nisi vitae suscipit tellus" alt="image description" %}
+{% include image.html url="/uploads/javaloveskotlin.jpg" caption="Image 2" alt="image description" %}
 Lacus sed turpis tincidunt id aliquet risus feugiat in. Consectetur libero id faucibus nisl tincidunt eget. Hendrerit dolor magna eget est lorem ipsum dolor. Vestibulum lorem sed risus ultricies tristique. In cursus turpis massa tincidunt dui. A scelerisque purus semper eget duis at. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit. Fermentum leo vel orci porta non pulvinar neque. 
-{% include image.html url="/uploads/javaloveskotlin.jpg" width="400" caption="Caption. Nunc congue nisi vitae suscipit tellus" alt="image description" %}{: .inline }
+{% include image.html url="/uploads/javaloveskotlin.jpg" width="400" caption="Image 3" alt="image description" %}{: .inline }
 Non arcu risus quis varius quam. Netus et malesuada fames ac. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Scelerisque felis imperdiet proin fermentum leo vel orci. Enim tortor at auctor urna nunc id. Purus sit amet volutpat consequat mauris nunc congue nisi vitae. Tortor posuere ac ut consequat semper viverra nam. Ac ut consequat semper viverra nam. Aliquet eget sit amet tellus cras adipiscing enim eu. Tristique senectus et netus et malesuada fames ac turpis.
 
 Vestibulum mattis ullamcorper velit sed. Odio morbi quis commodo odio. Accumsan sit amet nulla facilisi morbi tempus iaculis urna id. Nibh venenatis cras sed felis eget velit aliquet sagittis id. Est ante in nibh mauris cursus mattis molestie a iaculis. Sit amet est placerat in egestas erat imperdiet.
