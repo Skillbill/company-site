@@ -1,7 +1,6 @@
 ---
 title: Versioning of your Logo
 date: 2021-04-16 11:18:00 +02:00
-published: true
 categories:
 - news
 tags:
