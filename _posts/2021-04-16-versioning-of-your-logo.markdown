@@ -9,7 +9,7 @@ tags:
 - funny
 hidden: true
 layout: post
-image: "/uploads/logo.svg"
+image: "/uploads/logo.png"
 description: Little story of a programmer answering Marketing
 ---
 
