@@ -1,14 +1,11 @@
 ---
 title: Front end - SCADA
 date: 2021-04-15 09:44:00 +02:00
+image: "/uploads/Front%20end%20-%20SCADA.png"
 layout: page
 ---
 
-![SCADA_Systems_Layout.png](/uploads/SCADA_Systems_Layout.png)
-
-<a href="https://commons.wikimedia.org/wiki/File:SCADA_Systems_Layout.png">deramsey</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
-
-# Frontend-Scada
+Frontend-Scada
 
 Usually SCADA systems are very large vertical products with legacy implementations because they have been developed over many years. We played a different role this trend helping our clients with Research and Development activities needed in their new challenges.
 
