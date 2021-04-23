@@ -7,6 +7,8 @@ layout: page
 
 Usually SCADA systems are very large vertical products with legacy implementations because they have been developed over many years. We played a different role this trend helping our clients with Research and Development activities needed in their new challenges.
 
+## Projects
+
 Skillbill worked on two railways SCADA projects:
 
 * Centralized Traffic Control (CTC) system for an Italian railway section 
@@ -31,6 +33,8 @@ As for the CTC, the application has the graphical interface completely vectorial
 All the elements of a given installation have been positioned and configured using the Authoring tool. It is responsible to configure other specific installation aspects like authorization, user profiles and internationalization.
 
 The first installation supports PA/PID, CCTV and INTERCOM systems.
+
+## Our solution
 
 As proof of concept, **Skillbill has also developed its own general purpose fully SCADA solution based on the work we did with the railways SCADA UI**. For instance a working sample of the control of a multi-site solar generator network is available, as well as an implementation of a data center monitoring and control system with a mixed source of SCADA signals, IoT sensors and SNMP/IP devices. This PoC and its demo have been developed in order to show the full potential of the powerful SCADA UI made by Skillbill, in terms of responsiveness, scalability and interoperability, with a fully standard HTML5 output.
 
