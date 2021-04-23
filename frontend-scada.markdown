@@ -5,6 +5,8 @@ image: "/uploads/Front%20end%20-%20SCADA.png"
 layout: page
 ---
 
+![Front end - SCADA.png](/uploads/Front%20end%20-%20SCADA.png)
+
 Usually SCADA systems are very large vertical products with legacy implementations because they have been developed over many years. We played a different role this trend helping our clients with Research and Development activities needed in their new challenges.
 
 ## Projects
