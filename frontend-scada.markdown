@@ -1,5 +1,5 @@
 ---
-title: FRONTEND-SCADA
+title: Front end - SCADA
 date: 2021-04-15 09:44:00 +02:00
 layout: page
 ---
