@@ -3,7 +3,7 @@ title: Front end - SCADA
 date: 2021-04-15 09:44:00 +02:00
 image: "/uploads/Front%20end%20-%20SCADA.png"
 layout: page
-description : "innovative front-end for SCADA systems"
+description: innovative front-end for SCADA systems
 ---
 
 {% include image.html url="/uploads/Front%20end%20-%20SCADA.png?v=1" width="200" alt="" %}
