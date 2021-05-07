@@ -558,7 +558,7 @@ ul.tags li>span {
 }
 
 /* Cookie footer */
-body #accept-cookie {
+body #cookie-banner {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -571,7 +571,7 @@ body #accept-cookie {
     align-items: center;
 }
 
-body #accept-cookie button{
+body #cookie-banner button{
     background: white;
     display: inline;
     padding: 0.5rem;
@@ -581,11 +581,11 @@ body #accept-cookie button{
     margin-left: 20px;
 }
 
-body #accept-cookie a:hover{
+body #cookie-banner a:hover{
     color: var(--orange);
 }
 
-body #accept-cookie[hidden]{
+body #cookie-banner[hidden]{
     display: none;
 }
 

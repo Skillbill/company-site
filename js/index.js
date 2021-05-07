@@ -60,25 +60,34 @@ var navObserver = new IntersectionObserver(entries => {
 
 navObserver.observe(document.querySelector("#spacer"))
 
-const hideCookieFooter = function hide() {
+const handleCookies = () => {
+  const cookie_banner = document.querySelector("body #cookie-banner");
 
-  const cookieValue = document.cookie
+  if(!cookie_banner) {
+    return;
+  }
+
+  const accept_cookies = document.querySelector("body #cookie-banner button");
+
+  accept_cookies.addEventListener('click', () => {
+    document.cookie = "cookies-accepted=true";
+    cookie_banner.setAttribute("hidden", "true");
+  });
+
+  cookie_banner.append(accept_cookies);
+
+  if(document.cookie) {
+    const cookieValue = document.cookie
     .split('; ')
     .find(row => row.startsWith('cookies-accepted='))
     .split('=')[1] || "";
 
-  const cookie_footer = document.querySelector("body #accept-cookie");
-
-  if (cookieValue == "true") {
-    cookie_footer.setAttribute("hidden", "true");
-  } else {
-    cookie_footer.removeAttribute("hidden");
+    if (cookieValue == "true") {
+      cookie_banner.setAttribute("hidden", "true");
+    } else {
+      cookie_banner.removeAttribute("hidden");
+    }
   }
 };
 
-hideCookieFooter();
-
-function acceptCookie() {
-  document.cookie = "cookies-accepted=true";
-  hideCookieFooter();
-}
+handleCookies();
