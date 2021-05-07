@@ -59,3 +59,26 @@ var navObserver = new IntersectionObserver(entries => {
 })
 
 navObserver.observe(document.querySelector("#spacer"))
+
+const hideCookieFooter = function hide() {
+
+  const cookieValue = document.cookie
+    .split('; ')
+    .find(row => row.startsWith('cookies-accepted='))
+    .split('=')[1] || "";
+
+  const cookie_footer = document.querySelector("body #accept-cookie");
+
+  if (cookieValue == "true") {
+    cookie_footer.setAttribute("hidden", "true");
+  } else {
+    cookie_footer.removeAttribute("hidden");
+  }
+};
+
+hideCookieFooter();
+
+function acceptCookie() {
+  document.cookie = "cookies-accepted=true";
+  hideCookieFooter();
+}

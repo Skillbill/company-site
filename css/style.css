@@ -557,6 +557,37 @@ ul.tags li>span {
     }
 }
 
+/* Cookie footer */
+body #accept-cookie {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+}
+
+body #accept-cookie button{
+    background: white;
+    display: inline;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--orange);
+    margin-left: 20px;
+}
+
+body #accept-cookie a:hover{
+    color: var(--orange);
+}
+
+body #accept-cookie[hidden]{
+    display: none;
+}
 
 /* Contact Section */
 
