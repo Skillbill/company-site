@@ -565,7 +565,7 @@ body #cookie-banner {
     background-color: var(--dark-blue);
     color: var(--white);
     padding: 1rem;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     left: 0;
     align-items: center;
@@ -579,9 +579,10 @@ body #cookie-banner button{
     font-weight: 700;
     color: var(--orange);
     margin-left: 20px;
+    border: 2px solid var(--orange);
 }
 
-body #cookie-banner a:hover{
+body #cookie-banner a {
     color: var(--orange);
 }
 

@@ -70,24 +70,20 @@ const handleCookies = () => {
   const accept_cookies = document.querySelector("body #cookie-banner button");
 
   accept_cookies.addEventListener('click', () => {
-    document.cookie = "cookies-accepted=true";
+    document.cookie = "cookies-accepted=true;SameSite=Lax";
     cookie_banner.setAttribute("hidden", "true");
   });
 
   cookie_banner.append(accept_cookies);
 
-  if(document.cookie) {
-    const cookieValue = document.cookie
-    .split('; ')
-    .find(row => row.startsWith('cookies-accepted='))
-    .split('=')[1] || "";
+  const isCookieSet = document.cookie.match("cookies-accepted=true");
 
-    if (cookieValue == "true") {
-      cookie_banner.setAttribute("hidden", "true");
-    } else {
-      cookie_banner.removeAttribute("hidden");
-    }
+  if (isCookieSet) {
+    cookie_banner.setAttribute("hidden", "true");
+  } else {
+    cookie_banner.removeAttribute("hidden");
   }
+
 };
 
 handleCookies();
