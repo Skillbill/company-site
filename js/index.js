@@ -59,3 +59,35 @@ var navObserver = new IntersectionObserver(entries => {
 })
 
 navObserver.observe(document.querySelector("#spacer"))
+
+const handleCookies = () => {
+  const cookie_banner = document.querySelector("body #cookie-banner");
+
+  if(!cookie_banner) {
+    return;
+  }
+
+  const accept_cookies = document.querySelector("body #cookie-banner button");
+
+  accept_cookies.addEventListener('click', () => {
+    document.cookie = "cookies-accepted=true";
+    cookie_banner.setAttribute("hidden", "true");
+  });
+
+  cookie_banner.append(accept_cookies);
+
+  if(document.cookie) {
+    const cookieValue = document.cookie
+    .split('; ')
+    .find(row => row.startsWith('cookies-accepted='))
+    .split('=')[1] || "";
+
+    if (cookieValue == "true") {
+      cookie_banner.setAttribute("hidden", "true");
+    } else {
+      cookie_banner.removeAttribute("hidden");
+    }
+  }
+};
+
+handleCookies();
