@@ -545,6 +545,30 @@ ul.tags li>span {
     margin: 0;
 }
 
+#people .custom-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#people .custom-icon-1 {
+    background-image: url(/images/custom/icon-1.png);
+}
+
+#people .custom-icon-2 {
+    background-image: url(/images/custom/icon-2.png);
+}
+
+#people .custom-icon-3 {
+    background-image: url(/images/custom/icon-3.png);
+}
+
+#people .custom-p {
+    line-height: 10px;
+}
+
 @media (max-width: 480px) {
     #people .profiles>div {
         grid-template-columns: 1fr;
