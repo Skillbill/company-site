@@ -1,4 +1,8 @@
-# Skillbill WebSite
+Skillbill WebSite
+=================
+
+[![buddy pipeline](https://app.buddy.works/skillbill-bw/company-site/pipelines/pipeline/253029/badge.svg?token=107d3bbbb60ecabcdb08e0c4f842888977cc5d7b269e84936f8b8074747daf78 "buddy pipeline")](https://app.buddy.works/skillbill-bw/company-site/pipelines/pipeline/253029)
+
 
 ## Development
 
