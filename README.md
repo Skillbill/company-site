@@ -43,7 +43,7 @@ sub_filter_once off;
 ```
 
 
-## Markdown
+## Markdown formatting tips
 
 Full Image:
 ```
