@@ -19,7 +19,7 @@ The development team worked together for a whole day on a brand new idea.
 The topic of the hackaton was "tv-live reaction": a SmartTv application  to vote during a live event.
 
 We started from scratch by brainstorming, we worked divided in some teams and at the end of the day we made a demo of the final result.
-We had fun a lot and the finaleffect was great !
+We had fun a lot and the final effect was great !
 
 It was nice to work together where everyone used their experiences in a free and effective way.
 
