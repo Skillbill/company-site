@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  products:
+    title: Products
+    output: true
 url: https://www.skillbill.it
 future: true
 theme: minima
