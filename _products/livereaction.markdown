@@ -55,5 +55,5 @@ Live Reaction Ã¨ la soluzione ideale per trasformare un evento televisivo in unâ
 <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
   <source src="/uploads/livereaction_video.mp4" type="video/mp4">
 </video>
-
+ 
 
