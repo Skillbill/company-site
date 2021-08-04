@@ -1,8 +1,9 @@
 ---
 title: LiveReaction
-date: 2021-08-02 17:00:00 +01:00
+date: 2021-08-02 18:00:00 +02:00
 image: "/uploads/reactions.png"
-description: Un’applicazione per Smart Tv che permette di inserire contenuti dinamici personalizzati durante una diretta televisiva
+description: Un’applicazione per Smart Tv che permette di inserire contenuti dinamici
+  personalizzati durante una diretta televisiva
 layout: product
 ---
 
