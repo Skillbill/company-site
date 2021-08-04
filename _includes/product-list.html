@@ -1,0 +1,17 @@
+<div class="products">
+  {% for product in site.products %}
+  <div>
+    <h5 class="name"> <a href="{{ product.url }}">{{product.title}}</a></h5>
+    <div>
+      <a href="{{ product.url }}">
+        <img class="product-preview" src="{{ product.image }}" alt="">
+      </a>
+    </div>
+    <div>
+      <div class="product-body">
+        {{product.description}}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
