@@ -41,7 +41,7 @@ La raccolta dati è l’altra funzionalità essenziale per le attività di marke
 
 Live Reaction permette un collegamento diretto dallo schermo della TV attraverso QR-Code a una pagina web esterna ottimizzata per i dispositivi mobile, contenente un form di inserimento dati interamente configurabile, in base alle esigenze aziendali.
 
-{% include image.html url="/uploads/livereaction_landing_page.jpg" width="400" caption="Landing page" alt="image description" %}{:inline}
+{% include image.html url="/uploads/livereaction_landing_page.jpg" width="400" caption="Landing page" alt="image description" %}{: .inline .right }
 
 La possibilità di gestire i dati provenienti dal form in un database esterno permette di rispettare tutte le normative legate alla privacy, tutelando i dati dell’utente in base al regolamento GDPR.
 
