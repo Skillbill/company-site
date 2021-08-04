@@ -1036,3 +1036,7 @@ section#news .pagination>* {
         text-align: left;
     }
 }
+
+video {
+    max-width: 100%;
+}
