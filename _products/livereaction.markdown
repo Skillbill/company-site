@@ -13,7 +13,9 @@ Lo scopo principale di Live Reaction è duplice: fornire all’azienda che ne fa
 
 Es: durante una partita di calcio è possibile inserire una rosa di giocatori votabili come best player, lo spettatore può usare il telecomando per inserire la propria preferenza e scoprire se ha vinto alla fine del contest. La scelta dei giocatori, l’inizio e la fine del contest, l’inserimento di banner pubblicitari sono interamente gestibili attraverso un semplice control panel.
 
-{% include image.html url="/uploads/livereaction_football.png" caption="Application overlay on a football match" alt="image description" %}
+<video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+  <source src="/uploads/livereaction_video.mp4" type="video/mp4">
+</video>
 
 La raccolta di dati personali attraverso Smart Tv non è molto produttiva, a causa della difficoltà da parte dello spettatore nell'inserimento testuale attraverso il telecomando. Live Reaction permette di inserire a fine contest un QR-Code a schermo che porta lo spettatore alla compilazione dei dati personali attraverso il proprio smartphone.
 
@@ -73,8 +75,6 @@ Questa procedura può permettere di utilizzare i dati raccolti in base a quanto 
 Live Reaction è la soluzione ideale per trasformare un evento televisivo in un’opportunità commerciale, coinvolgendo lo spettatore senza disturbarlo, sfruttando le possibilità di semplicità offerte dal telecomando, andando quindi a interagire anche con fasce di età normalmente poco propense a utilizzare strumenti di comunicazione digitali per esprimere opinioni pubblicamente.
 
 
-<video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-  <source src="/uploads/livereaction_video.mp4" type="video/mp4">
-</video>
+{% include image.html url="/uploads/livereaction_football.png" caption="Application overlay on a football match" alt="image description" %}
 
 
