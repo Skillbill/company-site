@@ -19,6 +19,8 @@ Es: durante una partita di calcio è possibile inserire una rosa di giocatori vo
 
 La raccolta di dati personali attraverso Smart Tv non è molto produttiva, a causa della difficoltà da parte dello spettatore nell'inserimento testuale attraverso il telecomando. Live Reaction permette di inserire a fine contest un QR-Code a schermo che porta lo spettatore alla compilazione dei dati personali attraverso il proprio smartphone.
 
+----
+
 ### Configurazione
 {% include image.html url="/uploads/livereaction_reactions_configuration.png" caption="Reactions configuration" alt="image description" width="400" %}{: .inline .right}
 
@@ -27,33 +29,25 @@ Le Reaction, così si chiamano le icone selezionabili che appaiono a schermo, po
 
 I due aspetti più interessanti lato brand riguardano le sezioni Advertising e Qr-Code/Landing page:
 
-<br>
-
-<br>
-
-<br>
-
 ----
 
 ### Advertising
-{% include image.html url="/uploads/livereaction_adv_configuration.png" caption="Advertising configuration" alt="image description" width="400"%}{: .inline .right}
+
 La sezione dedicata ai banner pubblicitari è forse la funzionalità più importante dell’applicazione, perché consente di monetizzare attraverso la collaborazione con partner interessati a investire in pubblicità.
+
+{% include image.html url="/uploads/livereaction_adv_configuration.png" caption="Advertising configuration" alt="image description" width="400"%}{: .inline .right}
+
 Per questa ragione le possibilità di inserimento dei banner è variegata, permettendo sia di inserire piccoli banner posizionati nella parte bassa dello schermo, sia di inserire una vistosa cornice intorno alle immagini in diretta.
-
-<br>
-
-<br>
-
-<br>
 
 ----
 
 ### Landing Page
+
 La raccolta dati è l’altra funzionalità essenziale per le attività di marketing, e con Live Reaction è molto facile da configurare:
 
-{% include image.html url="/uploads/livereaction_landing_configuration.png" caption="Landing configuration" alt="image description" width="500" %} {: .inline .right}
-
 Live Reaction permette un collegamento diretto dallo schermo della TV attraverso QR-Code a una pagina web esterna ottimizzata per i dispositivi mobile, contenente un form di inserimento dati interamente configurabile, in base alle esigenze aziendali.
+
+{% include image.html url="/uploads/livereaction_landing_configuration.png" caption="Landing configuration" alt="image description" width="500" %} {: .inline .right}
 
 La possibilità di gestire i dati provenienti dal form in un database esterno permette di rispettare tutte le normative legate alla privacy, tutelando i dati dell’utente in base al regolamento GDPR.
 
@@ -62,12 +56,6 @@ La possibilità di gestire i dati provenienti dal form in un database esterno pe
 È possibile inserire una pagina intermedia con la descrizione del trattamento dei dati personali completa di accettazione da parte dell’utente.
 
 Questa procedura può permettere di utilizzare i dati raccolti in base a quanto dichiarato e accettato dall’utente, dando ampio margine di scelta all’azienda proponente.
-
-<br>
-
-<br>
-
-<br>
 
 ----
 
