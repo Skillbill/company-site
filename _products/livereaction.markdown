@@ -7,21 +7,22 @@ description: Un’applicazione per Smart Tv che permette di inserire contenuti d
 layout: product
 ---
 
-Live Reaction è un’applicazione per Smart Tv che permette di inserire contenuti dinamici personalizzati durante una diretta televisiva. I contenuti sono configurabili per rispondere alle esigenze aziendali e utilizzabili dagli spettatori attraverso i tasti colorati del telecomando.
+Live Reaction è un’applicazione per Smart Tv che permette di inserire contenuti dinamici personalizzati durante una diretta televisiva. L'applicazione essendo pensata principalmente per contenuti live può essere pacchettizzata come HBBTV app, oppure può essere utilizzata come modulo in altre app standalone su TV LG, Samsung Tizen o altre piattaforme che supportano applicazioni HTML5.
 
 Lo scopo principale di Live Reaction è duplice: fornire all’azienda che ne fa uso, uno strumento in grado di inserire e gestire banner pubblicitari e raccogliere i dati personali degli utenti collegati. Queste pratiche vengono favorite attraverso l’inserimento di piccoli contest durante la diretta televisiva.
 
-Es: durante una partita di calcio è possibile inserire una rosa di giocatori votabili come best player, lo spettatore può usare il telecomando per inserire la propria preferenza e scoprire se ha vinto alla fine del contest. La scelta dei giocatori, l’inizio e la fine del contest, l’inserimento di banner pubblicitari sono interamente gestibili attraverso un semplice control panel.
+Es: durante una partita di calcio è possibile inserire una rosa di giocatori votabili come best player, lo spettatore può usare il telecomando per inserire la propria preferenza e scoprire se ha vinto alla fine del contest.  I contenuti sono configurabili per rispondere alle esigenze aziendali e utilizzabili dagli spettatori attraverso i tasti colorati del telecomando. La scelta dei giocatori, l’inizio e la fine del contest, l’inserimento di banner pubblicitari sono interamente gestibili attraverso un semplice control panel.
 
 <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-  <source src="/uploads/livereaction_video.mp4" type="video/mp4">
+<source src="/uploads/livereaction_video.mp4" type="video/mp4">
 </video>
 
 La raccolta di dati personali attraverso Smart Tv non è molto produttiva, a causa della difficoltà da parte dello spettatore nell'inserimento testuale attraverso il telecomando. Live Reaction permette di inserire a fine contest un QR-Code a schermo che porta lo spettatore alla compilazione dei dati personali attraverso il proprio smartphone.
 
-----
+---
 
 ### Configurazione
+
 {% include image.html url="/uploads/livereaction_reactions_configuration.png" caption="Reactions configuration" alt="image description" width="400" %}{: .inline .right}
 
 Ogni aspetto dell’applicazione è configurabile, in modo da offrire i contenuti più adatti a qualunque tipo di trasmissione: evento musicale, evento sportivo, talent show…
@@ -29,7 +30,7 @@ Le Reaction, così si chiamano le icone selezionabili che appaiono a schermo, po
 
 I due aspetti più interessanti lato brand riguardano le sezioni Advertising e Qr-Code/Landing page:
 
-----
+---
 
 ### Advertising
 
@@ -39,7 +40,7 @@ La sezione dedicata ai banner pubblicitari è forse la funzionalità più import
 
 Per questa ragione le possibilità di inserimento dei banner è variegata, permettendo sia di inserire piccoli banner posizionati nella parte bassa dello schermo, sia di inserire una vistosa cornice intorno alle immagini in diretta.
 
-----
+---
 
 ### Landing Page
 
@@ -57,12 +58,10 @@ La possibilità di gestire i dati provenienti dal form in un database esterno pe
 
 Questa procedura può permettere di utilizzare i dati raccolti in base a quanto dichiarato e accettato dall’utente, dando ampio margine di scelta all’azienda proponente.
 
-----
+---
 
 ### Conclusioni
+
 Live Reaction è la soluzione ideale per trasformare un evento televisivo in un’opportunità commerciale, coinvolgendo lo spettatore senza disturbarlo, sfruttando le possibilità di semplicità offerte dal telecomando, andando quindi a interagire anche con fasce di età normalmente poco propense a utilizzare strumenti di comunicazione digitali per esprimere opinioni pubblicamente.
 
-
 {% include image.html url="/uploads/livereaction_football.png" caption="Application overlay on a football match" alt="image description" %}
-
-
