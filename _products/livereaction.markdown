@@ -21,7 +21,7 @@ The collection of personal data through Smart TVs is not very productive, due to
 
 ---
 
-### Configurazione
+### Configuration
 
 {% include image.html url="/uploads/livereaction_reactions_configuration.png" caption="Reactions configuration" alt="image description" width="400" %}{: .inline .right}
 
