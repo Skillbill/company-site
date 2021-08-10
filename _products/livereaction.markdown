@@ -2,14 +2,14 @@
 title: LiveReaction
 date: 2021-08-02 18:00:00 +02:00
 image: "/uploads/reactions.png"
-description: Un’applicazione per Smart Tv che permette di inserire contenuti dinamici
-  personalizzati durante una diretta televisiva
+description: Live Reaction is a Smart TV app that allows you to insert customised
+  dynamic content during a live TV broadcast.
 layout: product
 ---
 
 Live Reaction is a **Smart TV app that allows you to insert customised dynamic content during a live TV broadcast**. The application is mainly designed for live content, so it can be packaged as an HBBTV app, or it can be used as a module in other standalone apps on LG TVs, Samsung Tizen or other platforms that support HTML5 applications.
 
-Live Reaction's primary aim is to provide its clients with a Targeted Advertising tool, creating new advertising space and being able to profile its users on time, as well as giving TV advertisers the marketing power of the web. These practices are facilitated through the insertion of small contests during live television.
+**Live Reaction's primary aim is to provide its clients with a Targeted Advertising tool**, creating new advertising space and being able to profile its users on time, as well as giving TV advertisers the marketing power of the web. These practices are facilitated through the insertion of small contests during live television.
 
 E.g. during a football match it is possible to enter a shortlist of players to be voted as best player; the spectator can use the remote control to enter his preference and find out if he has won at the end of the contest.  The content is configurable to meet business needs and viewers can use the coloured buttons on the remote control. The choice of players, the start and end of the contest, and the placement of advertising banners can all be managed via a simple control panel.
 
@@ -17,11 +17,11 @@ E.g. during a football match it is possible to enter a shortlist of players to b
 <source src="/uploads/livereaction_video.mp4" type="video/mp4">
 </video>
 
-The collection of personal data through Smart TVs is not very productive, due to the difficulty for the viewer to enter the data textually through the remote control. Live Reaction allows to insert at the end of the contest a QR-Code on the screen that leads the viewer to fill in the personal data through their smartphone.
+The collection of personal data through Smart TVs is not very productive, due to the difficulty for the viewer to enter the data textually through the remote control. **Live Reaction allows to insert at the end of the contest a QR-Code on the screen that leads the viewer to fill in the personal data through their smartphone**.
 
 ---
 
-## Configuration 
+## Configuration
 
 {% include image.html url="/uploads/livereaction_reactions_configuration.png" caption="Reactions configuration" alt="image description" width="400" %}{: .inline .right}
 
@@ -32,7 +32,7 @@ The two most interesting aspects on the brand side are the Advertising and Qr-Co
 
 ---
 
-### Advertising
+## Advertising
 
 The section dedicated to advertising banners is perhaps the most important feature of the application, because it allows you to monetise through collaboration with partners interested in investing in advertising.
 
@@ -42,7 +42,7 @@ For this reason, the possibilities of inserting banners are manifold, allowing b
 
 ---
 
-### Landing Page
+## Landing Page
 
 Data collection is another essential functionality for marketing activities, and with Live Reaction it is very easy to configure:
 
@@ -58,8 +58,8 @@ This procedure can allow the data collected to be used according to the declarat
 
 ---
 
-### Conclusioni
+## Conclusioni
 
-Live Reaction is the ideal solution to transform a television event into an opportunity to increase revenues through advertising, involving the viewer without disturbing him, exploiting the possibilities of simplicity offered by the remote control. The application is designed to interact even with age groups that are normally not inclined to use digital communication tools to express their opinions publicly.
+**Live Reaction is the ideal solution to transform a television event into an opportunity to increase revenues through advertising**, involving the viewer without disturbing him, exploiting the possibilities of simplicity offered by the remote control. The application is designed to interact even with age groups that are normally not inclined to use digital communication tools to express their opinions publicly.
 
 {% include image.html url="/uploads/livereaction_football.png" caption="Application overlay on a football match" alt="image description" %}
