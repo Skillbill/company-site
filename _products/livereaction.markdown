@@ -7,9 +7,9 @@ description: Un’applicazione per Smart Tv che permette di inserire contenuti d
 layout: product
 ---
 
-Live Reaction is a Smart TV app that allows you to insert customised dynamic content during a live TV broadcast. The application is mainly designed for live content, so it can be packaged as an HBBTV app, or it can be used as a module in other standalone apps on LG TVs, Samsung Tizen or other platforms that support HTML5 applications.
+Live Reaction is a **Smart TV app that allows you to insert customised dynamic content during a live TV broadcast**. The application is mainly designed for live content, so it can be packaged as an HBBTV app, or it can be used as a module in other standalone apps on LG TVs, Samsung Tizen or other platforms that support HTML5 applications.
 
-Live Reaction's primary aim is to provide its clients with a Targeted Advertising tool, creating new advertising space and being able to profile its users on time, as well as giving TV advertisers the marketing power of the web.These practices are facilitated through the insertion of small contests during live television.
+Live Reaction's primary aim is to provide its clients with a Targeted Advertising tool, creating new advertising space and being able to profile its users on time, as well as giving TV advertisers the marketing power of the web. These practices are facilitated through the insertion of small contests during live television.
 
 E.g. during a football match it is possible to enter a shortlist of players to be voted as best player; the spectator can use the remote control to enter his preference and find out if he has won at the end of the contest.  The content is configurable to meet business needs and viewers can use the coloured buttons on the remote control. The choice of players, the start and end of the contest, and the placement of advertising banners can all be managed via a simple control panel.
 
@@ -21,7 +21,7 @@ The collection of personal data through Smart TVs is not very productive, due to
 
 ---
 
-### Configuration
+## Configuration 
 
 {% include image.html url="/uploads/livereaction_reactions_configuration.png" caption="Reactions configuration" alt="image description" width="400" %}{: .inline .right}
 
