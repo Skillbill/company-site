@@ -58,7 +58,7 @@ This procedure can allow the data collected to be used according to the declarat
 
 ---
 
-## Conclusioni
+## Conclusions
 
 **Live Reaction is the ideal solution to transform a television event into an opportunity to increase revenues through advertising**, involving the viewer without disturbing him, exploiting the possibilities of simplicity offered by the remote control. The application is designed to interact even with age groups that are normally not inclined to use digital communication tools to express their opinions publicly.
 
