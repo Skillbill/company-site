@@ -8,3 +8,7 @@ Skillbill's Client is usually a large (even multinational) or medium-large compa
 These are some of the clients we work with to achieve their goals. For us, our clients are partners and our goal is to achieve measurable results.
 
 ## **Sky Italia**
+
+We managed the CORE project for the SMC team, realizing the application platform used by the network operations group of Sky Italia.
+\
+We are developing and managing the OSSMSO project for the OSS team, which updates all internal systems on the status of network outages in the Sky network.
