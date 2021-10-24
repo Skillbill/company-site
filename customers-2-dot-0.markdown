@@ -12,3 +12,11 @@ These are some of the clients we work with to achieve their goals. For us, our c
 We managed the CORE project for the SMC team, realizing the application platform used by the network operations group of Sky Italia.
 \
 We are developing and managing the OSSMSO project for the OSS team, which updates all internal systems on the status of network outages in the Sky network.
+
+## Fastweb
+
+We took care of Fastweb TV, both in the part related to STB Middleware and to the construction of the RaiClick portal.
+\
+
+\
+In the operations area, we developed TaglioCavo and Inventory, respectively: a tool for real-time monitoring of services on fibres in the field and an integrated management system for tracking all the operator's equipment.
