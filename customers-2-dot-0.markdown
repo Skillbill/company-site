@@ -14,8 +14,6 @@ We managed the CORE project for the SMC team, realizing the application platform
 ## Fastweb
 
 We took care of Fastweb TV, both in the part related to STB Middleware and to the construction of the RaiClick portal.
-\
-
 In the operations area, we developed TaglioCavo and Inventory, respectively: a tool for real-time monitoring of services on fibres in the field and an integrated management system for tracking all the operator's equipment.
 
 ## Novartis
@@ -33,3 +31,23 @@ The work done for CHILI focused on the development of the beckend and E-commerce
 ## BMC
 
 We have worked with the BMC TrueSight Capacity Optimization product development team from its earliest versions. The customer continues to benefit from our collaboration, particularly in the product roadmap, we deal with particular technological innovations or critical releases.
+
+## RealMadrid Footscout
+
+We made an app for Europe's most successful football club. [FFootscout app](https://www.realmadrid.com/noticias/2017/07/el-real-madrid-lanza-real-madrid-footscout) is a video football platform to gives Madrid fans the opportunity to share their football skills with the world and scout other football players!
+
+## GSC
+
+We provided highly skilled frontend professionals specialized in SmartTV and STB development who then joined the development teams of some of the biggest players in the European market, such as LibertyGlobal in Netherland and HD TV in Germany
+
+## ContactLab
+
+Is a world class leader in email marketing, digital marketing and cloud marketing tools. We provided them an entire development team in charge of the renewal of their platform in a completely micro-services based solution, and then following its evolution for many years
+
+## Norigin Media
+
+we help Noriginmedia both in the development of their TV frontend solution running on both SmartTV and STB, also we provide highly skilled professionals backend developers for helping their OTT customers.
+
+## Bottega Veneta
+
+we helped their digital marketing team implementing the HTML5 technical and visual requirements for their season campaign on the web
