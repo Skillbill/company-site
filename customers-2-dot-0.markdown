@@ -1,6 +1,9 @@
 ---
 title: Customers 2.0
 date: 2021-06-28 12:40:00 +02:00
+description: For our customers we cover all configurations necessary for the success
+  of the required project/task in the areas of Streaming Tech, DevOps, Frontend Scada.
+image: "/uploads/Skillbill%20-%20Customer.jpg"
 ---
 
 Skillbill's Client is usually a large (even multinational) or medium-large company, most often with a strong technological focus. We favour long-term relationships with our clients, including the transfer of our skills as part of the service.
