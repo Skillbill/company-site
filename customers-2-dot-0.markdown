@@ -12,7 +12,9 @@ These are some of the clients we work with to achieve their goals. For us, our c
 
 ## **Sky Italia**
 
-We managed the CORE project for the SMC team, realizing the application platform used by the network operations group of Sky Italia. We are developing and managing the OSSMSO project for the OSS team, which updates all internal systems on the status of network outages in the Sky network.
+We developed and now we manage an internal system for the broadband quality team. This is in charge to analyze in realtime and in batch mode the metrics of the broadband and voice service provided by Sky in Italy. 
+
+Another project was created and is managed by us : it updates all internal systems on the status of network outages in the Sky network. It is a another important piece of the quality assurance of the broadband service of Sky Italy.
 
 ## Fastweb
 
