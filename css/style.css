@@ -422,7 +422,7 @@ ul.tags li>span {
 
 /* Clients Section */
 
-#customers .customers-images {
+#customers .customers-container {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -431,45 +431,51 @@ ul.tags li>span {
     font-size: 1rem;
 }
 
-#customers .customers-images a {
+#customers .customers-container a {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-decoration: none;
     padding: 1rem;
-    box-shadow: 0 0 0.5rem #c0c0c0;
+    box-shadow: 0 0 0.1rem #c0c0c0;
     margin: 1rem;
     transition: all 0.3s ease;
+    width: 100%;
 }
 
-#customers .customers-images a img {
-    max-width: 100%;
-    filter: grayscale(100%);
+#customers .customers-container a img {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 200px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    flex-shrink: 0;
 }
 
-#customers .customers-images a:hover {
-    transform: scale(1.1);
+#customers .customers-container a:hover {
+    box-shadow: 0 0 0.5rem #c0c0c0;
 }
 
-#customers .customers-images a:hover {
-    transform: scale(1.1);
+#customers .customers-container a > div {
+    padding: 1rem;
 }
 
-#customers .customers-images a:hover img,
-#customers .customers-images a:focus img {
-    filter: grayscale(0%);
+#customers .customers-container h3 {
+    font-size: 1.2rem;
 }
 
-#customers .customers-images span {
+#customers .customers-container p {
     color: var(--dark-blue);
+    margin: 0;
 }
 
-@media (max-width: 480px) {
-    #customers a {
-        width: 100%;
+@media (max-width: 767px) {
+    #customers .customers-container a {
+        flex-direction: column;
+        margin: 0 0 1rem 0;
+        padding: 0.2rem;
     }
 }
-
 
 /* vision */
 
