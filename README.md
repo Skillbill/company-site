@@ -17,11 +17,6 @@ rvm autolibs packages
 rvm install 2.4.0
 ```
 
-### Jekyll and Bundler:
-
-```
-gem install jekyll bundler
-```
 ### start dev server
 
 Your terminal must have set ON the "Run command as login shell" as [described here](https://rvm.io/integration/gnome-terminal)
@@ -29,8 +24,10 @@ Your terminal must have set ON the "Run command as login shell" as [described he
 ```
 //cd project folder
 rvm use 2.4.0
+gem install jekyll-sass-converter -v 2.1.0
+gem install jekyll bundler
 bundle install
-bundle exec jekyll serve --trace --watch --livereload
+bundle exec jekyll serve --trace --watch --livereload -P 4000
 ```
 
 

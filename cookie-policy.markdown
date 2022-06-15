@@ -11,7 +11,7 @@ This page describes how personal information is received and collected and how i
 
 *Author*: Francesco Ciacca, Via Della Signora n.6 - 20122 MILANO
 
-*Email*: info@skillbill.it
+*Email*: <info@skillbill.it>
 
 The privacy of the users on the internet is of fundamental importance for skillbill.it.
 
