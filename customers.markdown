@@ -10,14 +10,22 @@ These are some of the clients we work with to achieve their goals. For us, our c
 3 CARAVELLE S.R.L.
 Front-end (Vue.js)/ Mobile (Ioniq) application development for tourism 4.0
 
+![bmc-82e2aa.png](/uploads/bmc-82e2aa.png)
+
 BMC
 We have worked with the BMC TrueSight Capacity Optimization product development team from its earliest versions. The customer continues to benefit from our collaboration, particularly in the product roadmap, we deal with particular technological innovations or critical releases.
+
+![bottega-veneta.png](/uploads/bottega-veneta.png)
 
 Bottega Veneta
 We helped their digital marketing team implementing the HTML5 technical and visual requirements for their season campaign on the web
 
+![CFMT.png](/uploads/CFMT.png)
+
 CFMT CENTRO DI FORMAZIONE MANAGEMENT DEL TERZIARIO
 Implementation and maintenance of a management platform for delivering in-person and online training courses.
+
+![chili.png](/uploads/chili.png)
 
 Chili TV
 The work done for CHILI focused on the development of the beckend and E-commerce platform of the OTT TVoD solution with a huge catalogue and supporting DRM and CDN. We shared initial development goals with Chili TV, as technical and management partners, and also planned the growth roadmap.
@@ -25,21 +33,31 @@ The work done for CHILI focused on the development of the beckend and E-commerce
 COMPUTER FUTURES, EIN GESCHAFTSZWEIG DER STHREE AUSTRIA GMBH
 Front-end application development (React.js) for an automated test generation platform owned by the company Tricentis.
 
+![contactlab.png](/uploads/contactlab.png)
+
 Contactlab
 Is a world class leader in email marketing, digital marketing and cloud marketing tools. We provided them an entire development team in charge of the renewal of their platform in a completely micro-services based solution, and then following its evolution for many years
 
 EDEN BROWN LTD
 Application development for OTT/Streaming on Smart-TV / HbbTv
 
+![fast.png](/uploads/fast.png)
+
 Fastweb
 We took care of Fastweb TV, both in the part related to STB Middleware and to the construction of the RaiClick portal.
 In the operations area, we developed TaglioCavo and Inventory, respectively: a tool for real-time monitoring of services on fibres in the field and an integrated management system for tracking all the operator's equipment.
 
+![mess.png](/uploads/mess.png)
+
 Messagenet
 We have been working with this small Telco for over 10 years, and have developed a relationship of mutual trust, always integrating with the in-house technical team. The rapid technological evolution has allowed both companies to stay up-to-date in the voip field.
 
+![noriginmedia.png](/uploads/noriginmedia.png)
+
 Norigin Media
 We help Noriginmedia both in the development of their TV frontend solution running on both SmartTV and STB, also we provide highly skilled professionals backend developers for helping their OTT customers.
+
+![sky.png](/uploads/sky.png)
 
 Sky Italia
 We developed and now we manage an internal system for the broadband quality team. This is in charge to analyze in realtime and in batch mode the metrics of the broadband and voice service provided by Sky in Italy.
