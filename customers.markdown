@@ -7,33 +7,37 @@ Skillbill's Client is usually a large (even multinational) or medium-large compa
 
 These are some of the clients we work with to achieve their goals. For us, our clients are partners and our goal is to achieve measurable results.
 
+[![3 caravelle.jpeg](/uploads/3%20caravelle.jpeg)](https://www.3caravelle.com/)
+
 3 CARAVELLE S.R.L.
 Front-end (Vue.js)/ Mobile (Ioniq) application development for tourism 4.0
 
-![bmc-82e2aa.png](/uploads/bmc-82e2aa.png)
+[![bmc-82e2aa.png](/uploads/bmc-82e2aa.png)](https://www.bmc.com/)
 
 BMC
 We have worked with the BMC TrueSight Capacity Optimization product development team from its earliest versions. The customer continues to benefit from our collaboration, particularly in the product roadmap, we deal with particular technological innovations or critical releases.
 
-![bottega-veneta.png](/uploads/bottega-veneta.png)
+[![bottega-veneta.png](/uploads/bottega-veneta.png)](https://www.bottegaveneta.com/it-it)
 
 Bottega Veneta
 We helped their digital marketing team implementing the HTML5 technical and visual requirements for their season campaign on the web
 
-![CFMT.png](/uploads/CFMT.png)
+[![CFMT.png](/uploads/CFMT.png)](https://www.cfmt.it/)
 
 CFMT CENTRO DI FORMAZIONE MANAGEMENT DEL TERZIARIO
 Implementation and maintenance of a management platform for delivering in-person and online training courses.
 
-![chili.png](/uploads/chili.png)
+[![chili.png](/uploads/chili.png)](https://it.chili.com/)
 
 Chili TV
 The work done for CHILI focused on the development of the beckend and E-commerce platform of the OTT TVoD solution with a huge catalogue and supporting DRM and CDN. We shared initial development goals with Chili TV, as technical and management partners, and also planned the growth roadmap.
 
+[![1627463837466.jpeg](/uploads/1627463837466.jpeg)](https://www.computerfutures.com/de-de/)
+
 COMPUTER FUTURES, EIN GESCHAFTSZWEIG DER STHREE AUSTRIA GMBH
 Front-end application development (React.js) for an automated test generation platform owned by the company Tricentis.
 
-![contactlab.png](/uploads/contactlab.png)
+[![contactlab.png](/uploads/contactlab.png)](https://contactlab.com/it/)
 
 Contactlab
 Is a world class leader in email marketing, digital marketing and cloud marketing tools. We provided them an entire development team in charge of the renewal of their platform in a completely micro-services based solution, and then following its evolution for many years
