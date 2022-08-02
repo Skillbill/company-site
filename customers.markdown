@@ -7,40 +7,42 @@ Skillbill's Client is usually a large (even multinational) or medium-large compa
 
 These are some of the clients we work with to achieve their goals. For us, our clients are partners and our goal is to achieve measurable results.
 
-[![3 caravelle.jpeg](/uploads/3%20caravelle.jpeg)](https://www.3caravelle.com/)
+![3 caravelle.jpeg](/uploads/3%20caravelle.jpeg)
 
 3 CARAVELLE S.R.L.
 Front-end (Vue.js)/ Mobile (Ioniq) application development for tourism 4.0
 
-[![bmc-82e2aa.png](/uploads/bmc-82e2aa.png)](https://www.bmc.com/)
+![bmc-82e2aa.png](/uploads/bmc-82e2aa.png)
 
 BMC
 We have worked with the BMC TrueSight Capacity Optimization product development team from its earliest versions. The customer continues to benefit from our collaboration, particularly in the product roadmap, we deal with particular technological innovations or critical releases.
 
-[![bottega-veneta.png](/uploads/bottega-veneta.png)](https://www.bottegaveneta.com/it-it)
+![bottega-veneta.png](/uploads/bottega-veneta.png)
 
 Bottega Veneta
 We helped their digital marketing team implementing the HTML5 technical and visual requirements for their season campaign on the web
 
-[![CFMT.png](/uploads/CFMT.png)](https://www.cfmt.it/)
+![CFMT.png](/uploads/CFMT.png)
 
 CFMT CENTRO DI FORMAZIONE MANAGEMENT DEL TERZIARIO
 Implementation and maintenance of a management platform for delivering in-person and online training courses.
 
-[![chili.png](/uploads/chili.png)](https://it.chili.com/)
+![chili.png](/uploads/chili.png)
 
 Chili TV
 The work done for CHILI focused on the development of the beckend and E-commerce platform of the OTT TVoD solution with a huge catalogue and supporting DRM and CDN. We shared initial development goals with Chili TV, as technical and management partners, and also planned the growth roadmap.
 
-[![1627463837466.jpeg](/uploads/1627463837466.jpeg)](https://www.computerfutures.com/de-de/)
+![1627463837466.jpeg](/uploads/1627463837466.jpeg)
 
 COMPUTER FUTURES, EIN GESCHAFTSZWEIG DER STHREE AUSTRIA GMBH
 Front-end application development (React.js) for an automated test generation platform owned by the company Tricentis.
 
-[![contactlab.png](/uploads/contactlab.png)](https://contactlab.com/it/)
+![contactlab.png](/uploads/contactlab.png)
 
 Contactlab
 Is a world class leader in email marketing, digital marketing and cloud marketing tools. We provided them an entire development team in charge of the renewal of their platform in a completely micro-services based solution, and then following its evolution for many years
+
+![EdenBrown.png](/uploads/EdenBrown.png)
 
 EDEN BROWN LTD
 Application development for OTT/Streaming on Smart-TV / HbbTv
@@ -66,8 +68,12 @@ We help Noriginmedia both in the development of their TV frontend solution runni
 Sky Italia
 We developed and now we manage an internal system for the broadband quality team. This is in charge to analyze in realtime and in batch mode the metrics of the broadband and voice service provided by Sky in Italy.
 
+![T&T Sitemi.jpeg](/uploads/T&T%20Sitemi.jpeg)
+
 T & T SISTEMI SRL
 Front-end HTML5 (Web HMI) application development for scada applications in railroad...
+
+![TicketCoin.jpeg](/uploads/TicketCoin.jpeg)
 
 TicketCoin SpA
 Development of an Nft Marketplace capable of autonomously creating non-fungible and fungible content.
