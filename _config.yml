@@ -11,6 +11,8 @@ collections:
   uploads:
     title: Uploads
     output: true
+  customers:
+    output: false
 url: https://www.skillbill.it
 future: true
 theme: minima
