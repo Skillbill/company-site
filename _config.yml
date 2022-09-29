@@ -2,6 +2,9 @@
 title: Company Site
 timezone: Europe/Rome
 collections:
+  customers:
+    title: Customers
+    output: false
   posts:
     title: Posts
     output: true
@@ -11,8 +14,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  customers:
-    output: false
 url: https://www.skillbill.it
 future: true
 theme: minima
