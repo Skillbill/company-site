@@ -10,20 +10,17 @@ we use [Jekyll](https://jekyllrb.com/) .
 
 ### Ruby
 
-[rvm](http://rvm.io/)
+Tested with Ruby version 2.6.10 (rbenv is a convenient way to install old version of Ruby)
+A guide to install old version of Ruby on Ubuntu 22.04 [here](https://www.how2shout.com/linux/3-ways-to-install-ruby-on-ubuntu-22-04-lts-jammy/)
 
-```
-rvm autolibs packages
-rvm install 2.4.0
-```
 
 ### start dev server
 
 Your terminal must have set ON the "Run command as login shell" as [described here](https://rvm.io/integration/gnome-terminal)
 
 ```
-//cd project folder
-rvm use 2.4.0
+//if you are using rbenv
+rbenv local 2.6.10
 gem install jekyll-sass-converter -v 2.1.0
 gem install jekyll bundler
 bundle install
