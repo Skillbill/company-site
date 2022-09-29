@@ -4,7 +4,7 @@ timezone: Europe/Rome
 collections:
   customers:
     title: Customers
-    output: false
+    output: true
   posts:
     title: Posts
     output: true
