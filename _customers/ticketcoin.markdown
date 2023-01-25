@@ -1,5 +1,5 @@
 ---
-title: TicketCoin SpA
+title: TicketCoin spa
 image: "/uploads/TicketCoin.jpeg"
 link: https://ticketcoin.io/
 ---

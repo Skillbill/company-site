@@ -1,5 +1,5 @@
 ---
-title: COMPUTER FUTURES, EIN GESCHAFTSZWEIG DER STHREE AUSTRIA GMBH
+title: Computer Futures, Ein Geschaftszweig Der Stree Austrua Gmbh
 image: "/uploads/1627463837466.jpeg"
 link: https://www.computerfutures.com/en-gb/
 ---
