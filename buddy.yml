@@ -1,4 +1,4 @@
-- pipeline: "update production 1"
+- pipeline: "update production"
   trigger_mode: "ON_EVERY_PUSH"
   ref_name: "master"
   ref_type: "BRANCH"
