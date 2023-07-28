@@ -10,7 +10,7 @@
     type: "BUILD"
     working_directory: "/srv/jekyll"
     docker_image_name: "jekyll/jekyll"
-    docker_image_tag: "4.3.2"
+    docker_image_tag: "4.2.2"
     execute_commands:
     - echo `date`
     - "chown -R jekyll:jekyll $WORKING_DIR"
@@ -32,7 +32,7 @@
     authentication_mode: "ENV_KEY"
   - action: "Send CD notification"
     type: "SLACK"
-    content: "[#$BUDDY_EXECUTION_ID] $BUDDY_PIPELINE_NAME execution by <$BUDDY_INVOKER_URL|$BUDDY_INVOKER_NAME>."
+    content: "[#$BUDDY_EXECUTION_ID] $BUDDY_PIPELINE_NAME execution by <$BUDDY_INVOKER_NAME>."
     blocks: "[\n\t{\n\t\t\"type\": \"section\",\n\t\t\"fields\": [\n\t\t\t{\n\t\t\t\t\"type\": \"mrkdwn\",\n\t\t\t\t\"text\": \"*Successful run:* <$BUDDY_EXECUTION_URL|Execution #$BUDDY_EXECUTION_ID $BUDDY_EXECUTION_COMMENT>\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"type\": \"mrkdwn\",\n\t\t\t\t\"text\": \"*Pipeline:* <$BUDDY_PIPELINE_URL|$BUDDY_PIPELINE_NAME>\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"type\": \"mrkdwn\",\n\t\t\t\t\"text\": \"*Branch:* $BUDDY_EXECUTION_BRANCH\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"type\": \"mrkdwn\",\n\t\t\t\t\"text\": \"*Project:* <$BUDDY_PROJECT_URL|$BUDDY_PROJECT_NAME>\"\n\t\t\t}\n\t\t]\n\t}\n]"
     channel: "C0TNK5J4T"
     integration_hash: "vVP4XgELYqaQjzQYbnjk2m9Oz7"
