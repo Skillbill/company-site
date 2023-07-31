@@ -1,7 +1,12 @@
 ---
 title: Consultancy
 layout: page
-decription : 'consultancy RUST . consultancy C++ . consultancy Java . consultancy Kotlin . consultancy Javascript . consultancy Typescrit . consultancy RDBMS . consultancy Cloud . consultancy Vue . consultancy React . consultancy Developer . consultancy Project Leader .consultancy Software Architect . consultancy Fullstack Developer . consultancy Mobile Developer . consultancy Devops Developer . consultancy AWS . consultancy Azure . consultancy Blockchain . consultancy WEB3'
+decription: consultancy RUST . consultancy C++ . consultancy Java . consultancy Kotlin
+  . consultancy Javascript . consultancy Typescrit . consultancy RDBMS . consultancy
+  Cloud . consultancy Vue . consultancy React . consultancy Developer . consultancy
+  Project Leader .consultancy Software Architect . consultancy Fullstack Developer
+  . consultancy Mobile Developer . consultancy Devops Developer . consultancy AWS
+  . consultancy Azure . consultancy Blockchain . consultancy WEB3
 ---
 
 {% include image.html url="/uploads/consultancy.jpg?v=1" width="200" alt="" %}
