@@ -5,6 +5,9 @@ collections:
   customers:
     title: Customers
     output: false
+  consultancies:
+    title: Consultancies
+    output: false
   posts:
     title: Posts
     output: true
