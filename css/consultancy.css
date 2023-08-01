@@ -1,3 +1,4 @@
+/* Section introducing consultants */
 .consultancy .intro {
     margin-top: 56px;
     background-color: var(--orange);
@@ -18,18 +19,17 @@
     max-width: 800px;
     text-align: center;
 }
-@media screen and (max-width: 768px) {
-    .consultancy .intro {
-        padding: 32px;
-        margin: 0;
-    }
-    .consultancy .intro > h1 {
-        text-align: left;
-        font-size: 24px;
-    }
-    .consultancy .intro > p {
-        text-align: left;
-    }
+
+/* Profile title */
+.consultancy > p {
+    margin-top: 56px;
+}
+
+/* Header */
+.consultancy .consultant {
+    padding: 0;
+    display: flex;
+    gap: 24px;
 }
 .consultancy .bio {
     border-radius: 23px;
@@ -37,16 +37,6 @@
     border: 1.5px solid var(--dark-blue);
     max-width: 780px;
 }
-
-.consultancy > p {
-    margin-top: 56px;
-}
-.consultancy .consultant {
-    padding: 0;
-    display: flex;
-    gap: 24px;
-}
-
 .consultancy .header {
     background-color: var(--dark-blue);
     color: var(--white);
@@ -55,21 +45,6 @@
     display: flex;
     gap: 48px;
 }
-
-@media screen and (max-width: 768px) {
-    .consultancy .header {
-        flex-direction: column;
-        gap: 24px;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    .consultancy .consultant {
-        flex-direction: column;
-        gap: 24px;
-    }
-}
-
 .consultancy .header img {
     border-radius: 50%;
     border: 2px solid var(--white);
@@ -103,12 +78,44 @@
     border: 1.5px solid var(--dark-blue);
     color: var(--dark-blue);
 }
+
+/* Biography body */
 .consultancy .body {
     padding: 24px;
 }
 
+/* Skills */
 .skills {
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .consultancy .header {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .consultancy .consultant {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .consultancy .intro {
+        padding: 32px;
+        margin: 0;
+    }
+    .consultancy .intro > h1 {
+        text-align: left;
+        font-size: 24px;
+    }
+    .consultancy .intro > p {
+        text-align: left;
+    }
 }
