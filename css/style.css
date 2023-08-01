@@ -23,22 +23,6 @@
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'Montserrat';
-    src: url('/fonts/Montserrat-Medium.woff2') format('woff2'), url('/fonts/Montserrat-Medium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('/fonts/Montserrat-Bold.woff2') format('woff2'), url('/fonts/Montserrat-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
 input:focus,
 select:focus,
 textarea:focus {
@@ -106,7 +90,7 @@ strong.rotated {
     font-size: 180%;
     background-color: var(--orange);
     color: var(--white);
-    padding: 0 0.3rem;
+    padding: 0 0.6rem;
     transform: rotate(-3deg) scale(1.05);
     margin-bottom: .5rem;
     filter: drop-shadow(0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2));

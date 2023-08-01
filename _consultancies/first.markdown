@@ -1,53 +1,41 @@
 ---
-title: Profile 00
+profile: '0'
+greeting: Hi there, I'm Luca!
+image: "/uploads/avatars/avatar_1.png"
+labels:
+    primary:
+        - 20 years of experience
+        - Technical degree
+    secondary:
+        - Native in Italian
+        - Proficient in English
+skills:
+    techs:
+        - C++
+        - Java
+        - Kotlin
+        - Javascript
+        - Solidity
+        - RDBMS
+        - NOSQL
+        - AWS
+        - Vue
+        - React
+    roles:
+        - Developer
+        - Project Leader
+        - Software Architect
+        - Fullstack Developer
+        - Mobile Developer
+        - Devops Developer
+        - Web3 Developer
+    areas:
+        - Embedded
+        - Telco
+        - Startup
+        - Capacity Planning
 ---
 
-<b>20+ Experience in IT</b>
+I started working in the embedded field, involving both hardware and software. I used low-level languages like VHDL and assembler, and then transitioned to C/C++. After that, I became a backend developer working primarily in Java and eventually also in Kotlin. Currently, my focus is on the web2/web3 scope, where I use React or Vue for development. Along the way, I have acquired extensive knowledge as a sys-op on the Linux platform, particularly in areas related to AWS and Kubernetes.
 
-<b>Technical degree</b>
-
-I started to work in the embedded both hardware and softare, using low level language like vhdl and assembler until C/C++.
-Then I switched as backend developper in Java and ultimately also in kotlin.
-Now I working specialy on the web2/web3 scope, using React or Vue.
-I the meantime, I also acquire a lot of knowledge as sys-op on linux platform, specialy about AWS and kubernetes.
-
-I like my work.
-I like understand how the libraries/framework are implemented to better understand their limits.
-Also if I have preferences, I able to adapt to every teammate I work with. I try to extract the good in every person.
-
-I like humble people that are able to learn and don't think to know everything.
-I like people that are able to understand if I'm wrong and explain why.
-
-* Proficient in English
-* Native in Italian
-
-
-### Technologies
-
-* C++
-* Java
-* Kotlin
-* Javascript
-* Solidity
-* RDBMS
-* NOSQL
-* AWS
-* Vue
-* React
-
-### Roles
-
-* Developer
-* Project Leader
-* Software Architect
-* Fullstack Developer
-* Mobile Developer
-* Devops Developer
-* Web3 Developer
-
-### Areas
-
-* Embedded
-* Telco
-* Startup
-* Capacity Planning
+I enjoy my work, and I like delving into the implementation of libraries and frameworks to better understand their limitations. Moreover, I can adapt to any teammate I work with, even if I have my own preferences. I make an effort to extract the best from every person I interact with.

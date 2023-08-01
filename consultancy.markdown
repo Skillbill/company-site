@@ -1,6 +1,7 @@
 ---
 title: Consultancy
 layout: page
+style: consultancy
 decription: consultancy RUST . consultancy C++ . consultancy Java . consultancy Kotlin
   . consultancy Javascript . consultancy Typescrit . consultancy RDBMS . consultancy
   Cloud . consultancy Vue . consultancy React . consultancy Developer . consultancy
@@ -13,41 +14,85 @@ decription: consultancy RUST . consultancy C++ . consultancy Java . consultancy 
 
 ## Consultancy
 
-Here at Skillbill we love getting our clients' projects done. We organize our teams in ways from turnkey project to consulting. We follow Agile, Waterfall methodologies or some mixed ones.
-With the correct commitment, collaboration and trustines we carry out projects in the good way.
-Below our current available profiles. If you are interested and want information, write to [info@skillbill.it](mailto:info@skillbill.it)
+At Skillbill, we are passionate about delivering exceptional results for our valued clients. Our approach to project organization encompasses a range of methodologies, from turnkey projects to consulting services. We adopt flexible strategies, including Agile, Waterfall, and hybrid methods, tailored to meet the unique needs of each project.
 
-<div class="consultancies-container">
+Through unwavering commitment, seamless collaboration, and utmost trustworthiness, we ensure that projects are executed to perfection. 
+
+If you are intrigued and seek further information, please don't hesitate to reach out to us at [info@skillbill.it](mailto:info@skillbill.it). We'll be more than happy to assist you!
+
+<link rel="stylesheet" href="./css/consultancy.css">
+<div class="consultancy">
+  <div class="intro">
+    <h1>Meet our consultants</h1>
+    <p>
+      Each of our consultants specializes in a unique profile, bringing a comprehensive set of skills and capabilities to meet your specific needs.
+    </p>
+    <p>
+      Meet some of them to get an idea of our available profiles!
+    </p>
+  </div>
   {% for consultant in site.consultancies %}
-    <div>
-      <div>
-        <div>
-          <h3>{{ consultant.title }}</h3>
-          <p>
+    <p>
+      <strong class="rotated">
+        Profile {{ consultant.profile }}
+      </strong>
+    </p>
+    <section class="consultant">
+      <div class="bio">
+        <div class="header">
+            <img
+              src="{{ consultant.image }}"
+              alt="{{ consultant.profile }}"
+              loading="lazy"
+              width="150"
+              height="150"
+            >
+            <div>
+              <!-- Greeting -->
+              <p class="greeting">
+                {{ consultant.greeting }}
+              </p>
+              <!-- Labels -->
+              <div class="labels">
+                {% for label in consultant.labels.primary %}
+                  <span class="label label-accent">{{ label }}</span>
+                {% endfor %}
+                {% for label in consultant.labels.secondary %}
+                  <span class="label">{{ label }}</span>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="body">
             {{ consultant.content | markdownify }}
-          </p>
+          </div>
         </div>
-      </div>
-      <div>
-        <div>
-          <h3>Technologies</h3>
-          {% for tech in consultant.techs %}
-            <span>{{ tech }}</span>
-          {% endfor %}      
+        <div class="skills">
+          <div>
+            <h5>Technologies</h5>
+            <div class="labels">
+              {% for tech in consultant.skills.techs %}
+                <span class="label label-secondary">{{ tech }}</span>
+              {% endfor %}
+            </div>
+          </div>
+          <div>
+            <h5>Roles</h5>
+            <div class="labels">
+              {% for role in consultant.skills.roles %}
+                <span class="label label-secondary">{{ role }}</span>
+              {% endfor %}
+            </div>
+          </div>
+          <div>
+            <h5>Areas</h5>
+            <div class="labels">
+              {% for area in consultant.skills.areas %}
+                <span class="label label-secondary">{{ area }}</span>
+              {% endfor %}
+            </div>
+          </div>
         </div>
-        <div>
-          <h3>Roles</h3>
-          {% for role in consultant.roles %}
-            <span>{{ role }}</span>
-          {% endfor %}      
-        </div>
-        <div>
-          <h3>Areas</h3>
-          {% for area in consultant.areas %}
-            <span>{{ area }}</span>
-          {% endfor %}      
-        </div>
-      </div>
-    </div>
+      </section>
   {% endfor %}
 </div>

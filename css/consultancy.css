@@ -1,0 +1,114 @@
+.consultancy .intro {
+    margin-top: 56px;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 64px;
+    margin-left: -80px;
+    margin-right: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
+.consultancy .intro > h1 {
+    color: var(--white);
+    text-align: center;
+}
+.consultancy .intro > p {
+    max-width: 800px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .consultancy .intro {
+        padding: 32px;
+        margin: 0;
+    }
+    .consultancy .intro > h1 {
+        text-align: left;
+        font-size: 24px;
+    }
+    .consultancy .intro > p {
+        text-align: left;
+    }
+}
+.consultancy .bio {
+    border-radius: 23px;
+    margin: 10px 0;
+    border: 1.5px solid var(--dark-blue);
+    max-width: 780px;
+}
+
+.consultancy > p {
+    margin-top: 56px;
+}
+.consultancy .consultant {
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.consultancy .header {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 50px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    gap: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .consultancy .header {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .consultancy .consultant {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+.consultancy .header img {
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    object-fit: cover;
+}
+
+.consultancy .greeting {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Labels */
+.consultancy .labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.consultancy .label {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    border: 1.5px solid var(--white);
+    color: var(--white);
+}
+.consultancy .label-accent {
+    background-color: var(--white);
+    color: var(--dark-blue);
+    border: none;
+}
+.consultancy .label-secondary {
+    border: 1.5px solid var(--dark-blue);
+    color: var(--dark-blue);
+}
+.consultancy .body {
+    padding: 24px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
