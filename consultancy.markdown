@@ -9,7 +9,7 @@ decription: consultancy RUST . consultancy C++ . consultancy Java . consultancy 
   . consultancy Azure . consultancy Blockchain . consultancy WEB3
 ---
 
-{% include image.html url="/uploads/consultancy.jpg?v=1" width="200" alt="" %}
+{% include image.html url="/uploads/consultancy.jpg?v=1" height="580" alt="" %}
 
 ## Consultancy
 
