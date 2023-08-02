@@ -1,3 +1,14 @@
+<script>
+  function setActiveLink(clickedLink) {
+    // Remove "active" class from all links
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(link => link.classList.remove('active'));
+
+    // Add "active" class to the clicked link
+    clickedLink.classList.add('active');
+}
+
+</script>
 <nav class="navbar navbar-expand-lg navbar-light absolute" id="mainNav">
     <div class="container">
       <a class="navbar-brand-home" href="/">
@@ -21,31 +32,31 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/customers.html">Customers</a>
+            <a class="nav-link" onclick="setActiveLink(this)" href="/customers.html">Customers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/people.html">People</a>
+            <a class="nav-link" onclick="setActiveLink(this)" href="./people.html">People</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link" onclick="setActiveLink(this)" href="/contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-submenu" href="#">Business Lines</a>
+            <a class="nav-link nav-link-submenu" onclick="setActiveLink(this)" href="#">Business Lines</a>
             <ul class="nav-submenu">
               <li class="nav-item">
-                <a class="nav-link" href="/consultancy.html">Consultancy</a>
+                <a class="nav-link" onclick="setActiveLink(this)" href="/consultancy.html">Consultancy</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/web3.html">Web 3</a>
+                <a class="nav-link" onclick="setActiveLink(this)" href="/web3.html">Web 3</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/fullstack-dev-streaming-solution.html">Streaming Tech</a>
+                <a class="nav-link" onclick="setActiveLink(this)" href="/fullstack-dev-streaming-solution.html">Streaming Tech</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/devops-for-network-operations.html">Operation to DevOps</a>
+                <a class="nav-link" onclick="setActiveLink(this)" href="/devops-for-network-operations.html">Operation to DevOps</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/frontend-scada.html">Frontend Scada</a>
+                <a class="nav-link" onclick="setActiveLink(this)" href="/frontend-scada.html">Frontend Scada</a>
               </li>
             </ul>
           </li>

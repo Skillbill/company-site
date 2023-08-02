@@ -1,43 +1,23 @@
-/* Section introducing consultants */
-.consultancy .intro {
-    margin-top: 56px;
-    background-color: var(--orange);
-    color: var(--white);
-    padding: 64px;
-    margin-left: -80px;
-    margin-right: -80px;
+
+/* Consultants section */
+#consultants {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Vertical center alignment */
-    justify-content: center; /* Horizontal center alignment */
-}
-.consultancy .intro > h1 {
-    color: var(--white);
-    text-align: center;
-}
-.consultancy .intro > p {
-    max-width: 800px;
-    text-align: center;
-}
-
-/* Profile title */
-.consultancy > p {
-    margin-top: 56px;
+    gap: 48px;
 }
 
 /* Header */
-.consultancy .consultant {
+.profile {
     padding: 0;
     display: flex;
     gap: 24px;
 }
-.consultancy .bio {
+.person {
     border-radius: 23px;
-    margin: 10px 0;
     border: 1.5px solid var(--dark-blue);
     max-width: 780px;
 }
-.consultancy .header {
+.person .header {
     background-color: var(--dark-blue);
     color: var(--white);
     padding: 50px;
@@ -45,43 +25,40 @@
     display: flex;
     gap: 48px;
 }
-.consultancy .header img {
+.header img {
     border-radius: 50%;
     border: 2px solid var(--white);
     object-fit: cover;
 }
-
-.consultancy .greeting {
+.header > div .greeting {
     font-size: 32px;
     font-weight: 700;
 }
+.person .body {
+    padding: 24px;
+}
 
 /* Labels */
-.consultancy .labels {
+.labels {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
-.consultancy .label {
+.label {
     padding: 5px 15px;
     border-radius: 20px;
     font-weight: 600;
     border: 1.5px solid var(--white);
     color: var(--white);
 }
-.consultancy .label-accent {
+.label-accent {
     background-color: var(--white);
     color: var(--dark-blue);
     border: none;
 }
-.consultancy .label-secondary {
+.label-secondary {
     border: 1.5px solid var(--dark-blue);
     color: var(--dark-blue);
-}
-
-/* Biography body */
-.consultancy .body {
-    padding: 24px;
 }
 
 /* Skills */
@@ -93,29 +70,34 @@
 
 /* Responsiveness */
 @media screen and (max-width: 768px) {
-    .consultancy .header {
+    .header {
         flex-direction: column;
         gap: 24px;
     }
 }
 
 @media screen and (max-width: 980px) {
-    .consultancy .consultant {
+    .profile {
         flex-direction: column;
         gap: 24px;
     }
 }
 
+@media screen and (max-width: 1024px) {
+    #consultancy img {
+        display: none;
+    }
+}
 @media screen and (max-width: 768px) {
-    .consultancy .intro {
+    #meet-us {
         padding: 32px;
         margin: 0;
     }
-    .consultancy .intro > h1 {
+    #meet-us > h1 {
         text-align: left;
         font-size: 24px;
     }
-    .consultancy .intro > p {
+    #meet-us > p {
         text-align: left;
     }
 }

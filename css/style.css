@@ -210,13 +210,15 @@ nav.fixed-top .navbar-nav {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--gray);
+    color: var(--dark-blue);
+    font-weight: 700;
     padding-right: 1rem;
     padding-left: 1rem;
 }
 
-.navbar-light .navbar-nav .nav-link.active {
-    color: var(--blue);
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #004A8F;
+    transform: scale(1.02)
 }
 
 .navbar-light {
@@ -290,7 +292,7 @@ header.big {
 footer {
     display: flex;
     text-align: center;
-    background-color: #343a40;
+    background-color: var(--dark-blue);
     color: white;
 }
 

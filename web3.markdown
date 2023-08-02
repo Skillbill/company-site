@@ -1,21 +1,17 @@
 ---
-title: Web 3 - Skillbill
-description: Skillbill is actively involved in new application on Blockchain technologies.
-layout: page
+title: Web 3
+layout: business_line
+header:
+    image: "/uploads/web3-00.jpg?v=1" 
+# Photo by: Jernej Furman
+    texts:
+    - For over 15 years, the concept of Web 3.0 has been on the horizon, and now, at last, this visionary virtual realm has come to life as Web3, also known as the Decentralized Web. Empowered by groundbreaking blockchain technology, Web3 has reached its definitive form, marking the latest milestone in the evolution of the internet,
+    - As stated by Tim Berners-Lee, the internet's founder, Web3 embodies a decentralized landscape, granting individuals control over their data and the freedom to decide how it is shared. At the heart of this transformative era, blockchain serves as the bedrock, ensuring secure and transparent tracking of all economic and financial activities..
+introduction:
+    title: Web3 in SkillBill
+    texts:
+    - Discover below our web3 experience, unlocking the potential of decentralized technologies. Step into the future with us as we navigate the boundless possibilities of blockchain and decentralized applications.
 ---
-
-{% include image.html url="/uploads/web3-00.jpg?v=1" height="580"  alt="web3" %}
-
-Photo by: Jernej Furman
-
-## Intro
-
-For more than 15 years we have been hearing about Web 3.0, but only recently this new virtual space has finally taken its final form; The technology has gone further, thanks mainly to blockchain, taken its final form and today takes the name Web3, or Decentralized Web.
- 
-Internet founder Tim Berners Lee said, Web3 is the latest step in the evolution of the Web. It will be a decentralized Web, where people will have control over their own data and can decide how to share it. Blockchain will be the core of this new web, allowing all economic and financial movements to be safely and reliably tracked.
-
-
-## WEB3 in Skillbill
 
 Skillbill heavily invests in upgrading internal skills and has long been involved in development in WEB3 technologies. The company has gained experience developing with:
 

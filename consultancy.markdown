@@ -1,44 +1,31 @@
 ---
 title: Consultancy
-layout: page
-style: consultancy
-decription: consultancy RUST . consultancy C++ . consultancy Java . consultancy Kotlin
-  . consultancy Javascript . consultancy Typescrit . consultancy RDBMS . consultancy
-  Cloud . consultancy Vue . consultancy React . consultancy Developer . consultancy
-  Project Leader .consultancy Software Architect . consultancy Fullstack Developer
-  . consultancy Mobile Developer . consultancy Devops Developer . consultancy AWS
-  . consultancy Azure . consultancy Blockchain . consultancy WEB3
+layout: business_line
+header:
+  image: "/uploads/consultancy.jpg?v=1"
+  texts:
+    - At Skillbill, we are passionate about delivering exceptional results for our valued clients. Our approach to project organization encompasses a range of methodologies, from turnkey projects to consulting services. We adopt flexible strategies, including Agile, Waterfall, and hybrid methods, tailored to meet the unique needs of each project.
+    - Through unwavering commitment, seamless collaboration, and utmost trustworthiness, we ensure that projects are executed to perfection.
+    - If you are intrigued and seek further information, please don't hesitate to reach out to us at <strong>info@skillbill.it</strong>. We'll be more than happy to assist you!
+introduction:
+  title: "Meet our consultants"
+  texts:
+    - Each of our consultants specializes in a unique profile, bringing a comprehensive set of skills and capabilities to meet your specific needs.
+    - Meet some of them to get an idea of our available profiles!
 ---
 
-{% include image.html url="/uploads/consultancy.jpg?v=1" height="580" alt="" %}
-
-## Consultancy
-
-At Skillbill, we are passionate about delivering exceptional results for our valued clients. Our approach to project organization encompasses a range of methodologies, from turnkey projects to consulting services. We adopt flexible strategies, including Agile, Waterfall, and hybrid methods, tailored to meet the unique needs of each project.
-
-Through unwavering commitment, seamless collaboration, and utmost trustworthiness, we ensure that projects are executed to perfection. 
-
-If you are intrigued and seek further information, please don't hesitate to reach out to us at [info@skillbill.it](mailto:info@skillbill.it). We'll be more than happy to assist you!
-
 <link rel="stylesheet" href="./css/consultancy.css">
-<div class="consultancy">
-  <div class="intro">
-    <h1>Meet our consultants</h1>
-    <p>
-      Each of our consultants specializes in a unique profile, bringing a comprehensive set of skills and capabilities to meet your specific needs.
-    </p>
-    <p>
-      Meet some of them to get an idea of our available profiles!
-    </p>
-  </div>
+<!-- Consultants -->
+<section id="consultants">
   {% for consultant in site.consultancies %}
+  <div>
     <p>
       <strong class="rotated">
         Profile {{ consultant.profile }}
       </strong>
     </p>
-    <section class="consultant">
-      <div class="bio">
+    <div class="profile">
+      <div class="person">
         <div class="header">
             <img
               src="{{ consultant.image }}"
@@ -93,6 +80,7 @@ If you are intrigued and seek further information, please don't hesitate to reac
             </div>
           </div>
         </div>
-      </section>
+      </div>
+  </div>
   {% endfor %}
-</div>
+</section>
