@@ -2,7 +2,7 @@
 title: Third
 profile: '3'
 greeting: Hey, I'm Donato!
-image: "/uploads/avatars/avatar_man_1.png"
+image: "/uploads/avatars/avatar_man_3.png"
 labels:
   primary:
   - 4 years of experience
