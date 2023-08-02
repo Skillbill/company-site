@@ -2,11 +2,11 @@
 title: Company Site
 timezone: Europe/Rome
 collections:
-  customers:
-    title: Customers
-    output: false
   consultancies:
     title: Consultancies
+    output: false
+  customers:
+    title: Customers
     output: false
   posts:
     title: Posts
