@@ -1,7 +1,7 @@
 ---
 profile: '3'
-greeting: Hey, I'm Carlo!
-image: "/uploads/avatars/avatar_3.png"
+greeting: Hey, I'm Donato!
+image: "/uploads/avatars/avatar_man_3.png"
 labels:
     primary:
         - 4 years of experience

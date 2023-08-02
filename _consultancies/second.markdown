@@ -1,7 +1,7 @@
 ---
-profile: '1'
-greeting: Hello, I'm Laura!
-image: "/uploads/avatars/avatar_2.png"
+profile: '2'
+greeting: Hello, I'm Enrico!
+image: "/uploads/avatars/avatar_man_2.png"
 labels:
     primary:
         - 3 years of experience
