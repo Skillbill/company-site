@@ -1,17 +1,18 @@
 ---
-title: Front end - SCADA
-date: 2021-04-15 09:44:00 +02:00
-image: "/uploads/Front%20end%20-%20SCADA.png"
+title: Frontend SCADA
 description: Innovative front-end for SCADA systems.
-layout: page
+layout: business_line
+header:
+    image: "/uploads/Front%20end%20-%20SCADA.png"
+    texts:
+    - SCADA systems often comprise extensive, vertically integrated products with legacy implementations due to their long development history. 
+    - However, at our company, we break away from this trend. We pride ourselves on assisting our clients in tackling new challenges by offering innovative Research and Development solutions. 
+    - Discover how our approach sets us apart in the world of SCADA systems.
+introduction:
+    title: Explore our projects
+    texts:
+    - Discover the unique solutions we crafted to address our clients' specific challenges in a new era of possibilities.
 ---
-
-{% include image.html url="/uploads/Front%20end%20-%20SCADA.png?v=1" width="200" alt="" %}
-
-
-Usually SCADA systems are very large vertical products with legacy implementations because they have been developed over many years. We played a different role this trend helping our clients with Research and Development activities needed in their new challenges.
-
-## Projects
 
 Skillbill worked on two railways SCADA projects:
 

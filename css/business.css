@@ -17,6 +17,8 @@
     border-radius: 16px;
     object-fit: cover;
     align-self: center;
+    max-width: 600px;
+    max-height: 300px;
 }
 
 /* Introduction */
