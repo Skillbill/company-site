@@ -4,6 +4,7 @@
 }
 /* Heading */
 #heading {
+    justify-content: center;
     display: flex;
     gap: 80px;
     padding-top: 0;
