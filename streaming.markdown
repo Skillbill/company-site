@@ -5,13 +5,21 @@ description: The skills required of the full-stack streaming developer and posse
   streaming and television area.
 layout: business_line
 header:
-  image: "images/full_stack_developer.png"
+  image: images/full_stack_developer.png
   texts:
-  - The development of sophisticated OTT websites and apps, enabling robust user interaction across a wide range of devices, encompassing extensive TVod and AVod libraries, smart recommendations, content pushing, smooth streaming, network optimization, content encryption, and content abuse countermeasures, demands a highly diverse skill set found in the role of a full-stack streaming developer. This figure is distinct from front-end and back-end developers, who possess some overlapping competencies but look to the full-stack streaming developer as their guide and reference point.
+  - The development of sophisticated OTT websites and apps, enabling robust user interaction
+    across a wide range of devices, encompassing extensive TVod and AVod libraries,
+    smart recommendations, content pushing, smooth streaming, network optimization,
+    content encryption, and content abuse countermeasures, demands a highly diverse
+    skill set found in the role of a full-stack streaming developer. This figure is
+    distinct from front-end and back-end developers, who possess some overlapping
+    competencies but look to the full-stack streaming developer as their guide and
+    reference point.
 introduction:
-  title: "Meet our available profiles"
+  title: Meet our available profiles
   texts:
-  - Discover our Dream Team's diverse skills, crafting exceptional OTT websites and apps for an unforgettable user experience. 
+  - Discover our Dream Team's diverse skills, crafting exceptional OTT websites and
+    apps for an unforgettable user experience.
   - Let's revolutionize your streaming journey together.
 ---
 
