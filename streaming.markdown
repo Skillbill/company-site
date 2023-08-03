@@ -1,30 +1,22 @@
 ---
-title: Fullstack Dev Streaming Solution
+title: Streaming Tech
 description: The skills required of the full-stack streaming developer and possessed
   by Skillbill have enabled the company to work for many important customers in the
   streaming and television area.
-layout: default
+layout: business_line
+header:
+  image: "images/full_stack_developer.png"
+  texts:
+  - The development of sophisticated OTT websites and apps, enabling robust user interaction across a wide range of devices, encompassing extensive TVod and AVod libraries, smart recommendations, content pushing, smooth streaming, network optimization, content encryption, and content abuse countermeasures, demands a highly diverse skill set found in the role of a full-stack streaming developer. This figure is distinct from front-end and back-end developers, who possess some overlapping competencies but look to the full-stack streaming developer as their guide and reference point.
+introduction:
+  title: "Meet our available profiles"
+  texts:
+  - Discover our Dream Team's diverse skills, crafting exceptional OTT websites and apps for an unforgettable user experience. 
+  - Let's revolutionize your streaming journey together.
 ---
 
 <section id="page">
   <div class="container">
-    <figure>
-      <img src="images/full_stack_developer.png" alt="" />
-    </figure>
-    <h1>Fullstack Dev Streaming Solution</h1>
-    <p>
-      The creation of complex OTT websites and apps, which allow strong
-      user interaction, broad range of supported devices,
-      <em>wide TVod</em> and <em>AVod libraries</em>, smart
-      recommendations and content pushing, smoothless streaming
-      optimizing network usage, content encryption and content abuse
-      cuntermeasures requires very broad skill set that can be
-      identified in the figure of the full-stack streaming developer.<br />It
-      is necessary to discern this figure from the
-      <em>front-end developers</em> and
-      <em>back-end developers</em> with whom it shares part of the
-      competences, but of which it is the guide and reference point.
-    </p>
     <h2>TV Front-end developer</h2>
     <p>
       It deals with the part of the website visible to the user and with

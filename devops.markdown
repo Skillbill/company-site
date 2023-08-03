@@ -1,18 +1,20 @@
 ---
 title: DevOps for Network Operations
-date: 2021-03-17 18:45:00 Z
-layout: page
+layout: business_line
+header:
+  image: "/uploads/DevOps.png?v=1"
+  texts:
+  - Unlock the true potential of your Technical team by embracing DevOps development. Our comprehensive package combines a tailored training course, hands-on mentoring, and skilled development resources to elevate your team to the next level.
+introduction:
+    title: Explore our DevOps Transformation Package
+    texts: 
+    - With our guided training, cutting-edge methodologies, and expert resources, equip your team with the essential skills and tools to thrive in the dynamic world of modern software development.
+    - Upgrade your existing network operation team!
 ---
 
-{% include image.html url="/uploads/DevOps.png?v=1" width="200" alt="" %}
+Leveraging our extensive experience in software development and training, we have been actively guiding our Telco customers on a transformative journey, migrating their Technical teams to embrace the DevOps approach. This proven methodology is replicable across various contexts, promising substantial and enduring benefits.
 
-## From Consulting to Training
-
-Using our experience in software development and in training, we have followed and currently follow our Telco customers in a path of migration of their Technical team to the DevOps development. We believe that this working methodology is replicable in other contexts that could have from it large and lasting benefits.
-
-## Skillbill package
-
-We finally came out with a package including a **combination** of a **training course**, **mentoring** and **skilled development resources**. This solution is thought for customers which have a consolidated, but old fashioned team dedicated to network operation who want to upgrade their team, as well as its member, to a real DevOps team, with all the proper skills, tools, and methodologies applied.
+Introducing our comprehensive DevOps Transformation Package: An all-inclusive offering that includes a meticulously designed training course, personalized mentoring, and access to skilled development resources. This solution is tailor-made for customers with established, yet outdated, network operation teams seeking to elevate their capabilities and transition into a proficient DevOps team, equipped with the latest skills, tools, and methodologies in the industry. Together, let's unlock your team's potential and embrace the future of software development.
 
 ## Course details
 
