@@ -6,10 +6,9 @@ header:
   texts:
   - Unlock the true potential of your Technical team by embracing DevOps development. Our comprehensive package combines a tailored training course, hands-on mentoring, and skilled development resources to elevate your team to the next level.
 introduction:
-    title: Explore our DevOps Transformation Package
+    title: Explore our package
     texts: 
     - With our guided training, cutting-edge methodologies, and expert resources, equip your team with the essential skills and tools to thrive in the dynamic world of modern software development.
-    - Upgrade your existing network operation team!
 ---
 
 Leveraging our extensive experience in software development and training, we have been actively guiding our Telco customers on a transformative journey, migrating their Technical teams to embrace the DevOps approach. This proven methodology is replicable across various contexts, promising substantial and enduring benefits.
