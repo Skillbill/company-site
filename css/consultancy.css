@@ -1,11 +1,9 @@
-
 /* Consultants section */
 #consultants {
     display: flex;
     flex-direction: column;
     gap: 48px;
 }
-
 /* Header */
 .profile {
     padding: 0;
@@ -37,7 +35,6 @@
 .person .body {
     padding: 24px;
 }
-
 /* Labels */
 .labels {
     display: flex;
@@ -60,29 +57,19 @@
     border: 1.5px solid var(--dark-blue);
     color: var(--dark-blue);
 }
-
 /* Skills */
 .skills {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-
 /* Responsiveness */
-@media screen and (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        gap: 24px;
-    }
-}
-
 @media screen and (max-width: 980px) {
     .profile {
         flex-direction: column;
         gap: 24px;
     }
 }
-
 @media screen and (max-width: 1024px) {
     #consultancy img {
         display: none;
@@ -94,10 +81,20 @@
         margin: 0;
     }
     #meet-us > h1 {
-        text-align: left;
         font-size: 24px;
     }
     #meet-us > p {
         text-align: left;
+    }
+    .label {
+        font-size: 14px;
+    }
+    .person .header {
+        padding: 16px;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .person .body {
+        padding: 16px;
     }
 }

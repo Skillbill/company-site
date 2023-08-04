@@ -2,25 +2,20 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="./css/business.css">
+<link rel="stylesheet" href="./css/business.css" />
 <section id="heading">
   <div>
     <h1>{{ page.title }}</h1>
     {% for text in page.header.texts %}
-      <p>{{ text }}</p>
+    <p>{{ text | markdownify }}</p>
     {% endfor %}
   </div>
-  <img
-    src="{{ page.header.image }}"
-    alt="{{ page.title }}"
-  >
+  <img src="{{ page.header.image }}" alt="{{ page.title }}" />
 </section>
 <section id="introduction">
-  <h1> {{ page.introduction.title }} </h1>
+  <h1>{{ page.introduction.title }}</h1>
   {% for text in page.introduction.texts %}
-      <p>{{ text }}</p>
+  <p>{{ text | markdownify }}</p>
   {% endfor %}
 </section>
-<section class="container">
-  {{ content }}
-</section>
+<section class="container">{{ content | markdownify }}</section>

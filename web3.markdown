@@ -70,5 +70,5 @@ Fanplanet is beyond the concept of collecting, using rare digital items to have 
 
 ## Contact us
 
-If you are interested write to <info@skillbill.it> for a private demo
+If you are interested write to [info@skillbill.it](mailto:info@skillbill.it) for a private demo
 

@@ -20,7 +20,7 @@ and for legal obligations.
  - Navigation data, the user's habits or other information known in the course of the
 relationship and acquired directly or indirectly from the user's behavior.
 
-**You can contact the owner of the treatment​** (Francesco Ciacca) through the email <info@skillbill.it> to ask for any information regarding your personal data.
+**You can contact the owner of the treatment​** (Francesco Ciacca) through the email [info@skillbill.it](mailto:info@skillbill.it) to ask for any information regarding your personal data.
 
 ####  Purpose​ : We need your personal information:
 
