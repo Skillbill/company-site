@@ -2,7 +2,6 @@
 #introduction {
     padding: 4rem 2rem 2rem 2rem;
 }
-
 /* Heading */
 #heading {
     justify-content: center;
@@ -11,12 +10,10 @@
     padding-top: 0;
     margin-top: 3rem;
 }
-
 #heading div {
     border-radius: 16px;
     max-width: 750px;
 }
-
 #heading img {
     border-radius: 16px;
     object-fit: cover;
@@ -24,7 +21,6 @@
     max-width: 600px;
     max-height: 300px;
 }
-
 /* Introduction */
 #introduction {
     background-color: var(--orange);
@@ -35,37 +31,30 @@
     text-align: center;
     align-items: center;
 }
-
 #introduction h1 {
     color: var(--white);
 }
-
 #introduction p {
     max-width: 750px;
 }
-
 /* Responsive */
 @media screen and (max-width: 1200px) {
     #heading img {
         display: none;
     }
 }
-
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 24px !important;
     }
-
     p {
         font-size: 16px !important;
     }
-
     #introduction,
     #heading {
         padding: 24px;
         text-align: left;
     }
-
     #introduction h1,
     #introduction p {
         width: 100%;

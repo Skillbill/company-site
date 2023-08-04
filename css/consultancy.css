@@ -4,20 +4,17 @@
     flex-direction: column;
     gap: 48px;
 }
-
 /* Header */
 .profile {
     padding: 0;
     display: flex;
     gap: 24px;
 }
-
 .person {
     border-radius: 23px;
     border: 1.5px solid var(--dark-blue);
     max-width: 780px;
 }
-
 .person .header {
     background-color: var(--dark-blue);
     color: var(--white);
@@ -26,29 +23,24 @@
     display: flex;
     gap: 48px;
 }
-
 .header img {
     border-radius: 50%;
     border: 2px solid var(--white);
     object-fit: cover;
 }
-
-.header>div .greeting {
+.header > div .greeting {
     font-size: 32px;
     font-weight: 700;
 }
-
 .person .body {
     padding: 24px;
 }
-
 /* Labels */
 .labels {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
-
 .label {
     padding: 5px 15px;
     border-radius: 20px;
@@ -56,25 +48,21 @@
     border: 1.5px solid var(--white);
     color: var(--white);
 }
-
 .label-accent {
     background-color: var(--white);
     color: var(--dark-blue);
     border: none;
 }
-
 .label-secondary {
     border: 1.5px solid var(--dark-blue);
     color: var(--dark-blue);
 }
-
 /* Skills */
 .skills {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-
 /* Responsiveness */
 @media screen and (max-width: 980px) {
     .profile {
@@ -82,37 +70,30 @@
         gap: 24px;
     }
 }
-
 @media screen and (max-width: 1024px) {
     #consultancy img {
         display: none;
     }
 }
-
 @media screen and (max-width: 768px) {
     #meet-us {
         padding: 32px;
         margin: 0;
     }
-
-    #meet-us>h1 {
+    #meet-us > h1 {
         font-size: 24px;
     }
-
-    #meet-us>p {
+    #meet-us > p {
         text-align: left;
     }
-
     .label {
         font-size: 14px;
     }
-
     .person .header {
         padding: 16px;
         flex-direction: column;
         gap: 24px;
     }
-
     .person .body {
         padding: 16px;
     }
