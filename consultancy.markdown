@@ -12,8 +12,8 @@ header:
   - Through unwavering commitment, seamless collaboration, and utmost trustworthiness,
     we ensure that projects are executed to perfection.
   - If you are intrigued and seek further information, please don't hesitate to reach
-    out to us at [info@skillbill.it](mailto:info@skillbill.it). We'll be more than happy to assist
-    you!
+    out to us at [info@skillbill.it](mailto:info@skillbill.it). We'll be more than
+    happy to assist you!
 introduction:
   title: Meet our consultants
   texts:
