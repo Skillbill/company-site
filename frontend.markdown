@@ -47,4 +47,4 @@ The first installation supports PA/PID, CCTV and INTERCOM systems.
 
 As proof of concept, **Skillbill has also developed its own general purpose fully SCADA solution based on the work we did with the railways SCADA UI**. For instance a working sample of the control of a multi-site solar generator network is available, as well as an implementation of a data center monitoring and control system with a mixed source of SCADA signals, IoT sensors and SNMP/IP devices. This PoC and its demo have been developed in order to show the full potential of the powerful SCADA UI made by Skillbill, in terms of responsiveness, scalability and interoperability, with a fully standard HTML5 output.
 
-If you are interested in a demo, do not hesitate to contact us by writing to info@skillbil.it
+If you are interested in a demo, do not hesitate to contact us by writing to [info@skillbill.it](mailto:info@skillbill.it)
