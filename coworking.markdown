@@ -26,9 +26,11 @@ Heart of Milan via Della Signora. Served with public transportation at the best,
 Fully-equipped desks with adjustable heights, ready-to-use monitors, keyboards, mouse, and high-speed connectivity (wifi or cabled). Just plug in your laptop and get started!
 The meeting room and a ready-to-use table football for you pause.
 
-![desk](images/IMG_20230405_123329.jpg)
-![meeting room](images/IMG_20230405_140923.jpg)
-![table football](images/IMG_20230405_140248.jpg)
+<div class="vertical-gallery">
+  <img src="images/IMG_20230405_123329.jpg" alt="desk" />
+  <img src="images/IMG_20230405_140923.jpg" alt="meeting room" />
+  <img src="images/IMG_20230405_140248.jpg" alt="table football" />
+</div>
 
 ### 🍽️ Kitchen
 
@@ -38,7 +40,9 @@ A shared space for all to grab a coffee, cook lunch, or stock your food in the f
 
 High-speed printer, scanners, and a recent 3D printer available for all your project needs.
 
-![3d print](images/IMG_20231002_143452.jpg)
+<div class="vertical-gallery">
+  <img src="images/IMG_20231002_143452.jpg" alt="3d print" />
+</div>
 
 ### 💰 Affordable
 
@@ -46,5 +50,5 @@ Priced below the market average, we offer nice facilities without spending too m
 
 
 
-Join a space where other professionist are. Contact us for further info.
+Join a space where other professionist are. Contact us [info@skillbill.it](mailto:info@skillbill.it).
 
