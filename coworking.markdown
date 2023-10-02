@@ -1,12 +1,13 @@
 ---
 title: Coworking
-layout: page
-description: Coworking desks available in Skillbill's Milan office
 layout: business_line
+description: Coworking desks available in Skillbill's Milan office
 header:
   image: images/IMG_20230405_123221.jpg
   texts:
-  - Since we work in the Remote First approach, some desks are free in our office in Milan. You can take this opportunity to have a nice place to work with a flexible contract that will fit your needs.
+  - Since we work in the Remote First approach, some desks are free in our office
+    in Milan. You can take this opportunity to have a nice place to work with a flexible
+    contract that will fit your needs.
 introduction:
   title: Discover our proposal
   texts:
