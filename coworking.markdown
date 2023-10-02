@@ -1,0 +1,49 @@
+---
+title: Coworking
+layout: page
+description: Coworking desks available in Skillbill's Milan office
+layout: business_line
+header:
+  image: images/IMG_20230405_123221.jpg
+  texts:
+  - Since we work in the Remote First approach, some desks are free in our office in Milan. You can take this opportunity to have a nice place to work with a flexible contract that will fit your needs.
+introduction:
+  title: Discover our proposal
+  texts:
+  - Prime Coworking Space is Available in the very center of Milan!
+---
+
+### 📍 Location
+
+Heart of Milan via Della Signora. Served with public transportation at the best, and a lot of places for eating and chilling. Step outside and be in the midst of it all.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.4068576312675!2d9.193567776877499!3d45.46160747107388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6a66d865aeb%3A0xd20fa9add38aa10a!2sVia%20della%20Signora%2C%203%2C%2020122%20Milano%20MI!5e0!3m2!1sen!2sit!4v1696255249583!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+### 💼 Workspace
+
+Fully-equipped desks with adjustable heights, ready-to-use monitors, keyboards, mouse, and high-speed connectivity (wifi or cabled). Just plug in your laptop and get started!
+The meeting room and a ready-to-use table football for you pause.
+
+![desk](images/IMG_20230405_123329.jpg)
+![meeting room](images/IMG_20230405_140923.jpg)
+![table football](images/IMG_20230405_140248.jpg)
+
+### 🍽️ Kitchen
+
+A shared space for all to grab a coffee, cook lunch, or stock your food in the fridge. Accessible to all renters.
+
+### 🖨️ Tech Facilities
+
+High-speed printer, scanners, and a recent 3D printer available for all your project needs.
+
+![3d print](images/IMG_20231002_143452.jpg)
+
+### 💰 Affordable
+
+Priced below the market average, we offer nice facilities without spending too much. Flexible contract solutions.
+
+
+
+Join a space where other professionist are. Contact us for further info.
+
