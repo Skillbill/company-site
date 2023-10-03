@@ -54,6 +54,10 @@
     margin-bottom: 12px;
 }
 
+.container hr {
+    margin-bottom: 2rem;
+}
+
 /* Responsive */
 @media screen and (max-width: 1200px) {
     #heading {
