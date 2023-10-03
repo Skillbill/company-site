@@ -8,11 +8,9 @@
     display: flex;
     gap: 80px;
     padding-top: 0;
+    margin: auto;
     margin-top: 3rem;
-}
-#heading div {
-    border-radius: 16px;
-    max-width: 750px;
+    max-width: 1300px;
 }
 #heading img,
 .container img {
