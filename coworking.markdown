@@ -3,7 +3,7 @@ title: Coworking
 layout: business_line
 description: Coworking desks available in Skillbill's Milan office
 header:
-  image: images/COWORKING_00.png
+  image: images/IMG_20230405_123221.jpg
   texts:
   - Since we work in the Remote First approach, some desks are free in our office
     in Milan. You can take this opportunity to have a nice place to work with a flexible
@@ -28,7 +28,7 @@ Fully-equipped desks with adjustable heights, ready-to-use monitors, keyboards, 
 The meeting room and a ready-to-use table football for you pause.
 
 <div class="vertical-gallery">
-  <img src="images/IMG_20230405_123329.jpg" alt="desk" />
+  <img src="images/images/COWORKING_01.png" alt="desk" />
   <img src="images/IMG_20230405_140923.jpg" alt="meeting room" />
   <img src="images/IMG_20230405_140248.jpg" alt="table football" />
 </div>
