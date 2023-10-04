@@ -13,7 +13,7 @@
     max-width: 1300px;
 }
 #heading img,
-.container img {
+.vertical-gallery img {
     border-radius: 16px;
     object-fit: cover;
     align-self: center;
