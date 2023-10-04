@@ -28,7 +28,7 @@ Fully-equipped desks with adjustable heights, ready-to-use monitors, keyboards, 
 The meeting room and a ready-to-use table football for you pause.
 
 <div class="vertical-gallery">
-  <img src="images/images/COWORKING_01.png" alt="desk" />
+  <img src="images/COWORKING_01.png" alt="desk" />
   <img src="images/IMG_20230405_140923.jpg" alt="meeting room" />
   <img src="images/IMG_20230405_140248.jpg" alt="table football" />
 </div>
