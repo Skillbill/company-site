@@ -1,5 +1,5 @@
 ---
-title: Norigin Media
+title: Telia
 image: "/uploads/telia.jpg"
 link: https://www.teliaplay.se/
 ---
