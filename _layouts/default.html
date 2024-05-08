@@ -20,7 +20,17 @@
     </main>
 
     <section class="cta" id="reach">
-        <a href="">
+        <script>
+        // Function to open the Calendly badge widget
+            function openCalendly() {
+                Calendly.showPopupWidget('https://calendly.com/donato-pascazio/30min');
+            }
+        </script>
+        <!-- Calendly badge widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <!-- Calendly badge widget end -->
+        <a onclick="openCalendly()">
             <div class="container">
                 <div>
                     <img src="/images/online-meeting.svg">

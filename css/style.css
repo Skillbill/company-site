@@ -81,6 +81,7 @@ nav a:focus {
     padding: 1.6rem 0.6rem;
     margin-bottom: 0.5rem;
     filter: drop-shadow(0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2));
+    cursor:pointer;
 }
 .cta .container > div{
     display: flex;
@@ -348,6 +349,7 @@ footer li:last-child {
     text-shadow: 0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 section {
     padding: 3rem 0;
