@@ -73,6 +73,37 @@ ol {
 nav a:focus {
     outline: none;
 }
+.cta{
+    display: inline-block;
+    font-size: 180%;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 1.6rem 0.6rem;
+    margin-bottom: 0.5rem;
+    filter: drop-shadow(0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2));
+    cursor:pointer;
+}
+.cta .container > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 3rem;
+}
+@media (max-width: 575px) {
+    .cta .container > div {
+        flex-direction: column;
+    }    
+}
+.cta .container img{
+    max-width: 128px;
+}
+.cta a {
+    text-decoration-color: var(--white);
+}
+.cta a .container span,.cta a .container strong{
+    color: var(--white);
+}
 strong.rotated {
     display: inline-block;
     font-size: 180%;
@@ -303,6 +334,22 @@ footer li:last-child {
     text-shadow: 0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+}
+#reach-us-button:hover {
+    transform: scale(1.1);
+}
+#reach-us-button {
+    display: inline-block;
+    background: var(--dark-blue);
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    color:white;
+    text-shadow: 0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 section {
     padding: 3rem 0;
