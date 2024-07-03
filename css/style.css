@@ -413,7 +413,7 @@ ul.tags li > span {
     margin-right: 1rem;
     margin-left: 1rem;
     width: 200px;
-    object-fit: cover;
+    object-fit: contain;
     aspect-ratio: 1 / 1;
     flex-shrink: 0;
 }

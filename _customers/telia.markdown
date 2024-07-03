@@ -1,6 +1,6 @@
 ---
 title: Telia
-image: "/uploads/telia.jpg"
+image: "/images/clients/telia.svg"
 link: https://www.teliaplay.se/
 ---
 
