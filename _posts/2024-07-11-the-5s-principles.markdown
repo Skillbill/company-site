@@ -1,15 +1,16 @@
 ---
 title: Be a better software engineer
-date: 2024-07-11 12:00:00 Z
+date: 2024-07-11 14:00:00 +02:00
 categories:
 - News
 tags:
 - Software Engineering
-description: The 5S of software engineering. It's a set of statements that
-  serves as guiding principles for best practices to follow in code maintenance.
+description: The 5S of software engineering. It's a set of statements that serves
+  as guiding principles for best practices to follow in code maintenance.
 image: "/uploads/five-s-principles.png"
 layout: post
 ---
+
 *By [Donato Pascazio](https://www.linkedin.com/in/donato-pascazio-080973201/)*
 
 How can I be a better software engineer?
