@@ -10,6 +10,8 @@ description: The 5S of software engineering. It's a set of statements that
 image: "/uploads/five-s-principles.png"
 layout: post
 ---
+*By [Donato Pascazio](https://www.linkedin.com/in/donato-pascazio-080973201/)*
+
 How can I be a better software engineer?
 
 [I](https://www.linkedin.com/in/donato-pascazio-080973201/)'ve often tried to answer this question at different stages of my professional life. Speaking with other colleagues here at [Skillbill](https://www.skillbill.it/), through discussions about what this profession must be and represent, [I](https://www.linkedin.com/in/donato-pascazio-080973201/) developed a personal theory.
