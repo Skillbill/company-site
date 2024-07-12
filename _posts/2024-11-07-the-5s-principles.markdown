@@ -18,7 +18,7 @@ Initially, the prevalent opinion among young engineers is that being a good soft
 
 However, as an engineer's seniority increases, the trend often goes opposite. With many years of experience in software engineering and consultancy, you will likely encounter many ongoing projects with several issues that, if not handled correctly, can reduce the productivity of the software engineers working on them to near zero.
 
-This is the Legacy Code problem, well explained in IT literature. We can mention "Working Effectively with Legacy Code" by Michael Feathers or "Refactoring: Improving the Design of Existing Code" by Martin Fowler.
+This is the Legacy Code problem, well explained in IT literature. We can mention ["Working Effectively with Legacy Code"](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) by [Michael Feathers](https://wiki.c2.com/?MichaelFeathers) or ["Refactoring: Improving the Design of Existing Code"](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) by [Martin Fowler](https://www.martinfowler.com/).
 
 These resources are useful when you need to handle legacy code, but here at Skillbill, we aim to prevent code from becoming "legacy" to maintain high productivity in projects.
 
