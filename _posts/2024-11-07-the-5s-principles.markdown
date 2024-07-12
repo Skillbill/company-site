@@ -12,7 +12,7 @@ layout: post
 ---
 How can I be a better software engineer?
 
-We've often tried to answer this question at different stages of our lives. Here at [Skillbill](https://www.skillbill.it/), through discussions about what this profession must be and represent, we developed a theory.
+[We](http://www.skillbill.it/people.html)'ve often tried to answer this question at different stages of our lives. Here at [Skillbill](https://www.skillbill.it/), through discussions about what this profession must be and represent, we developed a theory.
 
 Initially, the prevalent opinion among young engineers is that being a good software engineer is about using cutting-edge technologies and implementing them into new projects to enhance the productivity of a customer's software.
 
@@ -47,4 +47,4 @@ Establish standards for maintaining organization and cleanliness. In software pr
 ### 躾 (Shitsuke) - Sustain
 Develop the discipline to maintain these standards over time. This is perhaps the most challenging step, requiring ongoing commitment and regular audits to ensure adherence to established practices.
 
-At Skillbill, we believe that these rules should be kept in mind regardless of the programming language you are using. However, some developers here find that following these rules makes the software engineering process smoother and more enjoyable.
+At [Skillbill](https://www.skillbill.it/#home), we believe that these rules should be kept in mind regardless of the programming language you are using. However, some developers here find that following these rules makes the software engineering process smoother and more enjoyable.
