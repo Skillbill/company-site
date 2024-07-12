@@ -35,11 +35,11 @@ Originally from the Japanese industry [Toyota](https://www.toyota-industries.com
 ![five-s-principles.png](/uploads/five-s-principles.png)
 
 ### 整理 (Seiri) - Sort
-How many times have we found a project with old references that are being kept (maybe in a commented area) just as like as [Git](https://git-scm.com/) doesn't exists?
+How many times have we found a project with old references that are being kept (maybe in a commented area) just as if [Git](https://git-scm.com/) doesn't exists?
 Eliminate unnecessary items from the workspace. This means analyzing and removing redundancy, outdated documentation, and obsolete tools.
 
 ### 整頓 (Seiton) - Set in Order
-Icons must go into the icons folder, just as [models](https://developer.mozilla.org/en-US/docs/Glossary/MVC#the_model), [views](https://developer.mozilla.org/en-US/docs/Glossary/MVC#the_view) and [controllers](https://developer.mozilla.org/en-US/docs/Glossary/MVC#the_controller) need to be in their respective folders. This is not a joke: when you find an icon in assets/public/sampledirectorythatishouldhaveeradicatedbefore1993, you know that it will not help.
+Icons must go into the icons folder, just as [models](https://developer.mozilla.org/en-US/docs/Glossary/MVC#the_model), [views](https://developer.mozilla.org/en-US/docs/Glossary/MVC#the_view) and [controllers](https://developer.mozilla.org/en-US/docs/Glossary/MVC#the_controller) need to be in their respective folders. This is not a joke: when you find an icon in assets/public/sampledirectorythatishouldhaveeradicatedbefore1993, you know that it won't be helpful.
 What is necessary needs to be kept in order. For software teams, this involves organizing code repositories, documentation, and development tools for easy access and use not only for the present team but also for future team members.
 
 ### 清掃 (Seiso) - Shine
