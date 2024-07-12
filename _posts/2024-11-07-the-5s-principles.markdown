@@ -12,7 +12,7 @@ layout: post
 ---
 How can I be a better software engineer?
 
-We've often tried to answer this question at different stages of our lives. Here at Skillbill, through discussions about what this profession must be and represent, we developed a theory.
+We've often tried to answer this question at different stages of our lives. Here at [Skillbill](https://www.skillbill.it/), through discussions about what this profession must be and represent, we developed a theory.
 
 Initially, the prevalent opinion among young engineers is that being a good software engineer is about using cutting-edge technologies and implementing them into new projects to enhance the productivity of a customer's software.
 
@@ -20,16 +20,15 @@ However, as an engineer's seniority increases, the trend often goes opposite. Wi
 
 This is the Legacy Code problem, well explained in IT literature. We can mention ["Working Effectively with Legacy Code"](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) by [Michael Feathers](https://wiki.c2.com/?MichaelFeathers) or ["Refactoring: Improving the Design of Existing Code"](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) by [Martin Fowler](https://www.martinfowler.com/).
 
-These resources are useful when you need to handle legacy code, but here at Skillbill, we aim to prevent code from becoming "legacy" to maintain high productivity in projects.
+These resources are useful when you need to handle legacy code, but here at [Skillbill](https://www.skillbill.it/#home), we aim to prevent code from becoming "legacy" to maintain high productivity in projects.
 
-How do we do that? By following the 5S principles in projects where we provide consultancy.
+How do we do that?
 
-Reading "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin, the author emphasizes the necessity of keeping code clean to avoid it becoming legacy and unproductive.
-
+We follow the 5S principles outlined in ["Clean Code: A Handbook of Agile Software Craftsmanship"](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) by [Robert C. Martin](http://cleancoder.com/products) in every consultancy we provide, bringing value to each project we maintain.
 Let's break down those principles.
 
 ## The 5S Principles
-Originally from the Japanese industry Toyota, this method can also be applied to software engineering.
+Originally from the Japanese industry [Toyota](https://www.toyota-industries.com/index.html), this method can also be applied to software engineering.
 
 ![five-s-principles.png](/uploads/five-s-principles.png)
 
