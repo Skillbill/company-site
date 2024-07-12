@@ -33,6 +33,7 @@ Originally from the Japanese industry [Toyota](https://www.toyota-industries.com
 ![five-s-principles.png](/uploads/five-s-principles.png)
 
 ### 整理 (Seiri) - Sort
+How many times have we found a project with old references that are being kept (maybe in a commented area) just as like as [Git](https://git-scm.com/) doesn't exists?
 Eliminate unnecessary items from the workspace. This means analyzing and removing redundancy, outdated documentation, and obsolete tools.
 
 ### 整頓 (Seiton) - Set in Order
