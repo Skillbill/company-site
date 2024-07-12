@@ -22,7 +22,7 @@ This is the Legacy Code problem, well explained in IT literature. We can mention
 
 These resources are useful when you need to handle legacy code, but generally speaking, aiming to prevent code from becoming "legacy" to maintain high productivity in projects is a goal that [I](https://www.linkedin.com/in/donato-pascazio-080973201/) pursue every day as a professional.
 
-How do we do that?
+How can we do that?
 
 By follow the 5S principles outlined in ["Clean Code: A Handbook of Agile Software Craftsmanship"](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) by [Robert C. Martin](http://cleancoder.com/products) in every consultancy provided, bringing value to each project [I](https://www.linkedin.com/in/donato-pascazio-080973201/) maintain.
 Let's break down those principles.
