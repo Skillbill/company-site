@@ -41,9 +41,11 @@ Icons must go into the icons folder, just as [models](https://developer.mozilla.
 What is necessary needs to be kept in order. For software teams, this involves organizing code repositories, documentation, and development tools for easy access and use not only for the present team but also for future team members.
 
 ### 清掃 (Seiso) - Shine
+Do you clearly remember that console.log() used for debugging purposes and becoming part of the ship just like [the crew of the Flying Dutchman](https://pirates.fandom.com/wiki/Crew_of_the_Flying_Dutchman)?
 Keep the workspace clean and tidy. In software engineering, this translates to maintaining clean code, regularly refactoring, and ensuring that development environments are uncluttered and well-maintained.
 
 ### 清潔 (Seiketsu) - Standardize
+Now that you know how to do it, it's time to make it a standard.
 Establish standards for maintaining organization and cleanliness. In software projects, this involves creating coding standards, documentation guidelines, and consistent development practices.
 
 ### 躾 (Shitsuke) - Sustain
