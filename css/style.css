@@ -925,3 +925,34 @@ a[href^="mailto:"]:hover:not(footer ul li a) {
 video {
     max-width: 100%;
 }
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.5s;
+  animation-name: page-enter;
+  animation-timing-function: ease;
+}
+
+nav.navbar {
+  view-transition-name: navbar;
+}
+
+::view-transition-old(navbar),
+::view-transition-new(navbar) {
+  animation-duration: 0.5s;
+}
+
+@keyframes page-enter {
+  0% {
+    translate: 20px;
+    opacity: 0.8;
+  }
+  100% {
+    translate: 0;
+    opacity: 1;
+  }
+}
