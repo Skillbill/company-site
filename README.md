@@ -21,6 +21,9 @@ bundle install
 bundle exec jekyll serve --trace --watch --livereload
 ```
 
+### Public Google Maps
+
+Here https://www.google.com/maps/d/home
 
 ## PROD
 
