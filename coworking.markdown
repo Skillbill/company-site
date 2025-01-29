@@ -46,7 +46,8 @@ A shared space for all to grab a coffee, cook lunch, or stock your food in the f
 High-speed printer, scanners, and a recent 3D printer available for all your project needs.
 
 <div class="vertical-gallery">
-  <img src="images/IMG_20231002_143452.jpg" alt="3d print" />
+  <img src="images/IMG_20250129_163313.jpg" alt="3d print" />
+  <img src="images/IMG_20250129_163337.jpg" alt="lab" />
 </div>
 
 ---
