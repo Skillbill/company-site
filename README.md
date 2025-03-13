@@ -21,6 +21,12 @@ bundle install
 bundle exec jekyll serve --trace --watch --livereload
 ```
 
+### with docker
+
+```bash
+docker run --rm   --volume="$PWD:/srv/jekyll:Z"   --publish [::1]:4000:4000   jekyll/jekyll   jekyll serve
+```
+
 ### Public Google Maps
 
 Here https://www.google.com/maps/d/home
