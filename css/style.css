@@ -16,6 +16,7 @@
     --light-gray: #f0f0f0;
     --light-green: #8aff8a;
     --light-red: #e03e3e;
+    --ppk-yellow: #fce113;
     font-size: 18px;
     min-height: 100vh;
     background-color: var(--white);
@@ -193,6 +194,17 @@ nav.fixed-top .navbar-nav {
 .navbar a.navbar-brand:focus {
     outline: none;
 }
+
+.navbar a.navbar-brand .logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.navbar a.navbar-brand .logo-text span {
+    color: var(--dark-blue);
+}
+
 .navbar ul li a:focus,
 .navbar a:focus strong {
     outline: none;
@@ -211,13 +223,13 @@ nav.fixed-top .navbar-nav {
 }
 .navbar-light .navbar-nav .nav-link {
     color: var(--dark-blue);
-    font-weight: 700;
+    font-weight: 500;
     padding-right: 1rem;
     padding-left: 1rem;
+    transition: all 0.2s ease;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #004a8f;
-    transform: scale(1.02);
+    color: var(--orange);
 }
 .navbar-light {
     background-color: var(--white);
@@ -225,7 +237,6 @@ nav.fixed-top .navbar-nav {
 .navbar .logo-text > * {
     margin-bottom: 0;
     line-height: 1.2rem;
-    font-weight: 700;
 }
 .navbar .logo-text > strong {
     display: block;
@@ -264,9 +275,6 @@ header.big {
     object-position: top center;
     filter: blur(2px);
 }
-.home-header * {
-    color: var(--white);
-}
 .home-header > div {
     background-color: transparent;
     position: relative;
@@ -277,6 +285,7 @@ header.big {
 }
 footer {
     display: flex;
+    flex-direction: column;
     text-align: center;
     background-color: var(--dark-blue);
     color: white;
@@ -309,17 +318,21 @@ footer li:last-child {
 }
 .home-header .skillbill .logo-text {
     margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 .home-header .skillbill h1 {
     color: var(--dark-blue);
     line-height: 2.5rem;
     margin-bottom: 0;
     font-size: 3rem;
+    font-weight: 500;
 }
 .home-header .skillbill span {
-    color: var(--orange);
+    color: var(--dark-blue);
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: 500;
 }
 #learn-more-button:hover {
     transform: scale(1.1);
@@ -328,7 +341,6 @@ footer li:last-child {
     display: inline-block;
     background: white;
     padding: 0.5rem 1rem;
-    font-weight: 700;
     font-size: 2rem;
     color: var(--orange);
     text-shadow: 0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2);
@@ -343,7 +355,6 @@ footer li:last-child {
     background: var(--dark-blue);
     padding: 0.5rem 1rem;
     margin-top: 0.5rem;
-    font-weight: 700;
     font-size: 2rem;
     color:white;
     text-shadow: 0.05rem 0.05rem 0.2rem rgba(0, 0, 0, 0.2);
@@ -610,7 +621,6 @@ body #cookie-banner button {
     display: inline;
     padding: 0.5rem;
     font-size: 0.8rem;
-    font-weight: 700;
     color: var(--orange);
     margin-left: 20px;
     border: 2px solid var(--orange);
@@ -924,4 +934,83 @@ a[href^="mailto:"]:hover:not(footer ul li a) {
 }
 video {
     max-width: 100%;
+}
+
+.ppk-group {
+    --text-color: #212529;
+    width: 100%;
+    background-color: #f5f3f2;
+    color: var(--dark-blue);
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: minmax(500px, 1fr) 1fr 1fr;
+    gap: 2rem;
+}
+
+.ppk-group .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ppk-group .logo .logo-text span:nth-child(1) {
+    display: inline-block;
+    margin-right: 0.2em;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.ppk-group .logo .logo-text span:nth-child(2) {
+    font-size: 1.4rem;
+    white-space: nowrap;
+}
+
+.ppk-group .info {
+    display: flex;
+    margin: auto;
+    color: var(--text-color);
+}
+
+.ppk-group .link {
+    display: flex;
+    margin: auto 5rem auto auto;
+}
+
+.ppk-group .link a {
+    background-color: white;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.5s ease;
+    filter: drop-shadow(0.1rem 0.1rem transparent);
+
+    &:hover {
+        filter: drop-shadow(0.2rem 0.2rem var(--ppk-yellow));
+    }
+}
+
+@media (max-width: 1199px) {
+    .ppk-group {
+        grid-template-columns: 100%;
+    }
+
+    .ppk-group .logo img {
+        width: 35px;
+    }
+
+    .ppk-group .logo .logo-text span:nth-child(1) {
+        font-size: 2rem;
+    }
+
+    .ppk-group .logo .logo-text span:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .ppk-group .link {
+        margin: auto;
+    }
 }
