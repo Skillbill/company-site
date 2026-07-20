@@ -43,8 +43,11 @@ All the elements of a given installation have been positioned and configured usi
 
 The first installation supports PA/PID, CCTV and INTERCOM systems.
 
-## Our solution
+## Efesto — our SCADA/HMI platform
 
-As proof of concept, **Skillbill has also developed its own general purpose fully SCADA solution based on the work we did with the railways SCADA UI**. For instance a working sample of the control of a multi-site solar generator network is available, as well as an implementation of a data center monitoring and control system with a mixed source of SCADA signals, IoT sensors and SNMP/IP devices. This PoC and its demo have been developed in order to show the full potential of the powerful SCADA UI made by Skillbill, in terms of responsiveness, scalability and interoperability, with a fully standard HTML5 output.
+{% assign efesto = site.products | where: "title", "Efesto" | first %}
+This experience led us to build **[Efesto]({{ efesto.url | relative_url }})**, our own general-purpose SCADA/HMI platform, based on the work we did on the railway SCADA UIs. Efesto lets operators monitor and control large, distributed infrastructure in real time — from stations, lines and trains to buildings and field devices — with integrated CCTV, communications, diagnostics, and a visual synoptic editor. Working demos include the control of a multi-site solar generator network and a data-center monitoring system that mixes SCADA signals, IoT sensors, and SNMP/IP devices, showcasing the platform's responsiveness, scalability, and interoperability with a fully standard HTML5 output.
+
+[Discover Efesto →]({{ efesto.url | relative_url }})
 
 If you are interested in a demo, do not hesitate to contact us by writing to [info@skillbill.it](mailto:info@skillbill.it)
