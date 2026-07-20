@@ -4,4 +4,4 @@ image: "/uploads/ageingtech.png"
 link: https://www.ageingtech.it/
 ---
 
-Front-end (Vue.js) . Mobile first webapp, continuos-delivery and devops.
+Front-end (Vue.js). Mobile-first webapp, continuous delivery and DevOps.

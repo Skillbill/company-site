@@ -27,37 +27,37 @@ introduction:
   <div class="container">
     <h2>TV Front-end developer</h2>
     <p>
-      It deals with the part of the website visible to the user and with
-      which the user interacts. In case of web client and most part of
-      current SmartTv and and STB, using a mixture HTML, CSS and
-      Javascript code, as well as any of the best-in-class web framework
-      (such as React, AngularJs, Vue.js, Meteor), he creates the structure
-      and content of the webapp built around the player, gives it style,
-      player controls, content navigation and makes it possible for the
-      user to interact with it. Normally he also has user experience
-      skills. In case of native clients such as iOS and Android devices.
-      he knows how to integrate the most used native player framework
+      They handle the part of the website visible to the user and with
+      which the user interacts. For web clients and most
+      current SmartTV and STB platforms, using a mixture of HTML, CSS, and
+      JavaScript code, as well as best-in-class web frameworks
+      (such as React, AngularJs, Vue.js, Meteor), they create the structure
+      and content of the web app built around the player, give it style,
+      player controls, content navigation, and enable the user to interact
+      with it. They typically also have user experience
+      skills. For native clients such as iOS and Android devices,
+      they know how to integrate the most common native player frameworks
       using Swift/ObjectiveC for iOS and Java/Kotlin for Android, with a
-      deep knowledge of of DRM modules and streaming protocols, which in
-      case of a native player have to be directly managed by the app
+      deep knowledge of DRM modules and streaming protocols, which in
+      the case of a native player must be directly managed by the app
       running the player.
     </p>
     <h2>TV Back-end developer</h2>
     <p>
-      He works on the non-visible part of the OTT architecture, taking
-      care of the server-side operation with interventions that do not
-      impact on what users see when they visit the site. In terms of
+      They work on the non-visible part of the OTT architecture, taking
+      care of the server-side operations with interventions that do not
+      impact what users see when they visit the site. In terms of
       specific knowledge, the TV back-end developer usually uses languages
-      such as Java and Python. He has Experience in realizing end-to-end
+      such as Java and Python. They have experience in building end-to-end
       solution architecture for large &amp; complex systems<br />and in
-      designing and running applications on AWS/ Azure or Other Cloud
-      Providers. He has a deep understanding of video protocols, as well
-      as general understanding of wider technologies adopted by OTT
-      solutions e.g. IP/TCP, ABR, Encoding, DVB, DRM&amp;CAS. He must be
+      designing and running applications on AWS/Azure or other cloud
+      providers. They have a deep understanding of video protocols, as well
+      as a general understanding of the wider technologies adopted by OTT
+      solutions (e.g., IP/TCP, ABR, Encoding, DVB, DRM&amp;CAS). They must be
       proficient in database design and development as well as handling
       infrastructure tools and technologies like Docker, Kubernetes,
       AWS/Azure, Elastic Search, Redis, and many others. Ensuring platform
-      security and reliability are his other main duties.
+      security and reliability are among their main duties.
     </p>
     <h2>TV Fullstack developer</h2>
     <p>
@@ -65,11 +65,11 @@ introduction:
       <strong
         >developer with both <em>front-end</em> and <em>back-end</em>
         <em>skills</em></strong
-      >, where backend and frontend are declined in the digital TV
+      >, where back-end and front-end are applied in the digital TV
       environment, who knows streaming protocols, codecs and encodings, CA
       and DRM, native player as well as web player, native mobile
       development for iOS and Android, as well as HTML5 app development,
-      JavaScript, Java, Python and the other scripting languages used to
+      JavaScript, Java, Python, and the other scripting languages used to
       design and run software.<br />In particular:
     </p>
     <ul>
@@ -97,19 +97,19 @@ introduction:
     </p>
     <h2>OTT Solution Architect</h2>
     <p>
-      The <em>OTT Solution Architect</em> is the responsible for the
-      architecture of OTT Clients (Mobile, Connected TV’s, Roku etc), its
-      Content Management Systems (CMS) and their use of the OTT platform
-      and interfaces to various subsystems. He is proficient in defining
-      solutions architectures that deliver all platform aspects of an OTT
-      IPTV product offering. He has demonstrable experience of defining
+      The <em>OTT Solution Architect</em> is responsible for the
+      architecture of OTT Clients (Mobile, Connected TVs, Roku, etc.), their
+      Content Management Systems (CMS), and their use of the OTT platform
+      and interfaces to various subsystems. They are proficient in defining
+      solution architectures that deliver all platform aspects of an OTT
+      IPTV product offering. They have demonstrable experience in defining
       and delivering architectural solutions that support very high
       numbers of peak concurrent users, that are highly available, and
-      highly resilient in the face of dependent component failures. He has
+      highly resilient in the face of dependent component failures. They have
       deep understanding and delivery experience of building web-oriented
       distributed systems architectures that can work both on the portion
       of the app or software with which the user will interact, and on the
-      whole hidden infrastructure that allows to manage the functioning
+      whole hidden infrastructure that allows managing the functioning
       mechanisms.
     </p>
     <h2>Skillbill Specializations on TV/Streaming Applications</h2>
@@ -121,10 +121,10 @@ introduction:
       involved from purely backend tasks like Vod ingestion, transcoding,
       encryption to device frontend development and device player
       customization.<br /><strong
-        >We currently follow and we have followed many customers in the
+        >We currently work with and have worked with many customers in the
         streaming and television area</strong
       >
-      like : <a href="https://www.sky.it/" target="_blank">Sky</a>,
+      such as: <a href="https://www.sky.it/" target="_blank">Sky</a>,
       <a href="https://www.libertyglobal.com/" target="_blank"
         >Liberty Global</a
       >, <a href="https://it.chili.com/" target="_blank">ChiliTV</a>,
@@ -135,15 +135,15 @@ introduction:
       <a href="https://www.yottamedialabs.com/" target="_blank"
         >Yotta Media Lab</a
       >.<br />With our
-      <strong>strong and long experience in software development</strong>,
-      we take care of many aspects of the entire streaming service
+      <strong>strong and extensive experience in software development</strong>,
+      we handle many aspects of the entire streaming service
       chain:<br />Infrastructure as code, integration of ad-hoc services,
-      back-end, web front-end, Smart-TV and on Set-top-box. We have senior
-      knowledge in DRM, Transcoding and Players. Cutting-edge technologies
-      such as Microservices, Hbbtv 2.0, Rdk, RiskTV, Wiplay and the most
-      used Javascript frameworks.<br />Consultancy, whole project or part
-      of it. In every case, our effectiveness is always at the highest
-      levels.
+      back-end, web front-end, Smart-TV and Set-top-box. We have senior-level
+      expertise in DRM, Transcoding, and Players, along with cutting-edge technologies
+      such as Microservices, HbbTV 2.0, RDK, RiksTV, Wiplay, and the most
+      popular JavaScript frameworks.<br />Whether providing consultancy, a whole project, or a part
+      of it, our effectiveness is always at the highest
+      level.
     </p>
   </div>
 </section>

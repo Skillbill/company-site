@@ -21,13 +21,13 @@ Introducing our comprehensive DevOps Transformation Package: An all-inclusive of
 
 ## Course details
 
-It starts with a **training period on Software Engineering knowledge tailored** on the needs of the teams. In this way, the experts in the domain of the telecommunications company can have a good panoramic of the best tools and methodologies good in the creation of tools. The course is on the state-of-the-art methodologies and tools chosen to achieve the desired results in the short term period.
+It starts with a **training period on Software Engineering knowledge tailored** to the needs of the teams. In this way, the domain experts at the telecommunications company can gain a good overview of the best tools and methodologies for creating tools. The course covers state-of-the-art methodologies and tools chosen to achieve the desired results in the short term.
 In the final stages of the course, some requirements are collected in order to develop some desired use cases.
 
 ## Methodology
 
-We are the perfect partner for the customer team, our software engineers, and at least one coordinator, drive the development of what is required.
-We are very proactive offering technical tools to be effective, where:
+We are the perfect partner for the customer team: our software engineers, along with at least one coordinator, drive the development of what is required.
+We are very proactive in offering technical tools to be effective, where:
 
 * code versioning
 
@@ -39,7 +39,7 @@ We are very proactive offering technical tools to be effective, where:
 
 are the most notable examples.
 
-The activities organization, inspired and driven by agile methodologies, is proposed and guided by us in an active way: weekly status reports, fast communication channels and pair-programming support.
+The organization of activities, inspired and driven by agile methodologies, is proposed and guided by us in an active way: weekly status reports, fast communication channels, and pair-programming support.
 
 Following an example course:
 
@@ -63,4 +63,4 @@ Following an example course:
 
 ## Success stories
 
-Although  this initiative started just during in 2018, it has been immediately successful within two large Telcos of the italian market, **Fastweb Spa** and **Sky Italia**. In both cases it got enthusiastic feedbacks and reached goals even beyond customer expectations, with both satisfaction for the management and for the team members, who have seen their roles and their competences growed up and changed their workday, now with much fewer repetitive tasks and much more filled of fun resulting from doing things better and faster
+Although this initiative started in 2018, it was immediately successful within two large Telcos of the Italian market, **Fastweb S.p.A.** and **Sky Italia**. In both cases it received enthusiastic feedback and exceeded customer expectations, with satisfaction from both management and team members, who have seen their roles and competences grow and their workday transformed, now with far fewer repetitive tasks and much more fulfillment resulting from doing things better and faster.

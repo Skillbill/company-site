@@ -20,59 +20,59 @@ and for legal obligations.
  - Navigation data, the user's habits or other information known in the course of the
 relationship and acquired directly or indirectly from the user's behavior.
 
-**You can contact the owner of the treatment​** (Francesco Ciacca) through the email [info@skillbill.it](mailto:info@skillbill.it) to ask for any information regarding your personal data.
+**You can contact the data controller** (Francesco Ciacca) via email at [info@skillbill.it](mailto:info@skillbill.it) to request any information regarding your personal data.
 
-####  Purpose​ : We need your personal information:
+####  Purpose: We need your personal information:
 
- 1. for the use of the services we offer, such as training paths and
+ 1. For the use of the services we offer, such as training programs and
     consulting services;
- 2. to fulfill contractual obligations related to the services provided, e.g. to contact you in
-order to provide you with assistance on the services we offer
- 3. to fulfill regulatory obligations related to the services, such as the storage of
-accounting data or information that various regulations require us to store;
- 4. to contact you through mailing lists or other channels in order to keep you updated on
-our service offerings;
- 5. to monitor your behaviour and your modus operandi when you interact with us and
-with our communication channels;
- 6. for statistical and scientific purposes useful for national and international research
-activities
- 7. for the creation of promotional campaigns.
+ 2. To fulfill contractual obligations related to the services provided, e.g. to contact you in
+    order to provide assistance on the services we offer;
+ 3. To fulfill regulatory obligations related to the services, such as the storage of
+    accounting data or information that various regulations require us to store;
+ 4. To contact you through mailing lists or other channels in order to keep you updated on
+    our service offerings;
+ 5. To monitor your behavior and your modus operandi when you interact with us and
+    with our communication channels;
+ 6. For statistical and scientific purposes useful for national and international research
+    activities;
+ 7. For the creation of promotional campaigns.
 
-#### Legal basis​ : the previous points are feasible on the basis of the following reasons:
- 1. a ​ contract ​ entered into for the provision of the service that without the information communicated for the purposes of points 1)-2)-3) could not be provided;
- 2. your consent​ given at the time of signing and valid for all purposes from 1) to 7);
- 3. a ​ regulatory obligation​ relating to the purposes 1) 2) and 3) with specific constraints on the storage and traceability of data in order to manage the relationship with you,which may also require a higher or lower level of detail depending on the type of service used;
- 4. a legitimate interest that concerns the need to ​ protect the use of our services​ from possible abuse or incorrect use by users and in general to optimize the service provided to customers.
+#### Legal basis: the previous points are feasible on the basis of the following reasons:
+ 1. A contract entered into for the provision of the service that without the information communicated for the purposes of points 1), 2), and 3) could not be provided;
+ 2. Your consent given at the time of signing and valid for all purposes from 1) to 7);
+ 3. A regulatory obligation relating to the purposes 1), 2), and 3) with specific constraints on the storage and traceability of data in order to manage the relationship with you, which may also require a higher or lower level of detail depending on the type of service used;
+ 4. A legitimate interest that concerns the need to protect the use of our services from possible abuse or incorrect use by users and in general to optimize the service provided to customers.
 
-The following information concerns the purposes 1), 2), 3), 5) 6).
+The following information concerns the purposes 1), 2), 3), 5), and 6).
 
- - a legitimate interest related to the use of ​ marketing data​ and ​ profiling ​ useful to optimize the communication and delivery of services connected to the purposes 4), 5) and 7).
- - a legitimate interest related to​ scientific research​ related to the purpose 6) that allows to improve the services by collecting data in the field also thanks to your help.
- - **Obligation to communicate​** : your data are fundamental so that you can use the services and if you do not give your consent or if you communicate them incompletely or incorrectly, this will make it impossible to provide the same, this is related to the purposes 1), 2) and 3). On the other hand, data related to commercial contacts or promotional activities are optional and you can deny your consent, specifically for the purposes 4), 5) and 7).
- - **Recipients​** : your personal data will also be used by systems such as Google, Esri Arcgis, Microsoft Azure, Google, Apple, Stripe, Hotjar or others in order to better operate in the provision of services.
+ - A legitimate interest related to the use of marketing data and profiling useful to optimize the communication and delivery of services connected to the purposes 4), 5), and 7).
+ - A legitimate interest related to scientific research related to the purpose 6) that allows us to improve the services by collecting data in the field also thanks to your help.
+ - **Obligation to communicate**: your data are essential so that you can use the services. If you do not give your consent or if you communicate them incompletely or incorrectly, this will make it impossible to provide the services. This is related to the purposes 1), 2), and 3). On the other hand, data related to commercial contacts or promotional activities are optional and you can deny your consent, specifically for the purposes 4), 5), and 7).
+ - **Recipients**: your personal data will also be used by systems such as Google, Esri Arcgis, Microsoft Azure, Apple, Stripe, Hotjar, or others in order to better operate in the provision of services.
 
 ### Duration of storage
 
-The period of treatment will be the one necessary for the provision of the contracted service(s) and up to 2 (two) years from its end, but we advise you to check the extended information as it may vary by type of contracted service. In addition to these times, there are other legal obligations that extend the storage of data relating to the accounting aspects of the relationship to 10 (ten) years. Regarding commercial and marketing information, for these data there is a legitimate interest as described above, so at your request will be subject to a process of anonymization or pseudonymization, but will not be removed from the system. Last instance concerns scientific data for which there is a further legitimate interest and for these the storage and processing are connected to a process of anonymization or pseudonymization that will feed them into algorithms and systems for optimizing the services provided, becoming essential elements of what is provided, so they will not be deleted.
+The period of processing will be the one necessary for the provision of the contracted service(s) and up to 2 (two) years from its end, but we advise you to check the extended information as it may vary by type of contracted service. In addition to these times, there are other legal obligations that extend the storage of data relating to the accounting aspects of the relationship to 10 (ten) years. Regarding commercial and marketing information, for these data there is a legitimate interest as described above, so at your request they will be subject to a process of anonymization or pseudonymization, but will not be removed from the system. The last instance concerns scientific data for which there is a further legitimate interest and for these the storage and processing are connected to a process of anonymization or pseudonymization that will feed them into algorithms and systems for optimizing the services provided, becoming essential elements of what is provided, so they will not be deleted.
 
 ### User Rights
 
 Through the contacts provided above, you can assert your rights (art. 15-20 of EU Regulation 2016/679):
 
- - access, correct or update your personal data;
- - block or restrict its use;
- - delete your personal data in part or in full;
- - request the portability of your data
+ - Access, correct, or update your personal data;
+ - Block or restrict its use;
+ - Delete your personal data in part or in full;
+ - Request the portability of your data;
  - 
-**Possibility to Complain**​ : remember that you can propose a petition to the Authority for the Protection of Personal Data (www.garanteprivacy.it) by exercising your right through the different channels to complain.
+**Right to Complain**: remember that you can submit a petition to the Authority for the Protection of Personal Data (www.garanteprivacy.it) by exercising your right through the available channels to complain.
 
-**Revocation of Consent**​ : If your processing is based on your consent, you have the full right to revoke it at any time with a simple and clear communication using the contacts above indicators. You should know that if there are other legal bases for that purpose, it will be possible that some or all of the data will be retained to fulfill the obligations.
+**Revocation of Consent**: If your processing is based on your consent, you have the full right to revoke it at any time with a simple and clear communication using the contact information indicated above. You should know that if there are other legal bases for that purpose, it is possible that some or all of the data will be retained to fulfill the obligations.
 
-**User profiling​** : with your personal data we will try to understand your behaviors and habits in order to define a profile about you.
+**User profiling**: with your personal data we will try to understand your behaviors and habits in order to define a profile about you.
 
-**Automated processing​** : your personal data will not be used with a tool that provides an automated evaluation process to which you can object.
+**Automated processing**: your personal data will not be used with a tool that provides an automated evaluation process to which you can object.
 
 Know that they will be treated with both electronic and paper tools, with different elements of complexity depending on the type of service you contracted.
 
-**Transfer of data to a third country**​ : your data will be communicated outside Europe for some treatments carried out for marketing services and also for some services, but only by suppliers who comply with the conditions of guarantees provided by art. 46 and following.
-Your personal data will be used in compliance with what was previously written, if the opportunity to use them differently will be contacted to grant permission.
+**Transfer of data to a third country**: your data will be communicated outside Europe for some processing carried out for marketing services and also for some services, but only by suppliers who comply with the conditions of guarantees provided by art. 46 and following.
+Your personal data will be used in compliance with what was previously written. If the opportunity to use them differently arises, you will be contacted to grant permission.
