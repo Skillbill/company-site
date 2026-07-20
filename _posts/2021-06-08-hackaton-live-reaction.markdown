@@ -12,18 +12,18 @@ description: We did our first remote Hackaton.
 layout: post
 ---
 
-Last 30th May we did our first remote Hackaton !
+Last 30th May we did our first remote Hackathon!
 
 The development team worked together for a whole day on a brand new idea.
 
-The topic of the hackaton was "tv-live reaction": a SmartTv application  to vote during a live event.
+The topic of the hackathon was "tv-live reaction": a SmartTV application to vote during a live event.
 
-We started from scratch by brainstorming, we worked divided in some teams and at the end of the day we made a demo of the final result.
-We had fun a lot and the final effect was great !
+We started from scratch by brainstorming, we worked divided into teams, and at the end of the day we made a demo of the final result.
+We had a lot of fun and the final result was great!
 
-It was nice to work together where everyone used their experiences in a free and effective way.
+It was nice to work together where everyone used their experience in a free and effective way.
 
-This is the [project repository](https://github.com/Skillbill/hackaton-20210528-tv-live-reaction) and a demo is available [here](https://live-reaction.skillbill.net/) (use the r, g keys , b, y)
+This is the [project repository](https://github.com/Skillbill/hackaton-20210528-tv-live-reaction) and a demo is available [here](https://live-reaction.skillbill.net/) (use the r, g, b, y keys)
 
 
 {% include youtube.html url="https://www.youtube.com/embed/SjCW45nmZdg?controls=0" %}

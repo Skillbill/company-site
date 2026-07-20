@@ -16,7 +16,7 @@ introduction:
 
 ### 📍 Location
 
-Heart of Milan via Della Signora. Served with public transportation at the best, and a lot of places for eating and chilling. Step outside and be in the midst of it all.
+Heart of Milan via Della Signora. Served with public transportation at the best, and plenty of places to eat and relax. Step outside and be in the midst of it all.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.40620928065!2d9.19413411225246!3d45.46162053348972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6a67aad1eaf%3A0xc3cf025dd6f96195!2sVia%20della%20Signora%2C%206%2C%2020122%20Milano%20MI!5e0!3m2!1sit!2sit!4v1696334875264!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -25,7 +25,7 @@ Heart of Milan via Della Signora. Served with public transportation at the best,
 ### 💼 Workspace
 
 Fully-equipped desks with adjustable heights, ready-to-use monitors, keyboards, mouse, and high-speed connectivity (wifi or cabled). Just plug in your laptop and get started!
-The meeting room and a ready-to-use table football for you pause.
+A meeting room and a foosball table are available for your breaks.
 
 <div class="vertical-gallery">
   <img src="images/COWORKING_01.png" alt="desk" />
@@ -54,6 +54,6 @@ High-speed printer, scanners, and a recent 3D printer available for all your pro
 
 ### 💰 Affordable
 
-Priced below the market average, we offer nice facilities without spending too much. Flexible contract solutions.
+Priced below the market average, we offer great facilities at affordable rates. Flexible contract solutions available.
 
-Join a space where other professionist are. Contact us [info@skillbill.it](mailto:info@skillbill.it).
+Join a space where other professionals are. Contact us [info@skillbill.it](mailto:info@skillbill.it).

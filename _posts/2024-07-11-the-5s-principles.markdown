@@ -27,7 +27,7 @@ These resources are useful when you need to handle legacy code, but generally sp
 
 How can we do that?
 
-By follow the 5S principles outlined in ["Clean Code: A Handbook of Agile Software Craftsmanship"](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) by [Robert C. Martin](http://cleancoder.com/products) in every consultancy provided, bringing value to each project [I](https://www.linkedin.com/in/donato-pascazio-080973201/) maintain.
+By following the 5S principles outlined in ["Clean Code: A Handbook of Agile Software Craftsmanship"](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) by [Robert C. Martin](http://cleancoder.com/products) in every consultancy provided, bringing value to each project [I](https://www.linkedin.com/in/donato-pascazio-080973201/) maintain.
 Let's break down those principles.
 
 ## The 5S Principles
@@ -36,7 +36,7 @@ Originally from the Japanese industry [Toyota](https://www.toyota-industries.com
 ![five-s-principles.png](/uploads/five-s-principles.png)
 
 ### 整理 (Seiri) - Sort
-How many times have we found a project with old references that are being kept (maybe in a commented area) just as if [Git](https://git-scm.com/) doesn't exists?
+How many times have we found a project with old references that are being kept (maybe in a commented-out area) just as if [Git](https://git-scm.com/) doesn't exist?
 Eliminate unnecessary items from the workspace. This means analyzing and removing redundancy, outdated documentation, and obsolete tools.
 
 ### 整頓 (Seiton) - Set in Order
@@ -44,7 +44,7 @@ Icons must go into the icons folder, just as [models](https://developer.mozilla.
 What is necessary needs to be kept in order. For software teams, this involves organizing code repositories, documentation, and development tools for easy access and use not only for the present team but also for future team members.
 
 ### 清掃 (Seiso) - Shine
-Do you clearly remember that console.log() used for debugging purposes and becoming part of the ship just like [the crew of the Flying Dutchman](https://pirates.fandom.com/wiki/Crew_of_the_Flying_Dutchman)?
+Do you clearly remember that console.log() used for debugging purposes that became part of the ship just like [the crew of the Flying Dutchman](https://pirates.fandom.com/wiki/Crew_of_the_Flying_Dutchman)?
 Keep the workspace clean and tidy. In software engineering, this translates to maintaining clean code, regularly refactoring, and ensuring that development environments are uncluttered and well-maintained.
 
 ### 清潔 (Seiketsu) - Standardize

@@ -11,11 +11,11 @@ image: "/uploads/Python%20academy-742a5d.png"
 layout: post
 ---
 
-Zen of python reflects the main ideas backing the authors of Python, how their language should be used for and what the developers should deeply understand in order to fully embrace the "pythonist" principles.
+Zen of Python reflects the main ideas backing the authors of Python, how their language should be used and what developers should deeply understand in order to fully embrace the "pythonist" principles.
 
-The lists wrote by [Tim Peters](https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)) contains 19 elements, and he left open a 20th principle "for Guido to fill in", where Guido refers to [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum), the original author of the Python language, who actually never filled it. The 14th element also contains a small joke again about Guido van Rossum, "unless you are dutch".
+The lists written by [Tim Peters](https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)) contain 19 elements, and he left open a 20th principle "for Guido to fill in", where Guido refers to [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum), the original author of the Python language, who actually never filled it. The 14th element also contains a small joke about Guido van Rossum, "unless you are Dutch".
 
-We all at Skillbill really think that those rules have to be kept in mind regardless the programming language you are actually using. However some pythonist here believe that using following those rules with python is easier and funnier.
+We all at Skillbill really think that those rules should be kept in mind regardless of the programming language you are actually using. However, some pythonists here believe that following those rules with Python is easier and funnier.
 
 ![bxphpjcu1xv41.png](/uploads/bxphpjcu1xv41.png)
 \
