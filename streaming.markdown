@@ -145,19 +145,5 @@ introduction:
       of it, our effectiveness is always at the highest
       level.
     </p>
-    {% assign fanplanet = site.products | where: "title", "Fanplanet" | first %}
-    <h2>Fanplanet — direct-to-fan streaming platform</h2>
-    <p>
-      A flagship example of this experience is
-      <a href="{{ fanplanet.url | relative_url }}">Fanplanet</a>, our
-      multi-tenant, direct-to-fan streaming platform. It lets artists and
-      rights-holders distribute premium video and audio to their audience on
-      every screen — Web, mobile, and Smart TV — from a single codebase, with
-      adaptive DASH/HLS streaming, studio-grade Widevine and FairPlay DRM,
-      four monetization models, and rights-holder tooling such as SIAE royalty
-      reporting. It runs fully serverless on AWS and is live in production
-      today.<br />
-      <a href="{{ fanplanet.url | relative_url }}">Discover Fanplanet →</a>
-    </p>
   </div>
 </section>
