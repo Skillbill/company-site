@@ -32,7 +32,7 @@ Skillbill heavily invests in upgrading internal skills and has long been involve
 - **ERC-20 token**
 
 and with other tools for DAPP development such as **OpenZeppelin**, **Moralis**, **Alchemy**, **Hardhat** and so on.
-Experience comes from two separate projects :
+This experience is showcased by the following project:
 
 ### NFT-provisioning
 
@@ -57,16 +57,6 @@ The sales part was based on the Wyvern protocol: an open source specification al
 
 In this case, we again made use of an opensea-js library for the javascript part, while for the kotlin part, a similar flow was recreated manually.
 Currently, payment can be made in Ethereum or in a custom currency that follows the ERC-20 specification.
-
-### Fanplanet
-
-Fanplanet is a new platform-as-a-service that enables the purchase and enjoyment of digital and physical goods and services. It does this by using innovative technologies that leverage the benefits of Web3, such as **NFTs**. Holding a given NFT will allow one to own unique, collectible digital content that grants exclusive access to content, both digital and physical.
- 
-Fanplanet allows artists and content creators to receive funding directly from their fans without any OTT platform as intermediary, maximizing revenue and brand control.
-
-In the past, the true value of a media was related to the scarcity of the object in numbers; a limited-edition record, a bootleg, or an autographed photo was highly coveted by fans. The shift to digital, with particular reference to audio and video streaming services made it impossible to create limited products for fans, at least until the arrival of NFTs.
-
-Fanplanet goes beyond the concept of collecting, using rare digital items to unlock rare experiences. For example, one can view an exclusive video, get a digital fan ticket, or attend an exclusive concert in person. The platform enables many possibilities that can be determined by the marketing strategy and business plan of those who use the platform for their business.
 
 ## Contact us
 
