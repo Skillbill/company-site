@@ -83,7 +83,7 @@ introduction:
       <li>
         <strong>Server side</strong> – creates algorithms to manipulate
         and organise the streaming content to be shown to the client in a
-        fast, efficient, secure and reliable way. He’s also responsible
+        fast, efficient, secure and reliable way. They're also responsible
         for the implementation of any action that must be performed in
         response to a client request.
       </li>
